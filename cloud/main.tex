@@ -131,7 +131,7 @@ chapterinoneline,
 %------------------------------------------------------------------------ 
 % Number of Examiners (MAX is 3)
 %------------------------------------------------------------------------ 
-\numberofexaminers{2}
+\numberofexaminers{0}
 
 %------------------------------------------------------------------------ 
 % Information regarding your examiners
@@ -426,7 +426,7 @@ Ultimately, our project aims to facilitate a deeper understanding of SDVs and th
 \subsection{Definition}
 The graduation project aims to explore the potential of Software Defined Vehicles (SDVs) by integrating telematics control units with a cloud platform. It focuses on enabling vehicles to become software defined entities, allowing for standard, autonomous, and secure updates to the vehicle system. The project also involves developing a software update management system and implementing Vehicle-to-Vehicle (V2V) communication security using Vehicle-to-Infrastructure (V2I) technology. Additionally, the project focuses on creating an intuitive interface for vehicle owners to access and control their vehicles from smartphones, as well as introducing Vehicle-to-Cloud (V2C) features for enhanced connectivity and access to cloud-based services. The involvement of key industry players in SDVs further emphasizes the significance of this research in advancing the automotive industry.
 \subsection{Purpose}
-The purpose of this graduation project is to explore and advance the concept of Software Defined Vehicles (SDVs) by addressing key objectives. By integrating telematics control units with a cloud platform, the project aims to transform vehicles into software defined entities, allowing for efficient and secure updates to the vehicle system. The project also aims to enhance the security of V2V communication through the use of V2I technology, ensuring the authenticity of surrounding vehicles and promoting safe and reliable communication. Additionally, the project focuses on improving the user experience by developing an intuitive smartphone interface for vehicle owners to access and control their vehicles conveniently. Furthermore, the introduction of V2C features enables vehicles to connect and communicate with cloud-based services, expanding their functionality and providing access to a wide range of services and data. The findings and outcomes of this project contribute to the advancement of SDVs and provide valuable insights for further research and development in the field. The involvement of industry leaders in SDVs underscores the significance and relevance of this research in shaping the future of the automotive industry.
+The purpose of this graduation project is to explore and advance the concept of Software Defined Vehicles (SDVs) by addressing key objectives. By integrating telematics control units with a cloud platform, the project aims to transform vehicles into software defined entities, allowing for efficient and secure updates to the vehicle system. The project also aims to enhance the security of V2V communication through the use of V2I technology, ensuring the authenticity of surrounding vehicles and promoting safe and reliable communication. Additionally, the project focuses on improving the user experience by developing an intuitive smartphone interface for vehicle owners to access and control their vehicles conveniently. Furthermore, the introduction of V2C features enables vehicles to connect and communicate with cloud-based services, expanding their functionality and providing access to a wide range of services and data. The findings and outcomes of this project contribute to the advancement of SDVs and provide valuable insights for further research and development in the field.
 \section{Problem Statement}
 \subsection{Safety and Security}
 One of the key challenges in the development of Software-Defined Vehicles (SDVs) is ensuring the safety and security of the software and communication systems. As SDVs rely heavily on software algorithms, connectivity, and data exchange, vulnerabilities and potential cyber threats pose significant risks. The project aims to address the challenge of designing robust security measures, implementing secure communication protocols, and developing reliable fail-safe mechanisms to ensure the safety of SDVs and protect against potential cyberattacks.
@@ -456,7 +456,7 @@ The introduction of electric vehicles (EVs) also played a significant role in th
 
 In recent years, the automotive industry has witnessed significant advancements in autonomous driving technology. SDVs have become synonymous with self-driving cars, which leverage a multitude of sensors, cameras, radar, and lidar systems to perceive the environment and make autonomous driving decisions. The software stack that powers autonomous vehicles encompasses complex algorithms for perception, decision-making, and control.
 
-The history of SDVs is characterized by the gradual integration of software and digital technologies into vehicles, leading to increased functionality, connectivity, and automation. The evolution of SDVs has been driven by advancements in electronics, software engineering, communication technologies, and the demand for safer, more efficient, and connected transportation solutions. As the automotive industry continues to innovate, SDVs are poised to play a central role in shaping the future of mobility.
+The history of SDVs is characterized by the gradual integration of software and digital technologies into vehicles, leading to increased functionality, connectivity, and automation. This evolution has been driven by advancements in software engineering, communication technologies, and the demand for safer, more efficient, and connected transportation solutions. SDVs are poised to play a central role in shaping the future of mobility.
 
 \section{Interested companies in SDV}
 \subsection{Ford}
@@ -565,7 +565,7 @@ Overall, UN Regulation No. 156 addresses the critical aspects of software update
 \chapter{Solution Architecture}
 
 \section{Architecture overview}
-Our system architecture consists of four five components, each implemented as interactive micro-services, working together to enable the integration of a cloud server with a Telematics Control Unit (TCU) for creating a software-defined vehicle. These components include:
+The system architecture is made up of four and five components, each of which is implemented as an interactive micro-service and works together to integrate a cloud server with a Telematics Control Unit (TCU) to create a software-defined vehicle. These elements include:
 
 
 \begin{figure}[!ht]
@@ -574,7 +574,7 @@ Our system architecture consists of four five components, each implemented as in
   	\caption{System architecture}
   	\label{fig:System architecture}
 \end{figure}
-
+\newpage
 \subsection{Database Center}
 This system serves as the storage backbone for all relevant data. It securely stores and manages vehicle-related information, user profiles, configuration settings, and other necessary data. By employing a robust database system, we ensure efficient and reliable data retrieval and storage for the entire system.
 
@@ -586,7 +586,7 @@ The Vehicle signaling system enables efficient and lightweight communication bet
 
 \subsection{Automotive SW platform}
 This system handles over-the-air updates and manages the manipulation of vehicle features. It allows for seamless software updates to be delivered to the vehicle, ensuring that the software-defined functionalities remain up to date. Additionally, the system enables the addition of new features in the future, enhancing the capabilities and versatility of the software-defined vehicle.
-
+\newpage
 \subsection{DevOps Work Bench}
 The system we have developed plays a crucial role in automating, monitoring, and maintaining our entire cloud infrastructure. It serves as a centralized platform responsible for continuous integration and continuous deployment (CI/CD) of the entire system, ensuring efficient and seamless software development processes.
 
@@ -1270,6 +1270,7 @@ Linux has excellent support for networking and server-related tasks. It is widel
 Furthermore, Linux provides compatibility with a vast array of software applications and programming languages. Many popular applications, including web browsers, office suites, multimedia tools, and development environments, have versions specifically developed for Linux. Additionally, Linux has extensive support for various programming languages, making it an attractive platform for software developers.
 
 In conclusion, Linux is a powerful, reliable, and versatile operating system that offers a wide range of benefits. Its open-source nature, stability, flexibility, security features, and extensive software ecosystem have contributed to its widespread adoption in diverse computing environments. Whether used by individuals, businesses, or organizations, Linux provides a solid foundation for efficient and secure computing.
+\newpage
 \section{Data Center}
 In our project, we have chosen PostgreSQL as the database system to serve as the backbone for our system services. PostgreSQL is a powerful open-source relational database management system known for its reliability, scalability, and advanced features. It offers robust transaction support, data integrity, and ACID (Atomicity, Consistency, Isolation, Durability) compliance, making it suitable for handling complex data interactions.
 

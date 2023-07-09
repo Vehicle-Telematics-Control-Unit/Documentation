@@ -1,142 +1,142 @@
-\contentsline {chapter}{Acknowledgments}{i}{section*.8}%
-\contentsline {chapter}{Abstract}{ii}{section*.10}%
-\contentsline {chapter}{List of Figures}{vii}{section*.11}%
-\contentsline {chapter}{List of Abbreviations}{viii}{section*.12}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}%
-\contentsline {section}{\numberline {1.1}what is a software defined vehicle ?}{1}{section.14}%
-\contentsline {section}{\numberline {1.2}Importance of cloud development for creating SDVs}{2}{section.16}%
-\contentsline {section}{\numberline {1.3}Motivation}{4}{section.17}%
-\contentsline {section}{\numberline {1.4}Definition and purpose}{5}{section.18}%
-\contentsline {subsection}{\numberline {1.4.1}Definition}{5}{subsection.19}%
-\contentsline {subsection}{\numberline {1.4.2}Purpose}{5}{subsection.20}%
-\contentsline {section}{\numberline {1.5}Problem Statement}{5}{section.21}%
-\contentsline {subsection}{\numberline {1.5.1}Safety and Security}{5}{subsection.22}%
-\contentsline {subsection}{\numberline {1.5.2}Standardization and Interoperability}{6}{subsection.23}%
-\contentsline {subsection}{\numberline {1.5.3}Ethical and Legal Implications}{6}{subsection.24}%
-\contentsline {subsection}{\numberline {1.5.4}User Acceptance and Trust}{6}{subsection.25}%
-\contentsline {subsection}{\numberline {1.5.5}Infrastructure Readiness}{6}{subsection.26}%
-\contentsline {chapter}{\numberline {2}Literature Survey and Background}{7}{chapter.27}%
-\contentsline {section}{\numberline {2.1}Brief history of Software defined vehicles}{7}{section.28}%
-\contentsline {section}{\numberline {2.2}Interested companies in SDV}{8}{section.29}%
-\contentsline {subsection}{\numberline {2.2.1}Ford}{8}{subsection.30}%
-\contentsline {subsection}{\numberline {2.2.2}BMW}{8}{subsection.31}%
-\contentsline {subsection}{\numberline {2.2.3}Toyota}{8}{subsection.32}%
-\contentsline {subsection}{\numberline {2.2.4}Volkswagen}{8}{subsection.33}%
-\contentsline {subsection}{\numberline {2.2.5}NVIDIA}{9}{subsection.34}%
-\contentsline {subsection}{\numberline {2.2.6}Tesla}{9}{subsection.35}%
-\contentsline {section}{\numberline {2.3}Initiatives and alliances that work in SDV}{10}{section.36}%
-\contentsline {subsection}{\numberline {2.3.1}Esync alliance}{10}{subsection.37}%
-\contentsline {subsection}{\numberline {2.3.2}Covesa Initiative}{11}{subsection.38}%
-\contentsline {section}{\numberline {2.4}Known proposed architectures}{12}{section.39}%
-\contentsline {subsection}{\numberline {2.4.1}SOAFEE architicture}{12}{subsection.40}%
-\contentsline {subsection}{\numberline {2.4.2}AWS CAEdge architicture}{13}{subsection.42}%
-\contentsline {section}{\numberline {2.5}Used standards}{14}{section.44}%
-\contentsline {subsection}{\numberline {2.5.1}UN R155}{14}{subsection.45}%
-\contentsline {subsection}{\numberline {2.5.2}UN R156}{15}{subsection.46}%
-\contentsline {chapter}{\numberline {3}Solution Architecture}{16}{chapter.47}%
-\contentsline {section}{\numberline {3.1}Architecture overview}{16}{section.48}%
-\contentsline {subsection}{\numberline {3.1.1}Database Center}{16}{subsection.50}%
-\contentsline {subsection}{\numberline {3.1.2}Scalable Compute platform}{17}{subsection.51}%
-\contentsline {subsection}{\numberline {3.1.3}Vehicle signaling system}{17}{subsection.52}%
-\contentsline {subsection}{\numberline {3.1.4}Automotive SW platform}{17}{subsection.53}%
-\contentsline {subsection}{\numberline {3.1.5}DevOps Work Bench}{17}{subsection.54}%
-\contentsline {section}{\numberline {3.2}Architectural style}{19}{section.55}%
-\contentsline {section}{\numberline {3.3}Architecture components}{21}{section.57}%
-\contentsline {subsection}{\numberline {3.3.1}Scalable Compute platform}{21}{subsection.58}%
-\contentsline {subsubsection}{Location live tracking}{21}{subsubsection*.59}%
-\contentsline {subsubsection}{notifications and alerts}{22}{subsubsection*.60}%
-\contentsline {subsubsection}{Authentication system}{23}{subsubsection*.61}%
-\contentsline {subsection}{\numberline {3.3.2}Vehicle signaling system}{24}{subsection.62}%
-\contentsline {subsubsection}{Software defined networks}{25}{subsubsection*.63}%
-\contentsline {subsubsection}{MQTT protocol}{26}{subsubsection*.64}%
-\contentsline {subsubsection}{MQTT architecture}{27}{subsubsection*.65}%
-\contentsline {subsubsection}{Publishers}{27}{subsubsection*.66}%
-\contentsline {subsubsection}{Subscribers}{27}{subsubsection*.67}%
-\contentsline {subsubsection}{Brokers}{28}{subsubsection*.68}%
-\contentsline {subsubsection}{Topics}{28}{subsubsection*.69}%
-\contentsline {subsection}{\numberline {3.3.3}Automotive SW platform}{28}{subsection.70}%
-\contentsline {subsubsection}{Source and Version Control}{30}{subsubsection*.71}%
-\contentsline {subsubsection}{Application containerization}{31}{subsubsection*.72}%
-\contentsline {subsubsection}{Container registry}{32}{subsubsection*.73}%
-\contentsline {subsubsection}{SUMS agent}{33}{subsubsection*.74}%
-\contentsline {subsubsection}{Admin Console}{34}{subsubsection*.75}%
-\contentsline {section}{\numberline {3.4}Interfacing}{35}{section.76}%
-\contentsline {subsection}{\numberline {3.4.1}Admin console interface}{35}{subsection.77}%
-\contentsline {subsection}{\numberline {3.4.2}Mobile application interface}{35}{subsection.78}%
-\contentsline {chapter}{\numberline {4}Implementation}{37}{chapter.80}%
-\contentsline {section}{\numberline {4.1}Development model}{37}{section.81}%
-\contentsline {subsubsection}{Introduction}{37}{subsubsection*.82}%
-\contentsline {subsubsection}{DevOps development steps}{38}{subsubsection*.84}%
-\contentsline {subsubsection}{Why use the DevOps model}{39}{subsubsection*.85}%
-\contentsline {section}{\numberline {4.2}Infrastructure}{41}{section.86}%
-\contentsline {subsection}{\numberline {4.2.1}overview}{41}{subsection.87}%
-\contentsline {subsection}{\numberline {4.2.2}Request routing}{42}{subsection.88}%
-\contentsline {subsection}{\numberline {4.2.3}Continuous integration and deployment}{43}{subsection.90}%
-\contentsline {section}{\numberline {4.3}Tools and frameworks}{44}{section.91}%
-\contentsline {subsection}{\numberline {4.3.1}PostgreSQL}{44}{subsection.92}%
-\contentsline {subsubsection}{What is postgreSQL}{44}{subsubsection*.93}%
-\contentsline {subsubsection}{why PostgreSQL?}{44}{subsubsection*.95}%
-\contentsline {subsection}{\numberline {4.3.2}.NET Core}{45}{subsection.96}%
-\contentsline {subsubsection}{What is .NET Core}{45}{subsubsection*.97}%
-\contentsline {subsubsection}{Why .NET 6?}{45}{subsubsection*.99}%
-\contentsline {subsection}{\numberline {4.3.3}Flutter}{46}{subsection.100}%
-\contentsline {subsubsection}{What is Flutter}{46}{subsubsection*.101}%
-\contentsline {subsubsection}{why Flutter?}{46}{subsubsection*.103}%
-\contentsline {subsection}{\numberline {4.3.4}Angular}{47}{subsection.104}%
-\contentsline {subsubsection}{What is Angular}{47}{subsubsection*.105}%
-\contentsline {subsubsection}{Why Angular?}{48}{subsubsection*.107}%
-\contentsline {subsection}{\numberline {4.3.5}Docker}{49}{subsection.108}%
-\contentsline {subsubsection}{What is Docker}{49}{subsubsection*.109}%
-\contentsline {subsubsection}{Why use docker ?}{49}{subsubsection*.111}%
-\contentsline {subsection}{\numberline {4.3.6}EMQX}{51}{subsection.112}%
-\contentsline {subsubsection}{What is EMQX}{51}{subsubsection*.113}%
-\contentsline {subsubsection}{Why use EMQX ?}{51}{subsubsection*.115}%
-\contentsline {subsection}{\numberline {4.3.7}Portainer}{52}{subsection.116}%
-\contentsline {subsubsection}{What is portainer}{52}{subsubsection*.117}%
-\contentsline {subsubsection}{Why Portainer ?}{52}{subsubsection*.118}%
-\contentsline {subsection}{\numberline {4.3.8}NGINX}{53}{subsection.119}%
-\contentsline {subsubsection}{What is NGINX}{53}{subsubsection*.120}%
-\contentsline {subsubsection}{Why NGINX ?}{53}{subsubsection*.122}%
-\contentsline {subsection}{\numberline {4.3.9}Jenkins}{54}{subsection.123}%
-\contentsline {subsubsection}{What is Jenkins}{54}{subsubsection*.124}%
-\contentsline {subsubsection}{Why Jenkins ?}{54}{subsubsection*.126}%
-\contentsline {subsection}{\numberline {4.3.10}GIT}{56}{subsection.127}%
-\contentsline {subsubsection}{What is Git}{56}{subsubsection*.128}%
-\contentsline {subsubsection}{Why GIT ?}{56}{subsubsection*.130}%
-\contentsline {subsection}{\numberline {4.3.11}Linux}{58}{subsection.131}%
-\contentsline {subsubsection}{What is Linux}{58}{subsubsection*.132}%
-\contentsline {subsubsection}{Why Linux ?}{58}{subsubsection*.134}%
-\contentsline {section}{\numberline {4.4}Data Center}{59}{section.135}%
-\contentsline {section}{\numberline {4.5}Authentication and authorization}{60}{section.136}%
-\contentsline {subsection}{\numberline {4.5.1}Mobile Authentication}{60}{subsection.137}%
-\contentsline {subsubsection}{Primary device authentication}{60}{subsubsection*.138}%
-\contentsline {subsubsection}{Sharing vehicle access through primary device}{62}{subsubsection*.142}%
-\contentsline {subsection}{\numberline {4.5.2}TCU authentication}{64}{subsection.146}%
-\contentsline {subsubsection}{vehicle registration}{65}{subsubsection*.147}%
-\contentsline {subsubsection}{Authentication using challenges}{67}{subsubsection*.149}%
-\contentsline {subsection}{\numberline {4.5.3}Token generation}{68}{subsection.151}%
-\contentsline {section}{\numberline {4.6}Alerts and notifications}{69}{section.162}%
-\contentsline {section}{\numberline {4.7}Live location tracking}{71}{section.165}%
-\contentsline {subsection}{\numberline {4.7.1}What is SingalR ?}{71}{subsection.166}%
-\contentsline {subsection}{\numberline {4.7.2}What does the MQTT client do ?}{72}{subsection.167}%
-\contentsline {subsection}{\numberline {4.7.3}System operation}{73}{subsection.168}%
-\contentsline {chapter}{\numberline {5}TCU integration}{74}{chapter.169}%
-\contentsline {section}{\numberline {5.1}vehicle signaling}{74}{section.170}%
-\contentsline {subsection}{\numberline {5.1.1}MQTT broker}{75}{subsection.172}%
-\contentsline {subsection}{\numberline {5.1.2}Customized authentication and authorization}{76}{subsection.173}%
-\contentsline {section}{\numberline {5.2}Customization using OTA updates}{76}{section.174}%
-\contentsline {chapter}{\numberline {6}Conclusion and future work}{79}{chapter.178}%
-\contentsline {section}{\numberline {6.1}Conclusion}{79}{section.179}%
-\contentsline {section}{\numberline {6.2}Future Work}{80}{section.180}%
-\contentsline {subsection}{\numberline {6.2.1}Cloud native Testing}{80}{subsection.181}%
-\contentsline {subsection}{\numberline {6.2.2}Cloud Native Trail}{80}{subsection.182}%
-\contentsline {chapter}{References}{81}{section*.183}%
-\contentsline {chapter}{\numberline {A}RSA algorithm}{82}{appendix.184}%
-\contentsline {chapter}{\numberline {B}Digital Certificates}{83}{appendix.185}%
-\contentsline {section}{\numberline {B.1}X.509 Certificates}{83}{section.186}%
-\contentsline {section}{\numberline {B.2}SSL/TLS Certificates}{83}{section.187}%
-\contentsline {section}{\numberline {B.3}Code Signing Certificates}{83}{section.188}%
-\contentsline {section}{\numberline {B.4}Client Certificates}{83}{section.189}%
-\contentsline {section}{\numberline {B.5}Extended Validation (EV) Certificates}{84}{section.190}%
-\contentsline {section}{\numberline {B.6}Self-Signed Certificates}{84}{section.191}%
-\contentsline {chapter}{Arabic Abstract}{85}{section*.192}%
+\contentsline {chapter}{Acknowledgments}{i}{section*.7}%
+\contentsline {chapter}{Abstract}{ii}{section*.9}%
+\contentsline {chapter}{List of Figures}{vii}{section*.10}%
+\contentsline {chapter}{List of Abbreviations}{viii}{section*.11}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
+\contentsline {section}{\numberline {1.1}what is a software defined vehicle ?}{1}{section.13}%
+\contentsline {section}{\numberline {1.2}Importance of cloud development for creating SDVs}{2}{section.15}%
+\contentsline {section}{\numberline {1.3}Motivation}{4}{section.16}%
+\contentsline {section}{\numberline {1.4}Definition and purpose}{5}{section.17}%
+\contentsline {subsection}{\numberline {1.4.1}Definition}{5}{subsection.18}%
+\contentsline {subsection}{\numberline {1.4.2}Purpose}{5}{subsection.19}%
+\contentsline {section}{\numberline {1.5}Problem Statement}{5}{section.20}%
+\contentsline {subsection}{\numberline {1.5.1}Safety and Security}{5}{subsection.21}%
+\contentsline {subsection}{\numberline {1.5.2}Standardization and Interoperability}{6}{subsection.22}%
+\contentsline {subsection}{\numberline {1.5.3}Ethical and Legal Implications}{6}{subsection.23}%
+\contentsline {subsection}{\numberline {1.5.4}User Acceptance and Trust}{6}{subsection.24}%
+\contentsline {subsection}{\numberline {1.5.5}Infrastructure Readiness}{6}{subsection.25}%
+\contentsline {chapter}{\numberline {2}Literature Survey and Background}{7}{chapter.26}%
+\contentsline {section}{\numberline {2.1}Brief history of Software defined vehicles}{7}{section.27}%
+\contentsline {section}{\numberline {2.2}Interested companies in SDV}{8}{section.28}%
+\contentsline {subsection}{\numberline {2.2.1}Ford}{8}{subsection.29}%
+\contentsline {subsection}{\numberline {2.2.2}BMW}{8}{subsection.30}%
+\contentsline {subsection}{\numberline {2.2.3}Toyota}{8}{subsection.31}%
+\contentsline {subsection}{\numberline {2.2.4}Volkswagen}{8}{subsection.32}%
+\contentsline {subsection}{\numberline {2.2.5}NVIDIA}{9}{subsection.33}%
+\contentsline {subsection}{\numberline {2.2.6}Tesla}{9}{subsection.34}%
+\contentsline {section}{\numberline {2.3}Initiatives and alliances that work in SDV}{10}{section.35}%
+\contentsline {subsection}{\numberline {2.3.1}Esync alliance}{10}{subsection.36}%
+\contentsline {subsection}{\numberline {2.3.2}Covesa Initiative}{11}{subsection.37}%
+\contentsline {section}{\numberline {2.4}Known proposed architectures}{12}{section.38}%
+\contentsline {subsection}{\numberline {2.4.1}SOAFEE architicture}{12}{subsection.39}%
+\contentsline {subsection}{\numberline {2.4.2}AWS CAEdge architicture}{13}{subsection.41}%
+\contentsline {section}{\numberline {2.5}Used standards}{14}{section.43}%
+\contentsline {subsection}{\numberline {2.5.1}UN R155}{14}{subsection.44}%
+\contentsline {subsection}{\numberline {2.5.2}UN R156}{15}{subsection.45}%
+\contentsline {chapter}{\numberline {3}Solution Architecture}{16}{chapter.46}%
+\contentsline {section}{\numberline {3.1}Architecture overview}{16}{section.47}%
+\contentsline {subsection}{\numberline {3.1.1}Database Center}{17}{subsection.49}%
+\contentsline {subsection}{\numberline {3.1.2}Scalable Compute platform}{17}{subsection.50}%
+\contentsline {subsection}{\numberline {3.1.3}Vehicle signaling system}{17}{subsection.51}%
+\contentsline {subsection}{\numberline {3.1.4}Automotive SW platform}{17}{subsection.52}%
+\contentsline {subsection}{\numberline {3.1.5}DevOps Work Bench}{18}{subsection.53}%
+\contentsline {section}{\numberline {3.2}Architectural style}{19}{section.54}%
+\contentsline {section}{\numberline {3.3}Architecture components}{21}{section.56}%
+\contentsline {subsection}{\numberline {3.3.1}Scalable Compute platform}{21}{subsection.57}%
+\contentsline {subsubsection}{Location live tracking}{21}{subsubsection*.58}%
+\contentsline {subsubsection}{notifications and alerts}{22}{subsubsection*.59}%
+\contentsline {subsubsection}{Authentication system}{23}{subsubsection*.60}%
+\contentsline {subsection}{\numberline {3.3.2}Vehicle signaling system}{24}{subsection.61}%
+\contentsline {subsubsection}{Software defined networks}{25}{subsubsection*.62}%
+\contentsline {subsubsection}{MQTT protocol}{26}{subsubsection*.63}%
+\contentsline {subsubsection}{MQTT architecture}{27}{subsubsection*.64}%
+\contentsline {subsubsection}{Publishers}{27}{subsubsection*.65}%
+\contentsline {subsubsection}{Subscribers}{27}{subsubsection*.66}%
+\contentsline {subsubsection}{Brokers}{28}{subsubsection*.67}%
+\contentsline {subsubsection}{Topics}{28}{subsubsection*.68}%
+\contentsline {subsection}{\numberline {3.3.3}Automotive SW platform}{28}{subsection.69}%
+\contentsline {subsubsection}{Source and Version Control}{30}{subsubsection*.70}%
+\contentsline {subsubsection}{Application containerization}{31}{subsubsection*.71}%
+\contentsline {subsubsection}{Container registry}{32}{subsubsection*.72}%
+\contentsline {subsubsection}{SUMS agent}{33}{subsubsection*.73}%
+\contentsline {subsubsection}{Admin Console}{34}{subsubsection*.74}%
+\contentsline {section}{\numberline {3.4}Interfacing}{35}{section.75}%
+\contentsline {subsection}{\numberline {3.4.1}Admin console interface}{35}{subsection.76}%
+\contentsline {subsection}{\numberline {3.4.2}Mobile application interface}{35}{subsection.77}%
+\contentsline {chapter}{\numberline {4}Implementation}{37}{chapter.79}%
+\contentsline {section}{\numberline {4.1}Development model}{37}{section.80}%
+\contentsline {subsubsection}{Introduction}{37}{subsubsection*.81}%
+\contentsline {subsubsection}{DevOps development steps}{38}{subsubsection*.83}%
+\contentsline {subsubsection}{Why use the DevOps model}{39}{subsubsection*.84}%
+\contentsline {section}{\numberline {4.2}Infrastructure}{41}{section.85}%
+\contentsline {subsection}{\numberline {4.2.1}overview}{41}{subsection.86}%
+\contentsline {subsection}{\numberline {4.2.2}Request routing}{42}{subsection.87}%
+\contentsline {subsection}{\numberline {4.2.3}Continuous integration and deployment}{43}{subsection.89}%
+\contentsline {section}{\numberline {4.3}Tools and frameworks}{44}{section.90}%
+\contentsline {subsection}{\numberline {4.3.1}PostgreSQL}{44}{subsection.91}%
+\contentsline {subsubsection}{What is postgreSQL}{44}{subsubsection*.92}%
+\contentsline {subsubsection}{why PostgreSQL?}{44}{subsubsection*.94}%
+\contentsline {subsection}{\numberline {4.3.2}.NET Core}{45}{subsection.95}%
+\contentsline {subsubsection}{What is .NET Core}{45}{subsubsection*.96}%
+\contentsline {subsubsection}{Why .NET 6?}{45}{subsubsection*.98}%
+\contentsline {subsection}{\numberline {4.3.3}Flutter}{46}{subsection.99}%
+\contentsline {subsubsection}{What is Flutter}{46}{subsubsection*.100}%
+\contentsline {subsubsection}{why Flutter?}{46}{subsubsection*.102}%
+\contentsline {subsection}{\numberline {4.3.4}Angular}{47}{subsection.103}%
+\contentsline {subsubsection}{What is Angular}{47}{subsubsection*.104}%
+\contentsline {subsubsection}{Why Angular?}{48}{subsubsection*.106}%
+\contentsline {subsection}{\numberline {4.3.5}Docker}{49}{subsection.107}%
+\contentsline {subsubsection}{What is Docker}{49}{subsubsection*.108}%
+\contentsline {subsubsection}{Why use docker ?}{49}{subsubsection*.110}%
+\contentsline {subsection}{\numberline {4.3.6}EMQX}{51}{subsection.111}%
+\contentsline {subsubsection}{What is EMQX}{51}{subsubsection*.112}%
+\contentsline {subsubsection}{Why use EMQX ?}{51}{subsubsection*.114}%
+\contentsline {subsection}{\numberline {4.3.7}Portainer}{52}{subsection.115}%
+\contentsline {subsubsection}{What is portainer}{52}{subsubsection*.116}%
+\contentsline {subsubsection}{Why Portainer ?}{52}{subsubsection*.117}%
+\contentsline {subsection}{\numberline {4.3.8}NGINX}{53}{subsection.118}%
+\contentsline {subsubsection}{What is NGINX}{53}{subsubsection*.119}%
+\contentsline {subsubsection}{Why NGINX ?}{53}{subsubsection*.121}%
+\contentsline {subsection}{\numberline {4.3.9}Jenkins}{54}{subsection.122}%
+\contentsline {subsubsection}{What is Jenkins}{54}{subsubsection*.123}%
+\contentsline {subsubsection}{Why Jenkins ?}{54}{subsubsection*.125}%
+\contentsline {subsection}{\numberline {4.3.10}GIT}{56}{subsection.126}%
+\contentsline {subsubsection}{What is Git}{56}{subsubsection*.127}%
+\contentsline {subsubsection}{Why GIT ?}{56}{subsubsection*.129}%
+\contentsline {subsection}{\numberline {4.3.11}Linux}{58}{subsection.130}%
+\contentsline {subsubsection}{What is Linux}{58}{subsubsection*.131}%
+\contentsline {subsubsection}{Why Linux ?}{58}{subsubsection*.133}%
+\contentsline {section}{\numberline {4.4}Data Center}{60}{section.134}%
+\contentsline {section}{\numberline {4.5}Authentication and authorization}{60}{section.135}%
+\contentsline {subsection}{\numberline {4.5.1}Mobile Authentication}{60}{subsection.136}%
+\contentsline {subsubsection}{Primary device authentication}{61}{subsubsection*.137}%
+\contentsline {subsubsection}{Sharing vehicle access through primary device}{63}{subsubsection*.141}%
+\contentsline {subsection}{\numberline {4.5.2}TCU authentication}{65}{subsection.145}%
+\contentsline {subsubsection}{vehicle registration}{66}{subsubsection*.146}%
+\contentsline {subsubsection}{Authentication using challenges}{67}{subsubsection*.148}%
+\contentsline {subsection}{\numberline {4.5.3}Token generation}{68}{subsection.150}%
+\contentsline {section}{\numberline {4.6}Alerts and notifications}{69}{section.161}%
+\contentsline {section}{\numberline {4.7}Live location tracking}{71}{section.164}%
+\contentsline {subsection}{\numberline {4.7.1}What is SingalR ?}{72}{subsection.165}%
+\contentsline {subsection}{\numberline {4.7.2}What does the MQTT client do ?}{72}{subsection.166}%
+\contentsline {subsection}{\numberline {4.7.3}System operation}{73}{subsection.167}%
+\contentsline {chapter}{\numberline {5}TCU integration}{75}{chapter.168}%
+\contentsline {section}{\numberline {5.1}vehicle signaling}{75}{section.169}%
+\contentsline {subsection}{\numberline {5.1.1}MQTT broker}{76}{subsection.171}%
+\contentsline {subsection}{\numberline {5.1.2}Customized authentication and authorization}{77}{subsection.172}%
+\contentsline {section}{\numberline {5.2}Customization using OTA updates}{77}{section.173}%
+\contentsline {chapter}{\numberline {6}Conclusion and future work}{80}{chapter.177}%
+\contentsline {section}{\numberline {6.1}Conclusion}{80}{section.178}%
+\contentsline {section}{\numberline {6.2}Future Work}{81}{section.179}%
+\contentsline {subsection}{\numberline {6.2.1}Cloud native Testing}{81}{subsection.180}%
+\contentsline {subsection}{\numberline {6.2.2}Cloud Native Trail}{81}{subsection.181}%
+\contentsline {chapter}{References}{82}{section*.182}%
+\contentsline {chapter}{\numberline {A}RSA algorithm}{83}{appendix.183}%
+\contentsline {chapter}{\numberline {B}Digital Certificates}{84}{appendix.184}%
+\contentsline {section}{\numberline {B.1}X.509 Certificates}{84}{section.185}%
+\contentsline {section}{\numberline {B.2}SSL/TLS Certificates}{84}{section.186}%
+\contentsline {section}{\numberline {B.3}Code Signing Certificates}{84}{section.187}%
+\contentsline {section}{\numberline {B.4}Client Certificates}{84}{section.188}%
+\contentsline {section}{\numberline {B.5}Extended Validation (EV) Certificates}{85}{section.189}%
+\contentsline {section}{\numberline {B.6}Self-Signed Certificates}{85}{section.190}%
+\contentsline {chapter}{Arabic Abstract}{86}{section*.191}%
