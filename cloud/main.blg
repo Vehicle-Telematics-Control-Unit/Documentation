@@ -1,0 +1,149 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: main-blx.bib
+Database file #2: references.bib
+Biblatex version: 3.19
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2699 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2703 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2703 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2709 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2709 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2713 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2713 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2713 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2713 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2717 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2717 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2723 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2723 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2727 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2727 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2727 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2727 of file biblatex.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Name 1 in "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" has a comma at the end for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+Too many commas in name 1 of "Martin Stamm, David Crescence, Daniel Krumpholz, Andreas Falkenberg, and Junjie Tang" for entry AWS_CAedge
+while executing---line 2815 of file biblatex.bst
+You've used 11 entries,
+            6399 wiz_defined-function locations,
+            1266 strings with 10612 characters,
+and the built_in function-call counts, 60076 in all, are:
+= -- 4636
+> -- 901
+< -- 314
++ -- 1455
+- -- 248
+* -- 3666
+:= -- 6170
+add.period$ -- 0
+call.type$ -- 11
+change.case$ -- 193
+chr.to.int$ -- 75
+cite$ -- 20
+duplicate$ -- 6214
+empty$ -- 5674
+format.name$ -- 423
+if$ -- 12551
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 0
+newline$ -- 249
+num.names$ -- 445
+pop$ -- 3657
+preamble$ -- 1
+purify$ -- 229
+quote$ -- 0
+skip$ -- 1703
+stack$ -- 0
+substring$ -- 8369
+swap$ -- 1267
+text.length$ -- 219
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 362
+warning$ -- 0
+while$ -- 762
+width$ -- 0
+write$ -- 239
+(There were 40 error messages)

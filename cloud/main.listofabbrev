@@ -1,0 +1,48 @@
+\makeabbretable {V2I}{Vehicle to Infrastructure}
+\makeabbretable {V2V}{Vehicle to Vehicle}
+\makeabbretable {V2C}{Vehicle to cloud}
+\makeabbretable {OEM}{Original Equipment Manufacturer}
+\makeabbretable {IoT}{Internet of Things}
+\makeabbretable {LiDAR}{Light Detection and Ranging}
+\makeabbretable {GPS}{Global positioning system}
+\makeabbretable {ECUs}{electronic control units}
+\makeabbretable {ADAS}{driver-assistance systems}
+\makeabbretable {EVs}{electric vehicles}
+\makeabbretable {OTA}{over-the-air updates}
+\makeabbretable {SOAFEE}{Scalable Open Architecture for Embedded Edge}
+\makeabbretable {TCU}{Telematics Control Unit}
+\makeabbretable {API}{Application programming interface}
+\makeabbretable {MQTT}{Message query telemetry transport}
+\makeabbretable {FCM}{Fire-base Cloud Messaging}
+\makeabbretable {SDNs}{Software-Defined Networks}
+\makeabbretable {QoS}{Quality of service}
+\makeabbretable {SW}{Software}
+\makeabbretable {DVCS}{distributed version control systems}
+\makeabbretable {CI/CD}{Continuous integration and continuous delivery}
+\makeabbretable {ECR}{Elastic Container Registry}
+\makeabbretable {SUMS}{Software Update Management System}
+\makeabbretable {DevOps}{Development Operations}
+\makeabbretable {IaC}{Infrastructure as Code}
+\makeabbretable {AWS}{Amazon Web Services}
+\makeabbretable {SQL}{Structured query language}
+\makeabbretable {RDBMS}{relational database management system}
+\makeabbretable {JSON}{Java script object notation}
+\makeabbretable {RBAC}{role-based access control}
+\makeabbretable {JIT}{Just-in-Time compilation}
+\makeabbretable {VMs}{virtual machines}
+\makeabbretable {TLS}{Transport Layer Security}
+\makeabbretable {SSL}{Secure Sockets Layer}
+\makeabbretable {ACLs}{access control lists}
+\makeabbretable {GUI}{graphical user interface}
+\makeabbretable {VCS}{version control system}
+\makeabbretable {SSH}{secure shell protocol}
+\makeabbretable {ACID}{Atomicity, Consistency, Isolation, Durability}
+\makeabbretable {QR}{Quick Response code}
+\makeabbretable {JWT}{JSON Web token}
+\makeabbretable {HTTP}{Hyper text transfer protocol}
+\makeabbretable {OTP}{One time password}
+\makeabbretable {VIN}{vehicle identification number}
+\makeabbretable {CSR}{Certificate Signing Request}
+\makeabbretable {OBD}{On board diagnostics}
+\makeabbretable {SSE}{Server-Sent Events}
+\makeabbretable {CoAP}{Constrained Application Protocol}
