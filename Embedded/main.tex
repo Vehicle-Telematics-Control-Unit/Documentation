@@ -776,7 +776,18 @@ Dependency management is another area where Docker Compose proves beneficial in 
 
 \section{VSOME/IP}
 \subsection{SOME/IP Overview}
-SOME/IP, short for "Scalable service-Oriented middlewarE over IP," is a middleware specifically developed for automotive applications and designed to be compatible with AUTOSAR (at least at the wire-format level). A comprehensive specification for SOME/IP can be accessed publicly at \url{http://some-ip.com/}. The specification encompasses three key components:
+SOME/IP, short for "Scalable service-Oriented middlewarE over IP," is a middleware specifically developed for automotive applications and designed to be compatible with AUTOSAR (at least at the wire-format level). A comprehensive specification for SOME/IP can be accessed publicly at 
+\url{http://some-ip.com/}. or by scanning the following QR code.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=1]{Figures/SOMEIP_doc.png}
+\caption[SOMEIP QR code]{SOMEIP QR code}
+\label{fig:SOME/IP On-wire format}
+\end{figure}
+
+The specification encompasses three key components:
+
 \begin{itemize}
 \item On-wire format
 \item Protocol
@@ -864,6 +875,16 @@ In this scenario (Figure 16), the MQTT Gateway invokes a method provided by the 
 
 In the project we use VSOME/IP with containers using this procedure create a Docker file using the Alpine image as the base building image. Within this file, we will include the necessary steps to build the Boost Library, as it is required for the VSOME/IP library. Afterwards, we will proceed to build the VSOME/IP library specifically for this container. Additionally, we will designate the (/tmp) directory as a shared volume for the container, allowing it to utilize the Unix domain socket.
 
+To access more information about our implementation, please scan the QR code provided. It will provide you with detailed insights and details regarding our implementation.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=1]{Figures/Vehicle_Plus_VsomeIp_repo.png}
+\caption[Vehicle plus Implementation to VSOME/IP]{Vehicle plus Implementation to VSOME/IP}
+\label{fig:SOME/IP On-wire format}
+\end{figure}
+
+
 \chapter{TCU Applications and System Services}
 \section{Services Layout}
 \begin{figure}[h]
@@ -894,6 +915,15 @@ Each service can be independently deployed, updated, or scaled, facilitating eff
 \end{minipage}
 \end{figure}
 The implementation of the backend gateway is on GitHub you can scan the following QR code to get to the source code of the backend gateway.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[scale=1]{Figures/backend_gateway_QR.png}
+\caption[Backend gateway QR code]{Backend gateway QR code}
+\label{fig:SOME/IP On-wire format}
+\end{figure}
+
+
 The Backend Gateway Service, operating on the Telematics Control Unit (TCU), acts as a communication bridge between the TCU and the Backend Server. It employs an HTTP-Builder to generate HTTP requests, facilitating seamless data exchange with the Backend Server. To ensure secure transmission, the Backend Gateway Service establishes an SSL connection using the Open-SSL library, thereby safeguarding the communication between the TCU and the Backend Server located in the cloud. 
 A pivotal responsibility of the Backend Gateway is to handle the transmission of various types of HTTP requests, including POST, GET, and PUT, from the TCU to the Backend Server. As part of the authentication process, the Backend Gateway undergoes challenge-based authentication with the Backend Server. Upon successful authentication, the Backend Server issues a JSON Web Token (JWT) to the TCU, granting it access for a specific time period. Subsequently, the Backend Gateway Service utilizes this token to send subsequent requests to the Backend Server.
 Maintaining security and access control, the Backend Gateway Service actively monitors the validity of the JWT token. When the token expires or becomes invalid, it is responsible for re-authenticating itself with the Backend Server, ensuring uninterrupted and authorized access.
