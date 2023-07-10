@@ -1,1 +1,25 @@
-\makeabbretable {CNN}{Convolution Neural Network}
+\makeabbretable {ECU}{Electronic Control Unit}
+\makeabbretable {TCU}{Telematics Control Unit}
+\makeabbretable {MCU}{MicroController Unit}
+\makeabbretable {IPC}{Inter-Process Communication}
+\makeabbretable {SOME/IP}{Scalable service-Oriented MiddlewarE over IP}
+\makeabbretable {OTA}{Over-The-Air updates}
+\makeabbretable {SOAFEE}{Scalable Open Architecture for Embedded Edge}
+\makeabbretable {MQTT}{Message Query Telemetry Transport}
+\makeabbretable {API}{Application Programming Interface}
+\makeabbretable {GNSS}{Global Navigation Satellite System}
+\makeabbretable {GPS}{Global Positioning System}
+\makeabbretable {DSRC}{Dedicated Short-Range Communication}
+\makeabbretable {UART}{Universal Asynchronous Receiver / Transmitter}
+\makeabbretable {SPI}{Serial Peripheral Interface}
+\makeabbretable {I2C}{Inter-IC bus}
+\makeabbretable {USB}{Universal Serial Bus}
+\makeabbretable {V2V}{Vehicle to Vehicle}
+\makeabbretable {V2C}{Vehicle to Cloud}
+\makeabbretable {JSON}{JavaScript Object Notation}
+\makeabbretable {JWT}{JSON Web Token}
+\makeabbretable {RPC}{Remote Procedure Call}
+\makeabbretable {UDP}{User Datagram protocol}
+\makeabbretable {TCP}{Transmission Control Protocol}
+\makeabbretable {OEM}{Original Equipment Manufacturer}
+\makeabbretable {HTTP}{Hyper Text Transfer Protocol}

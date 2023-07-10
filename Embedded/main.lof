@@ -1,70 +1,70 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Software defined vehicles\relax }}{4}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces vehicle OTA Update}}{2}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces V2V Communication overview}}{3}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces TCUs Layered architecture}}{5}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Kernel Layer}}{6}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Docker runtime environment Layer}}{8}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces vehicle OTA Update}}{7}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces V2V Communication overview}}{8}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces TCUs Layered architecture}}{10}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Kernel Layer}}{11}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Docker runtime environment Layer}}{13}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Raspberry-pi}}{10}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sender/Receiver ESP Node Diagram}}{14}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Data broadcasting UML Sequence diagram}}{14}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Data Reception UML Sequence diagram}}{15}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces DSRC working example}}{16}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces U-blox M8N GNSS}}{16}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces u-blox M8N module with external antenna port}}{17}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces External GPS antenna}}{17}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Raspberry-pi}}{15}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Sender/Receiver ESP Node Diagram}}{19}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Data broadcasting UML Sequence diagram}}{19}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Data Reception UML Sequence diagram}}{20}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces DSRC working example}}{21}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces U-blox M8N GNSS}}{21}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces u-blox M8N module with external antenna port}}{22}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces External GPS antenna}}{22}{figure.caption.58}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces SOAFEE Architecture}}{22}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces SOAFEE Architecture}}{27}{figure.caption.65}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces containers and VMs layered architecture}}{28}{figure.caption.69}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Docker logo}}{29}{figure.caption.71}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Microservices vs Monolithic approach}}{31}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces SOAFEE Architecture}}{32}{figure.caption.77}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces docker compose logo}}{33}{figure.caption.79}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces docker compose script}}{34}{figure.caption.80}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces SOMEIP message sent from Device A to Device B}}{35}{figure.caption.84}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces SOME/IP communication patterns}}{36}{figure.caption.95}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Structure of SOME/IP service discovery message}}{37}{figure.caption.97}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces VSOME/IP communication IPC and with different devices}}{38}{figure.caption.100}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Different Services communicate using PUB/SUB and RPC using VSOME/IP IPC}}{38}{figure.caption.103}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces containers and VMs layered architecture}}{33}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Docker logo}}{34}{figure.caption.76}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Microservices vs Monolithic approach}}{36}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces SOAFEE Architecture}}{37}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces docker compose logo}}{38}{figure.caption.84}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces docker compose script}}{39}{figure.caption.85}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces SOMEIP message sent from Device A to Device B}}{40}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces SOME/IP communication patterns}}{41}{figure.caption.100}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Structure of SOME/IP service discovery message}}{42}{figure.caption.102}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces VSOME/IP communication IPC and with different devices}}{43}{figure.caption.105}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Different Services communicate using PUB/SUB and RPC using VSOME/IP IPC}}{43}{figure.caption.108}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces TCU Containerized Services Layout}}{40}{figure.caption.107}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Backend Gateway Service}}{41}{figure.caption.109}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Backend gateway container}}{41}{figure.caption.109}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Authentication UML sequence diagram}}{44}{figure.caption.112}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces ECUS gateway data fetcher}}{45}{figure.caption.115}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces ECU Gatway pub/sub}}{48}{figure.caption.126}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces DSRC withECU Gatway pub/sub}}{49}{figure.caption.127}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces DSRC Encoder/Decoder service}}{50}{figure.caption.130}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces DSRC generate payload}}{51}{figure.caption.134}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces DSRC Reception and Broadcast}}{53}{figure.caption.144}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces ReceptionandBroadcast}}{54}{figure.caption.145}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces EncoderDecoder generate payload and send on an ESP and receive payload and decode on another}}{54}{figure.caption.146}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Encoder/Decoder operation UML sequence diagram}}{55}{figure.caption.147}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces TCU Containerized Services Layout}}{45}{figure.caption.112}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Backend Gateway Service}}{46}{figure.caption.114}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Backend gateway container}}{46}{figure.caption.114}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Authentication UML sequence diagram}}{49}{figure.caption.117}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces ECUS gateway data fetcher}}{50}{figure.caption.120}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces ECU Gatway pub/sub}}{53}{figure.caption.131}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces DSRC withECU Gatway pub/sub}}{54}{figure.caption.132}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces DSRC Encoder/Decoder service}}{55}{figure.caption.135}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces DSRC generate payload}}{56}{figure.caption.139}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces DSRC Reception and Broadcast}}{58}{figure.caption.149}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces ReceptionandBroadcast}}{59}{figure.caption.150}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces EncoderDecoder generate payload and send on an ESP and receive payload and decode on another}}{59}{figure.caption.151}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Encoder/Decoder operation UML sequence diagram}}{60}{figure.caption.152}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Simulation}}{56}{figure.caption.151}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Simulation}}{59}{figure.caption.159}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Simulation}}{61}{figure.caption.156}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Simulation}}{64}{figure.caption.164}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces STM32}}{61}{figure.caption.166}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces W5500}}{63}{figure.caption.171}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces 4G Modem Router}}{64}{figure.caption.174}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Switch}}{66}{figure.caption.196}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces HALL EFFECT SENSOR}}{67}{figure.caption.200}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces mpu6050}}{68}{figure.caption.204}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces VibrationANDShockSensor}}{70}{figure.caption.208}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces STM32}}{66}{figure.caption.171}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces W5500}}{68}{figure.caption.176}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces 4G Modem Router}}{69}{figure.caption.179}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Switch}}{71}{figure.caption.201}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces HALL EFFECT SENSOR}}{72}{figure.caption.205}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces mpu6050}}{73}{figure.caption.209}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces VibrationANDShockSensor}}{75}{figure.caption.213}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces SPI to Ethernet connection}}{73}{figure.caption.213}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Spi master slave configuration}}{74}{figure.caption.215}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces SPI to Ethernet}}{75}{figure.caption.216}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Hall effect sensor module}}{77}{figure.caption.224}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Speed measuring using Hall effect sensor and magnet}}{79}{figure.caption.230}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Electrical Diagram Connection}}{85}{figure.caption.243}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Buck converter}}{86}{figure.caption.245}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces SPI to Ethernet connection}}{78}{figure.caption.218}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Spi master slave configuration}}{79}{figure.caption.220}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces SPI to Ethernet}}{80}{figure.caption.221}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Hall effect sensor module}}{82}{figure.caption.229}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Speed measuring using Hall effect sensor and magnet}}{84}{figure.caption.235}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Electrical Diagram Connection}}{90}{figure.caption.248}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Buck converter}}{91}{figure.caption.250}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces MQTT between the car and phone}}{89}{figure.caption.252}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces HOW DOES MQTT WORK}}{91}{figure.caption.259}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Vibration and shock sensor}}{97}{figure.caption.267}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces STM32 Guard}}{98}{figure.caption.270}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces MQTT between the car and phone}}{94}{figure.caption.257}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces HOW DOES MQTT WORK}}{96}{figure.caption.264}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Vibration and shock sensor}}{102}{figure.caption.272}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces STM32 Guard}}{103}{figure.caption.275}%
 \addvspace {10\p@ }

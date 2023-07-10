@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.26)  9 JUL 2023 19:12
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.26)  10 JUL 2023 16:18
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1136,7 +1136,7 @@ arytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 186.
+h' as default language. on input line 187.
 
 ("C:/Program Files/MiKTeX/tex/latex/hyperref/hyperref.sty"
 Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
@@ -1222,7 +1222,7 @@ package with kernel methods
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 186.
+(scrhack)             need that hack, on input line 187.
 Package hyperref Info: Driver (autodetected): hluatex.
 
 ("C:/Program Files/MiKTeX/tex/latex/hyperref/hluatex.def"
@@ -1253,39 +1253,39 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip116
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 186.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 186.
-Package hyperref Info: Option `colorlinks' set `false' on input line 186.
-Package hyperref Info: Option `unicode' set `true' on input line 186.
-Package hyperref Info: Option `breaklinks' set `true' on input line 186.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 187.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 187.
+Package hyperref Info: Option `colorlinks' set `false' on input line 187.
+Package hyperref Info: Option `unicode' set `true' on input line 187.
+Package hyperref Info: Option `breaklinks' set `true' on input line 187.
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 187.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-86.
+87.
  ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 187.
+LaTeX Font Info:    ... okay on input line 187.
 
 (C:/Users/moust/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translation
 s-basic-dictionary-english.trsl
@@ -1293,7 +1293,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 186.
+or `english'. on input line 187.
 
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1366,8 +1366,8 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'urldate'.
 
 )
-Package biblatex Info: Reference section=0 on input line 186.
-Package biblatex Info: Reference segment=0 on input line 186.
+Package biblatex Info: Reference section=0 on input line 187.
+Package biblatex Info: Reference segment=0 on input line 187.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1419,76 +1419,76 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 186.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 186.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 186.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 186.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 186.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 186.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 186.
-LaTeX Font Info:    Redeclaring math accent \check on input line 186.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 186.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 186.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 186.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 186.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 187.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 187.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 187.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 187.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 187.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 187.
+LaTeX Font Info:    Redeclaring math accent \check on input line 187.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 187.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 187.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 187.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 186.
+(Font)              `operators' in the math version `normal' on input line 187.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/times(0)/m/n on input line 186.
+(Font)                  OT1/cmr/m/n --> TU/times(0)/m/n on input line 187.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 186.
+(Font)              `operators' in the math version `bold' on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/times(0)/m/n on input line 186.
+(Font)                  OT1/cmr/bx/n --> TU/times(0)/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/times(0)/m/n --> TU/times(0)/m/n on input line 186.
+(Font)                  TU/times(0)/m/n --> TU/times(0)/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/times(0)/m/it on input line 186.
+(Font)                  OT1/cmr/m/it --> TU/times(0)/m/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/times(0)/b/n on input line 186.
+(Font)                  OT1/cmr/bx/n --> TU/times(0)/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 186.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 186.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 187.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/times(0)/m/n --> TU/times(0)/b/n on input line 186.
+(Font)                  TU/times(0)/m/n --> TU/times(0)/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/times(0)/b/it on input line 186.
+(Font)                  OT1/cmr/bx/it --> TU/times(0)/b/it on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 186.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 187.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 186.
-Package hyperref Info: Link coloring OFF on input line 186.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 187.
+Package hyperref Info: Link coloring OFF on input line 187.
 (./main.out) (./main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
 
 1: section
-<Figures/aast.jpg, id=574, 341.3553pt x 327.1422pt>
+<Figures/aast.jpg, id=578, 341.3553pt x 327.1422pt>
 File: Figures/aast.jpg Graphic file (type jpg)
 <use Figures/aast.jpg>
-Package luatex.def Info: Figures/aast.jpg  used on input line 194.
+Package luatex.def Info: Figures/aast.jpg  used on input line 195.
 (luatex.def)             Requested size: 136.57462pt x 130.8895pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 194.
+(Font)              <12> on input line 195.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 194.
+(Font)              <8> on input line 195.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 194.
+(Font)              <6> on input line 195.
 [1
 
 
@@ -1496,9 +1496,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/Users/moust/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Figures/aast
 .jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 199.
+(Font)              <17.28> on input line 200.
 
-Overfull \hbox (3.6432pt too wide) in paragraph at lines 199--199
+Overfull \hbox (3.6432pt too wide) in paragraph at lines 200--200
 |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
 ]
@@ -1509,7 +1509,7 @@ Overfull \hbox (3.6432pt too wide) in paragraph at lines 199--199
 ]
 File: Figures/aast.jpg Graphic file (type jpg)
 <use Figures/aast.jpg>
-Package luatex.def Info: Figures/aast.jpg  used on input line 204.
+Package luatex.def Info: Figures/aast.jpg  used on input line 205.
 (luatex.def)             Requested size: 136.57462pt x 130.8895pt.
  [1
 
@@ -1517,14 +1517,14 @@ Package luatex.def Info: Figures/aast.jpg  used on input line 204.
 LaTeX Font Info:    Font shape `TU/times(0)/m/sl' in size <17.28> not available
 
 (Font)              Font shape `TU/times(0)/m/it' tried instead on input line 2
-09.
+10.
  [1
 
 ]
 1: section
 LaTeX Font Info:    Font shape `TU/times(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/times(0)/m/it' tried instead on input line 2
-22.
+21.
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 17.99445pt needed,
@@ -1534,7 +1534,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=17.99445pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-22.
+21.
 
 
 Overfull \vbox (5.99445pt too high) has occurred while \output is active []
@@ -1572,13 +1572,13 @@ Overfull \vbox (5.99445pt too high) has occurred while \output is active []
  [9]
 1: section
 Chapter 1.
-<Figures/Product/SDV.png, id=842, 1445.4pt x 803.0pt>
+<Figures/Product/SDV.png, id=847, 1445.4pt x 803.0pt>
 File: Figures/Product/SDV.png Graphic file (type png)
 <use Figures/Product/SDV.png>
-Package luatex.def Info: Figures/Product/SDV.png  used on input line 371.
+Package luatex.def Info: Figures/Product/SDV.png  used on input line 370.
 (luatex.def)             Requested size: 462.53746pt x 256.96526pt.
 
-Overfull \hbox (7.29335pt too wide) in paragraph at lines 371--372
+Overfull \hbox (7.29335pt too wide) in paragraph at lines 370--371
  [][] 
  []
 
@@ -1587,7 +1587,7 @@ Overfull \hbox (7.29335pt too wide) in paragraph at lines 371--372
 
 
 <./Figures/Product/SDV.png>]
-Overfull \hbox (39.34799pt too wide) in paragraph at lines 388--388
+Overfull \hbox (39.34799pt too wide) in paragraph at lines 387--387
 |[]| 
  []
 
@@ -1597,314 +1597,319 @@ Chapter 2.
 [7
 
 ] [8] [9] [10] [11]
-<Figures/Architicture/SOAPHEE.jpg, id=888, 282.8166pt x 135.1449pt>
+<Figures/Architicture/SOAPHEE.jpg, id=893, 282.8166pt x 135.1449pt>
 File: Figures/Architicture/SOAPHEE.jpg Graphic file (type jpg)
 <use Figures/Architicture/SOAPHEE.jpg>
 Package luatex.def Info: Figures/Architicture/SOAPHEE.jpg  used on input line 5
-11.
+10.
 (luatex.def)             Requested size: 424.22385pt x 202.71684pt.
  [12<./Figures/Architicture/SOAPHEE.jpg>]
-<Figures/Architicture/SDV_Cloud.jpg, id=893, 2069.48157pt x 987.69pt>
+<Figures/Architicture/SDV_Cloud.jpg, id=898, 2069.48157pt x 987.69pt>
 File: Figures/Architicture/SDV_Cloud.jpg Graphic file (type jpg)
 <use Figures/Architicture/SDV_Cloud.jpg>
 Package luatex.def Info: Figures/Architicture/SDV_Cloud.jpg  used on input line
- 526.
+ 525.
 (luatex.def)             Requested size: 413.88899pt x 197.5345pt.
- [13<./Figures/Architicture/SDV_Cloud.jpg>] [14] [15]
+ [13<./Figures/Architicture/SDV_Cloud.jpg>] [14] [15] [16]
 Chapter 3.
-<Figures/Architicture/overview.jpg, id=906, 1211.52625pt x 861.2175pt>
+<Figures/Architicture/overview.jpg, id=915, 1211.52625pt x 861.2175pt>
 File: Figures/Architicture/overview.jpg Graphic file (type jpg)
 <use Figures/Architicture/overview.jpg>
 Package luatex.def Info: Figures/Architicture/overview.jpg  used on input line 
-573.
+592.
 (luatex.def)             Requested size: 484.60191pt x 344.4809pt.
 
-Overfull \hbox (29.3578pt too wide) in paragraph at lines 573--574
+Overfull \hbox (29.3578pt too wide) in paragraph at lines 592--593
  [][] 
  []
 
 1: section
-[16
+[17
 
-<./Figures/Architicture/overview.jpg>] [17] [18]
-<Figures/Architicture/micro-services.png, id=920, 492.84125pt x 302.12875pt>
+<./Figures/Architicture/overview.jpg>] [18] [19]
+<Figures/Architicture/micro-services.png, id=929, 492.84125pt x 302.12875pt>
 File: Figures/Architicture/micro-services.png Graphic file (type png)
 <use Figures/Architicture/micro-services.png>
 Package luatex.def Info: Figures/Architicture/micro-services.png  used on input
- line 610.
+ line 629.
 (luatex.def)             Requested size: 246.42001pt x 151.064pt.
- [19<./Figures/Architicture/micro-services.png>] [20] [21]
-Overfull \hbox (0.6678pt too wide) in paragraph at lines 647--648
+ [20<./Figures/Architicture/micro-services.png>] [21] [22]
+Overfull \hbox (0.6678pt too wide) in paragraph at lines 666--667
 []\TU/times(0)/m/n/12 The im-ple-men-ta-tion of this fea-ture in-volves care-ful
  co-or-di-na-tion be-tween the GPS server, MQTT
  []
 
-[22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-<Figures/mobileApp/6.png, id=987, 1084.05pt x 2409.0pt>
+[23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35]
+<Figures/mobileApp/6.png, id=996, 1084.05pt x 2409.0pt>
 File: Figures/mobileApp/6.png Graphic file (type png)
 <use Figures/mobileApp/6.png>
-Package luatex.def Info: Figures/mobileApp/6.png  used on input line 847.
+Package luatex.def Info: Figures/mobileApp/6.png  used on input line 866.
 (luatex.def)             Requested size: 162.60048pt x 361.33441pt.
- [35] [36<./Figures/mobileApp/6.png>]
+ [36] [37<./Figures/mobileApp/6.png>]
 Chapter 4.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 864.
+(hyperref)                than one, level fixed on input line 883.
 
-<Figures/DevOps/DevOps.png, id=997, 1204.5pt x 682.55pt>
+<Figures/DevOps/DevOps.png, id=1006, 1204.5pt x 682.55pt>
 File: Figures/DevOps/DevOps.png Graphic file (type png)
 <use Figures/DevOps/DevOps.png>
-Package luatex.def Info: Figures/DevOps/DevOps.png  used on input line 869.
+Package luatex.def Info: Figures/DevOps/DevOps.png  used on input line 888.
 (luatex.def)             Requested size: 361.35278pt x 204.76657pt.
 1: section
-[37
+[38
 
 <./Figures/DevOps/DevOps.png>]
-Overfull \hbox (6.4512pt too wide) in paragraph at lines 888--889
+Overfull \hbox (6.4512pt too wide) in paragraph at lines 907--908
 []\TU/times(0)/m/n/12 Col-lab-o-ra-tion: De-vOps em-pha-sizes the col-lab-o-ra-t
 ion be-tween de-vel-op-ment and op-er-a-tions teams.
  []
 
-[38]
-Overfull \hbox (1.13675pt too wide) in paragraph at lines 902--903
+[39]
+Overfull \hbox (1.13675pt too wide) in paragraph at lines 921--922
 []\TU/times(0)/m/n/12 Mon-i-tor-ing and Feed-back: De-vOps em-pha-sizes con-tin-
 u-ous mon-i-tor-ing of soft-ware per-for-mance,
  []
 
-[39] [40] [41]
-<Figures/Architicture/routing.png, id=1020, 2068.72874pt x 548.0475pt>
+[40] [41] [42]
+<Figures/Architicture/routing.png, id=1029, 2068.72874pt x 548.0475pt>
 File: Figures/Architicture/routing.png Graphic file (type png)
 <use Figures/Architicture/routing.png>
 Package luatex.def Info: Figures/Architicture/routing.png  used on input line 9
-47.
+66.
 (luatex.def)             Requested size: 413.73842pt x 109.60754pt.
- [42<./Figures/Architicture/routing.png>] [43]
-<Figures/database/postgreSQL.png, id=1030, 221.82875pt x 228.855pt>
+ [43<./Figures/Architicture/routing.png>] [44]
+<Figures/database/postgreSQL.png, id=1039, 221.82875pt x 228.855pt>
 File: Figures/database/postgreSQL.png Graphic file (type png)
 <use Figures/database/postgreSQL.png>
-Package luatex.def Info: Figures/database/postgreSQL.png  used on input line 98
-8.
+Package luatex.def Info: Figures/database/postgreSQL.png  used on input line 10
+07.
 (luatex.def)             Requested size: 110.9141pt x 114.42722pt.
- [44<./Figures/database/postgreSQL.png>]
-<Figures/Backend/asp-net-core.png, id=1036, 225.84375pt x 225.84375pt>
+ [45<./Figures/database/postgreSQL.png>]
+<Figures/Backend/asp-net-core.png, id=1045, 225.84375pt x 225.84375pt>
 File: Figures/Backend/asp-net-core.png Graphic file (type png)
 <use Figures/Backend/asp-net-core.png>
 Package luatex.def Info: Figures/Backend/asp-net-core.png  used on input line 1
-012.
+031.
 (luatex.def)             Requested size: 112.92159pt x 112.92159pt.
- [45<./Figures/Backend/asp-net-core.png>]
-<Figures/FrontEnd/MobileApplication/flutter.png, id=1042, 513.92pt x 513.92pt>
+ [46<./Figures/Backend/asp-net-core.png>]
+<Figures/FrontEnd/MobileApplication/flutter.png, id=1051, 513.92pt x 513.92pt>
 File: Figures/FrontEnd/MobileApplication/flutter.png Graphic file (type png)
 <use Figures/FrontEnd/MobileApplication/flutter.png>
 Package luatex.def Info: Figures/FrontEnd/MobileApplication/flutter.png  used o
-n input line 1042.
+n input line 1061.
 (luatex.def)             Requested size: 256.95937pt x 256.95937pt.
- [46<./Figures/FrontEnd/MobileApplication/flutter.png>]
-<Figures/FrontEnd/AdminConsole/angular.png, id=1048, 225.84375pt x 225.84375pt>
+ [47<./Figures/FrontEnd/MobileApplication/flutter.png>]
+<Figures/FrontEnd/AdminConsole/angular.png, id=1057, 225.84375pt x 225.84375pt>
 
 File: Figures/FrontEnd/AdminConsole/angular.png Graphic file (type png)
 <use Figures/FrontEnd/AdminConsole/angular.png>
 Package luatex.def Info: Figures/FrontEnd/AdminConsole/angular.png  used on inp
-ut line 1076.
+ut line 1095.
 (luatex.def)             Requested size: 112.92159pt x 112.92159pt.
- [47] [48<./Figures/FrontEnd/AdminConsole/angular.png>]
-<Figures/DevOps/docker.png, id=1059, 243.91125pt x 208.78pt>
+ [48] [49<./Figures/FrontEnd/AdminConsole/angular.png>]
+<Figures/DevOps/docker.png, id=1068, 243.91125pt x 208.78pt>
 File: Figures/DevOps/docker.png Graphic file (type png)
 <use Figures/DevOps/docker.png>
-Package luatex.def Info: Figures/DevOps/docker.png  used on input line 1101.
+Package luatex.def Info: Figures/DevOps/docker.png  used on input line 1120.
 (luatex.def)             Requested size: 121.95532pt x 104.38972pt.
- [49<./Figures/DevOps/docker.png>] [50]
-<Figures/Backend/EMQX.png, id=1069, 210.7875pt x 80.3pt>
+ [50<./Figures/DevOps/docker.png>] [51]
+<Figures/Backend/EMQX.png, id=1078, 210.7875pt x 80.3pt>
 File: Figures/Backend/EMQX.png Graphic file (type png)
 <use Figures/Backend/EMQX.png>
-Package luatex.def Info: Figures/Backend/EMQX.png  used on input line 1130.
+Package luatex.def Info: Figures/Backend/EMQX.png  used on input line 1149.
 (luatex.def)             Requested size: 105.3935pt x 40.14989pt.
 
-Overfull \hbox (1.8309pt too wide) in paragraph at lines 1144--1145
+Overfull \hbox (1.8309pt too wide) in paragraph at lines 1163--1164
 \TU/times(0)/m/n/12 also pro-vides au-then-ti-ca-tion and au-tho-riza-tion mech-
 a-nisms, in-clud-ing user-name/password-based
  []
 
-[51<./Figures/Backend/EMQX.png>]
-Overfull \hbox (3.86996pt too wide) in paragraph at lines 1160--1161
+[52<./Figures/Backend/EMQX.png>]
+Overfull \hbox (3.86996pt too wide) in paragraph at lines 1179--1180
 []\TU/times(0)/m/n/12 Por-tainer sup-ports multi-host en-vi-ron-ments, al-low-in
 g users to man-age Docker in-stal-la-tions across
  []
 
 
-Overfull \hbox (0.39522pt too wide) in paragraph at lines 1160--1161
+Overfull \hbox (0.39522pt too wide) in paragraph at lines 1179--1180
 \TU/times(0)/m/n/12 dif-fer-ent ma-chines from a sin-gle Por-tainer in-stance. 
 It pro-vides seam-less in-te-gra-tion with Docker
  []
 
-[52]
-<Figures/Backend/nginx.png, id=1079, 209.78375pt x 242.9075pt>
+[53]
+<Figures/Backend/nginx.png, id=1088, 209.78375pt x 242.9075pt>
 File: Figures/Backend/nginx.png Graphic file (type png)
 <use Figures/Backend/nginx.png>
-Package luatex.def Info: Figures/Backend/nginx.png  used on input line 1175.
+Package luatex.def Info: Figures/Backend/nginx.png  used on input line 1194.
 (luatex.def)             Requested size: 104.8916pt x 121.45345pt.
- [53<./Figures/Backend/nginx.png>]
-<Figures/DevOps/jenkins.png, id=1085, 191.71625pt x 264.99pt>
+ [54<./Figures/Backend/nginx.png>]
+<Figures/DevOps/jenkins.png, id=1094, 191.71625pt x 264.99pt>
 File: Figures/DevOps/jenkins.png Graphic file (type png)
 <use Figures/DevOps/jenkins.png>
-Package luatex.def Info: Figures/DevOps/jenkins.png  used on input line 1198.
+Package luatex.def Info: Figures/DevOps/jenkins.png  used on input line 1217.
 (luatex.def)             Requested size: 95.85788pt x 132.49467pt.
- [54<./Figures/DevOps/jenkins.png>]
-[55]
-<Figures/DevOps/GIT.png, id=1095, 384.43625pt x 384.43625pt>
+ [55<./Figures/DevOps/jenkins.png>]
+[56]
+<Figures/DevOps/GIT.png, id=1104, 384.43625pt x 384.43625pt>
 File: Figures/DevOps/GIT.png Graphic file (type png)
 <use Figures/DevOps/GIT.png>
-Package luatex.def Info: Figures/DevOps/GIT.png  used on input line 1224.
+Package luatex.def Info: Figures/DevOps/GIT.png  used on input line 1243.
 (luatex.def)             Requested size: 192.21765pt x 192.21765pt.
- [56<./Figures/DevOps/GIT.png>] [57]
-<Figures/DevOps/linux.jpeg, id=1105, 206.7725pt x 244.915pt>
+ [57<./Figures/DevOps/GIT.png>] [58]
+<Figures/DevOps/linux.jpeg, id=1115, 206.7725pt x 244.915pt>
 File: Figures/DevOps/linux.jpeg Graphic file (type jpg)
 <use Figures/DevOps/linux.jpeg>
-Package luatex.def Info: Figures/DevOps/linux.jpeg  used on input line 1251.
+Package luatex.def Info: Figures/DevOps/linux.jpeg  used on input line 1270.
 (luatex.def)             Requested size: 103.38599pt x 122.45718pt.
- [58<./Figures/DevOps/linux.jpeg>]
-[59] [60]
-<Figures/mobileApp/1.png, id=1119, 277.911pt x 261.486pt>
+ [59<./Figures/DevOps/linux.jpeg>]
+[60] [61]
+<Figures/mobileApp/1.png, id=1128, 277.911pt x 261.486pt>
 File: Figures/mobileApp/1.png Graphic file (type png)
 <use Figures/mobileApp/1.png>
-Package luatex.def Info: Figures/mobileApp/1.png  used on input line 1309.
+Package luatex.def Info: Figures/mobileApp/1.png  used on input line 1328.
 (luatex.def)             Requested size: 277.91031pt x 261.48534pt.
 
-Overfull \hbox (5.69882pt too wide) in paragraph at lines 1317--1318
+Overfull \hbox (5.69882pt too wide) in paragraph at lines 1336--1337
 []\TU/times(0)/m/n/12 The back-end in-cludes an end-point ”/au-then-ti-ca-tion
 /mo-bile/lo-gin” that ac-cepts a POST
  []
 
-[61] [62<./Figures/mobileApp/1.png>]
-Overfull \hbox (1.78456pt too wide) in paragraph at lines 1341--1342
+[62] [63<./Figures/mobileApp/1.png>]
+Overfull \hbox (1.78456pt too wide) in paragraph at lines 1360--1361
 []\TU/times(0)/m/n/12 Af-ter suc-cess-ful scan-ning, the sec-ondary de-vice make
 s a POST re-quest to the server’s
  []
 
-<Figures/mobileApp/2.png, id=1131, 372.519pt x 325.653pt>
+<Figures/mobileApp/2.png, id=1140, 372.519pt x 325.653pt>
 File: Figures/mobileApp/2.png Graphic file (type png)
 <use Figures/mobileApp/2.png>
-Package luatex.def Info: Figures/mobileApp/2.png  used on input line 1348.
+Package luatex.def Info: Figures/mobileApp/2.png  used on input line 1367.
 (luatex.def)             Requested size: 372.51808pt x 325.6522pt.
-[63]
-Overfull \hbox (4.7872pt too wide) in paragraph at lines 1358--1359
+[64]
+Overfull \hbox (4.7872pt too wide) in paragraph at lines 1377--1378
 []\TU/times(0)/m/n/12 The back-end in-cludes an end-point ”/au-then-ti-ca-tion
 /mo-bile/shareAc-cess/re-quest”
  []
 
 
-Overfull \hbox (2.80673pt too wide) in paragraph at lines 1365--1366
+Overfull \hbox (2.80673pt too wide) in paragraph at lines 1384--1385
 []\TU/times(0)/m/n/12 The back-end in-cludes an end-point ”/au-then-ti-ca-tion
 /mo-bile/shareAc-cess/sub-mit”
  []
 
-[64<./Figures/mobileApp/2.png>] [65]
-<Figures/Architicture/tcu_register.drawio.png, id=1147, 767.86874pt x 354.32375
+[65<./Figures/mobileApp/2.png>] [66]
+<Figures/Architicture/tcu_register.drawio.png, id=1156, 767.86874pt x 354.32375
 pt>
 File: Figures/Architicture/tcu_register.drawio.png Graphic file (type png)
 <use Figures/Architicture/tcu_register.drawio.png>
 Package luatex.def Info: Figures/Architicture/tcu_register.drawio.png  used on 
-input line 1395.
+input line 1414.
 (luatex.def)             Requested size: 383.93343pt x 177.16144pt.
- [66]
-<Figures/Architicture/tcu_auth.png, id=1152, 742.9356pt x 774.7344pt>
+ [67]
+<Figures/Architicture/tcu_auth.png, id=1161, 742.9356pt x 774.7344pt>
 File: Figures/Architicture/tcu_auth.png Graphic file (type png)
 <use Figures/Architicture/tcu_auth.png>
 Package luatex.def Info: Figures/Architicture/tcu_auth.png  used on input line 
-1407.
+1426.
 (luatex.def)             Requested size: 371.46689pt x 387.36626pt.
- [67<./Figures/Architicture/tcu_register.drawio.png>] [68<./Figures/Architicture
+ [68<./Figures/Architicture/tcu_register.drawio.png>] [69<./Figures/Architicture
 /tcu_auth.png>]
-Overfull \hbox (3.33302pt too wide) in paragraph at lines 1451--1452
+Overfull \hbox (3.33302pt too wide) in paragraph at lines 1470--1471
 []\TU/times(0)/m/n/12 Fire-base Cloud Mes-sag-ing (FCM) is an open-source cloud mes-sag-ing ser-vice pro-vided by Google
  []
 
-<Figures/Architicture/fcm.jpeg, id=1167, 839.135pt x 394.47375pt>
+<Figures/Architicture/fcm.jpeg, id=1176, 839.135pt x 394.47375pt>
 File: Figures/Architicture/fcm.jpeg Graphic file (type jpg)
 <use Figures/Architicture/fcm.jpeg>
-Package luatex.def Info: Figures/Architicture/fcm.jpeg  used on input line 1455
+Package luatex.def Info: Figures/Architicture/fcm.jpeg  used on input line 1474
 .
 (luatex.def)             Requested size: 335.64804pt x 157.7867pt.
-[69]
-<Figures/mobileApp/3.png, id=1179, 167.2065pt x 371.862pt>
+[70]
+<Figures/mobileApp/3.png, id=1188, 167.2065pt x 371.862pt>
 File: Figures/mobileApp/3.png Graphic file (type png)
 <use Figures/mobileApp/3.png>
-Package luatex.def Info: Figures/mobileApp/3.png  used on input line 1474.
+Package luatex.def Info: Figures/mobileApp/3.png  used on input line 1493.
 (luatex.def)             Requested size: 167.20609pt x 371.86108pt.
- [70<./Figures/Architicture/fcm.jpeg>] [71<./Figures/mobileApp/3.png>]
-[72] [73] [74]
+ [71<./Figures/Architicture/fcm.jpeg>] [72<./Figures/mobileApp/3.png>]
+[73] [74] [75]
 Chapter 5.
-<Figures/Architicture/mqtt.png, id=1201, 548.0475pt x 478.78876pt>
+<Figures/Architicture/mqtt.png, id=1210, 548.0475pt x 478.78876pt>
 File: Figures/Architicture/mqtt.png Graphic file (type png)
 <use Figures/Architicture/mqtt.png>
-Package luatex.def Info: Figures/Architicture/mqtt.png  used on input line 1539
+Package luatex.def Info: Figures/Architicture/mqtt.png  used on input line 1558
 .
 (luatex.def)             Requested size: 274.02307pt x 239.39378pt.
 1: section
-[75
+[76
 
-<./Figures/Architicture/mqtt.png>] [76] [77]
-<Figures/FrontEnd/AdminConsole/add.PNG, id=1215, 1016.29688pt x 472.01344pt>
+<./Figures/Architicture/mqtt.png>] [77] [78]
+<Figures/FrontEnd/AdminConsole/add.PNG, id=1225, 1016.29688pt x 472.01344pt>
 File: Figures/FrontEnd/AdminConsole/add.PNG Graphic file (type png)
 <use Figures/FrontEnd/AdminConsole/add.PNG>
 Package luatex.def Info: Figures/FrontEnd/AdminConsole/add.PNG  used on input l
-ine 1583.
+ine 1602.
 (luatex.def)             Requested size: 406.51155pt x 188.80202pt.
-<Figures/FrontEnd/AdminConsole/configure.PNG, id=1216, 1028.34187pt x 473.51906
+<Figures/FrontEnd/AdminConsole/configure.PNG, id=1226, 1028.34187pt x 473.51906
 pt>
 File: Figures/FrontEnd/AdminConsole/configure.PNG Graphic file (type png)
 <use Figures/FrontEnd/AdminConsole/configure.PNG>
 Package luatex.def Info: Figures/FrontEnd/AdminConsole/configure.PNG  used on i
-nput line 1590.
+nput line 1609.
 (luatex.def)             Requested size: 411.32947pt x 189.40425pt.
-<Figures/mobileApp/5.png, id=1217, 1084.05pt x 2409.0pt>
+<Figures/mobileApp/5.png, id=1227, 1084.05pt x 2409.0pt>
 File: Figures/mobileApp/5.png Graphic file (type png)
 <use Figures/mobileApp/5.png>
-Package luatex.def Info: Figures/mobileApp/5.png  used on input line 1601.
+Package luatex.def Info: Figures/mobileApp/5.png  used on input line 1620.
 (luatex.def)             Requested size: 162.60048pt x 361.33441pt.
- [78<./Figures/FrontEnd/AdminConsole/add.PNG><./Figures/FrontEnd/AdminConsole/co
-nfigure.PNG>] [79<./Figures/mobileApp/5.png>]
+ [79<./Figures/FrontEnd/AdminConsole/add.PNG><./Figures/FrontEnd/AdminConsole/co
+nfigure.PNG>] [80<./Figures/mobileApp/5.png>]
 Chapter 6.
 1: section
-[80
+[81
 
-] [81]
-Overfull \hbox (0.71704pt too wide) in paragraph at lines 1642--1642
+] [82]
+Overfull \hbox (0.71704pt too wide) in paragraph at lines 1661--1661
 []\TU/times(0)/m/n/12 Matt Spencer, \TU/times(0)/m/it/12 Scal-able Open Ar-chi-t
 ec-ture for Em-bed-ded Edge project\TU/times(0)/m/n/12 , 2021, \TU/times(0)/m/s
 c/12 󰋫󰋨󰋢\TU/times(0)/m/n/12 : []$\TU/lmtt/m/n/12 https :
  []
 
 
-Overfull \hbox (3.01956pt too wide) in paragraph at lines 1642--1642
-\TU/times(0)/m/it/12 ing a Plat-form for Software-defined Ve-hi-cles with Con-ti
--nen-tal Au-to-mo-tive Edge (CAEdge)\TU/times(0)/m/n/12 ,
+Overfull \hbox (12.28557pt too wide) in paragraph at lines 1661--1661
+\TU/times(0)/m/it/12 to-mo-tive Edge (CAEdge)\TU/times(0)/m/n/12 , 2022, \TU/ti
+mes(0)/m/sc/12 󰋫󰋨󰋢\TU/times(0)/m/n/12 : []$\TU/lmtt/m/n/12 https : / / aws . amazon . com / blogs / architecture /
  []
 
-[82]
+
+Overfull \hbox (3.16757pt too wide) in paragraph at lines 1661--1661
+\TU/lmtt/m/n/12 developing - a - platform - for - software - defined - vehicles - with - continental -
+ []
+
+[83]
 Appendix A.
 
-Overfull \hbox (1.74092pt too wide) in paragraph at lines 1651--1652
+Overfull \hbox (1.74092pt too wide) in paragraph at lines 1670--1671
 \TU/times(0)/m/n/12 num-bers. The al-go-rithm uti-lizes mod-u-lar ex-po-nen-ti-a
 -tion and num-ber the-ory prin-ci-ples to achieve
  []
 
 1: section
-[83
+[84
 
 ]
 Appendix B.
 1: section
-[84
+[85
 
-] [85]
+] [86]
 LaTeX Font Info:    Font shape `TU/Arial(0)/b/n' will be
-(Font)              scaled to size 20.73593pt on input line 1681.
+(Font)              scaled to size 20.73593pt on input line 1700.
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 1681.
+(Font)              scaled to size 14.39996pt on input line 1700.
 
 1: section
-[86
+[87
 
 ] (./main.aux)
  ***********
@@ -1916,7 +1921,7 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EE67FAD216D6FE42F19D2FC814C17EDF;21685.
+(rerunfilecheck)             Checksum: EB579CBD484A2B285ED370AF7D9D07A2;21684.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1928,14 +1933,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42798 strings out of 478031
+ 42809 strings out of 478031
  125056,1977958 words of node,token memory allocated
- 875 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 16 dir, 2 glue, 3 kern, 1 glyph, 19 attribute, 106 
-glue_spec, 19 attribute_list, 2 write, 6 pdf_action nodes
-   avail lists: 1:7,2:1489,3:451,4:94,5:263,6:274,7:7960,8:134,9:1612,10:14,11:8
+ 861 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 14 dir, 2 glue, 3 kern, 1 glyph, 18 attribute, 106 
+glue_spec, 18 attribute_list, 2 write, 6 pdf_action nodes
+   avail lists: 1:7,2:1493,3:451,4:94,5:267,6:276,7:7960,8:134,9:1612,10:14,11:8
 29
- 62090 multiletter control sequences out of 65536+600000
+ 62099 multiletter control sequences out of 65536+600000
  69 fonts using 25010535 bytes
  96i,20n,89p,1923b,1343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/arial.ttf><C:/Windows/Fonts/arialbd.ttf><//?/c:/program files/
@@ -1944,9 +1949,9 @@ i.ttf><//?/c:/windows/fonts/times.ttf><//?/c:/windows/fonts/timesbd.ttf><C:/Prog
 ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (99 pages, 3953705 bytes).
+Output written on main.pdf (100 pages, 3960135 bytes).
 
-PDF statistics: 1338 PDF objects out of 1440 (max. 8388607)
- 291 named destinations out of 1000 (max. 131072)
- 1152 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1347 PDF objects out of 1440 (max. 8388607)
+ 293 named destinations out of 1000 (max. 131072)
+ 1160 words of extra memory for PDF output out of 10000 (max. 100000000)
 

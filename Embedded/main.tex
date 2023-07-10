@@ -94,7 +94,8 @@ chapterinoneline,
 %------------------------------------------------------------------------ 
 % Thesis Title in Arabic
 %------------------------------------------------------------------------ 
-\arabicthesistitle{\begin{Arabic}موضـــــــــــــــــــــــــــــــــــــــــــــــــوع الرسالـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــة\end{Arabic}} 
+\arabicthesistitle{\begin{Arabic}تواصل المركبات - مفاح السيارات الذكية\end{Arabic}} 
+ 
 
 %------------------------------------------------------------------------ 
 % Department Name
@@ -133,7 +134,7 @@ chapterinoneline,
 %------------------------------------------------------------------------ 
 % Number of Examiners (MAX is 3)
 %------------------------------------------------------------------------ 
-\numberofexaminers{2}
+\numberofexaminers{0}
 
 %------------------------------------------------------------------------ 
 % Information regarding your examiners
@@ -175,10 +176,10 @@ chapterinoneline,
 \authorthree{Mohamed Emad Eldin} 
 
 % Student 4 name
-\authorfour{} 
+\authorfour{Ahmed Samir Abd El Rehim} 
 
 % Student 5 name
-\authorfive{} 
+\authorfive{Mina Nadi Basily} 
 
 
 
@@ -251,17 +252,38 @@ Overall, the TCU, with its software-defined architecture, enhances vehicle conne
 \listoffigures
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{chapter}{List of Tables} 
-\listoftables
-\cleardoublepage
+
 %------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS/ACRONYMS PAGE (MODIFY AS DESIRED)
 %----------------------------------------------------------------------------------------
 \listofabbre
-\addabbre{CNN}{Convolution Neural Network}
-
+\addabbre{ECU}{Electronic Control Unit}
+\addabbre{TCU}{Telematics Control Unit}
+\addabbre{MCU}{MicroController Unit}
+\addabbre{IPC}{Inter-Process Communication}
+\addabbre{SOME/IP}{Scalable service-Oriented MiddlewarE over IP}
+\addabbre{OTA}{Over-The-Air updates}
+\addabbre{SOAFEE}{Scalable Open Architecture for Embedded Edge}
+\addabbre{MQTT}{Message Query Telemetry Transport}
+\addabbre{API}{Application Programming Interface}
+\addabbre{GNSS}{Global Navigation Satellite System}
+\addabbre{GPS}{Global Positioning System}
+\addabbre{DSRC}{Dedicated Short-Range Communication} 
+\addabbre{UART}{Universal Asynchronous Receiver / Transmitter}
+\addabbre{SPI}{Serial Peripheral Interface}
+\addabbre{I2C}{Inter-IC bus}
+\addabbre{USB}{Universal Serial Bus}
+\addabbre{V2V}{Vehicle to Vehicle}
+\addabbre{V2C}{Vehicle to Cloud}
+\addabbre{JSON}{JavaScript Object Notation} 
+\addabbre{JWT}{JSON Web Token}
+\addabbre{RPC}{Remote Procedure Call}
+\addabbre{UDP}{User Datagram protocol}
+\addabbre{TCP}{Transmission Control Protocol}
+\addabbre{OEM}{Original Equipment Manufacturer}
+\addabbre{HTTP}{Hyper Text Transfer Protocol}
 %-----------------------DO NOT MODIFY THIS SECTION-----------------------
 \mainmatter 
 \pagestyle{thesis} 
@@ -272,15 +294,82 @@ Overall, the TCU, with its software-defined architecture, enhances vehicle conne
 %----------------------------------------------------------------------------------------
 \chapter{Introduction}
 \section{What is TCU}
-lo
+
+A telematics control unit (TCU) is an electronic device that enables the transfer of data between a vehicle and a remote system. It acts as a communication gateway, connecting the vehicle's internal systems to external networks or platforms. The TCU incorporates various technologies, including cellular networks, GPS, and onboard sensors, to collect and transmit real-time data about the vehicle's performance, location, and other relevant information.
+
+The primary function of a TCU is to facilitate telematics services, which involve the exchange of data between the vehicle and a central server or cloud-based platform. This enables a wide range of applications and functionalities, such as vehicle tracking, remote diagnostics, fleet management, and advanced driver assistance systems (ADAS). By leveraging the TCU's connectivity capabilities, these services can provide valuable insights into the vehicle's operation, improve efficiency, enhance safety, and enable a seamless user experience.
+
+The TCU acts as an intermediary between the vehicle's electronic control units (ECUs) and the external telematics system. It collects data from various sources within the vehicle, such as the engine control unit, braking system, and sensors, and packages it into a standardized format for transmission. The TCU then utilizes cellular networks, such as 3G, 4G, or even 5G, to establish a communication link with the telematics service provider or the vehicle manufacturer's backend system.
+
+Apart from data transmission, a TCU may also receive commands or updates from the external system, allowing remote interactions with the vehicle. For example, it can receive over-the-air (OTA) software updates to improve the vehicle's performance or add new features. Additionally, the TCU may support emergency services by automatically transmitting vehicle data and location in the event of an accident, enabling prompt assistance.
+\newpage
 \section{What is Vehicle to Vehicle communication}
-sss
+
+Vehicle-to-vehicle (V2V) communication refers to the exchange of data and information between vehicles in real-time. It enables vehicles to communicate with one another, sharing important data such as position, speed, acceleration, and heading. V2V communication utilizes wireless technologies, such as Dedicated Short-Range Communications (DSRC) or Cellular Vehicle-to-Everything (C-V2X), to establish a reliable and secure communication network among nearby vehicles.
+
+The primary goal of V2V communication is to enhance road safety and improve traffic efficiency. By exchanging information about their current state and intentions, vehicles can anticipate potential hazards and take proactive measures to avoid accidents. For example, if a vehicle suddenly applies the brakes or encounters a hazardous condition, it can broadcast this information to nearby vehicles, enabling them to react accordingly and adjust their driving behavior to avoid collisions or traffic congestion.
+
+V2V communication can facilitate a wide range of safety applications. One prominent example is the cooperative adaptive cruise control (CACC) system, which allows vehicles to maintain a safe and consistent distance from each other by continuously sharing speed and distance data. This feature can reduce traffic congestion, enhance traffic flow, and minimize the risk of rear-end collisions.
+
+Another important safety application is the intersection collision warning, where vehicles approaching an intersection share their position and trajectory information with other vehicles. This allows the system to warn drivers if there is a high risk of a collision at the intersection, prompting them to take appropriate action.
+
+V2V communication also plays a vital role in advanced driver assistance systems (ADAS) and autonomous driving. By exchanging data about road conditions, traffic patterns, and potential obstacles, vehicles can make more informed decisions and navigate complex driving scenarios more effectively. For example, V2V communication can enable cooperative merging, where vehicles negotiate and coordinate their merging actions to optimize traffic flow and minimize disruptions.
+
+Moreover, V2V communication can be utilized to enhance the efficiency of traffic management systems. By collecting data on traffic density, average speeds, and congestion levels, authorities can gain valuable insights into the overall traffic conditions and make informed decisions to optimize traffic flow and reduce congestion.
+\newpage
 \section{What is Vehicle to Cloud communication}
-dsad
+Vehicle-to-cloud \cite{sliwa2019boosting} (V2C) communication refers to the transmission of data and information between vehicles and cloud-based platforms or services. It involves establishing a secure and reliable connection between the vehicle's onboard systems and the remote cloud infrastructure.
+
+The primary purpose of V2C communication is to enable the exchange of data between vehicles and the cloud for various applications and services. By leveraging the connectivity capabilities of the vehicle, data collected from onboard sensors, telematics control units (TCUs), and other sources can be transmitted to the cloud in real-time.
+
+One key application of V2C communication is vehicle telematics. Telematics services utilize the data sent from the vehicle to the cloud to provide valuable insights into vehicle performance, diagnostics, and maintenance. For example, information on fuel consumption, engine health, and tire pressure can be collected and analyzed in the cloud, allowing for proactive maintenance scheduling and optimizing vehicle performance.
+
+V2C communication also enables remote software updates for vehicles. Manufacturers can deliver over-the-air (OTA) updates to vehicles through the cloud, allowing for bug fixes, security patches, and even feature enhancements. OTA updates ensure that vehicles can receive the latest software improvements without requiring physical visits to service centers, resulting in increased convenience and cost savings.
+
+Furthermore, V2C communication supports connected services and infotainment features in vehicles. By connecting to the cloud, vehicles can access real-time traffic information, weather updates, navigation services, and multimedia content. Cloud connectivity enables enhanced mapping and routing capabilities, personalized content delivery, and integration with third-party applications and services.
+
+V2C communication also plays a crucial role in advanced driver assistance systems (ADAS) and autonomous driving. By leveraging the cloud's computational power and storage capabilities, vehicles can offload intensive processing tasks to the cloud. This allows for more sophisticated algorithms, machine learning, and artificial intelligence applications that enhance the accuracy and effectiveness of ADAS and autonomous systems.
+
+Moreover, V2C communication enables data sharing and collaboration among vehicles, infrastructure, and other connected entities. For example, vehicles can transmit anonymized data about road conditions, traffic patterns, and hazardous situations to the cloud, which can then be used to improve overall traffic management, urban planning, and road safety.
+
+
 \section{Software Defined Vehicle Architecture}
-dsadadads
+SDV \cite{liu2022impact} stands for Software-Defined Vehicle. It refers to a vehicle that incorporates advanced software and digital technologies to enhance its functionality, performance, and connectivity. SDVs are transforming the automotive industry by integrating concepts from cloud computing, Internet of Things (IoT), and other emerging technologies.
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[scale=0.32]{Figures/SDV.png}
+  	\caption{Software defined vehicles}
+  	\label{fig:Software defined vehicles}
+\end{figure}
+
+At its core, an SDV relies on software systems to control and manage various aspects of the vehicle's operations. These software systems govern functions such as engine management, powertrain control, braking, steering, and infotainment systems. By utilizing software, SDVs can offer improved performance, increased safety, and enhanced user experiences.
+
+One of the key features of SDVs is their ability to collect and analyze vast amounts of data from various sensors and sources within the vehicle. This data includes information from cameras, radars, LiDARs, GPS, and other sensors, which is processed and utilized for various purposes such as object detection, collision avoidance, adaptive cruise control, and autonomous driving capabilities.
+
+SDVs also leverage connectivity technologies to interact with the external environment. They can communicate with other vehicles, infrastructure systems, and cloud-based services to exchange information, access real-time data, and enhance driving experiences. Connectivity enables features like vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication, enabling cooperative driving, traffic optimization, and enhanced safety.
+
+Furthermore, SDVs often incorporate advanced software update mechanisms, allowing manufacturers to remotely deploy software updates and enhancements to vehicles. Over-the-air (OTA) updates eliminate the need for physical visits to service centers, providing convenience, efficiency, and the ability to continuously improve and upgrade vehicle functionalities.
+
+The concept of SDVs also extends beyond individual vehicles. It encompasses the integration of vehicles into larger smart mobility ecosystems, where vehicles can communicate and collaborate with each other, infrastructure systems, and mobility service providers. This integration facilitates intelligent transportation systems, shared mobility, and the potential for more efficient and sustainable transportation solutions.
+
+Overall, SDVs represent the convergence of software, connectivity, and advanced technologies in the automotive industry. By leveraging software-defined capabilities, these vehicles offer enhanced performance, safety, connectivity, and intelligent features, paving the way for the future of mobility.
+
 \section{Problem statement}
-dsadadads
+\subsection{Safety and Security}
+One of the key challenges in the development of Software-Defined Vehicles (SDVs) is ensuring the safety and security of the software and communication systems. As SDVs rely heavily on software algorithms, connectivity, and data exchange, vulnerabilities and potential cyber threats pose significant risks. The project aims to address the challenge of designing robust security measures, implementing secure communication protocols, and developing reliable fail-safe mechanisms to ensure the safety of SDVs and protect against potential cyberattacks.
+
+\subsection{Standardization and Interoperability}
+With the rapid evolution of SDV technologies, the lack of standardization and interoperability among different components and systems is a significant challenge. SDVs involve complex software architectures, multiple sensors, communication networks, and control systems, making it crucial to establish common standards and protocols for seamless integration and interoperability. The project focuses on exploring and developing standardized frameworks, protocols, and interfaces that enable interoperability between various SDV components, facilitating collaboration and compatibility among different manufacturers and service providers.
+\subsection{Ethical and Legal Implications}
+As SDVs become more advanced and autonomous, ethical and legal considerations arise. The project addresses questions related to liability, responsibility, and decision-making in critical situations. It explores the ethical implications of autonomous decision-making algorithms, such as how SDVs prioritize safety, handle potential accidents, and navigate complex moral dilemmas. Additionally, the project delves into the legal frameworks and regulatory requirements necessary to govern the deployment and operation of SDVs, ensuring compliance with local and international laws.
+
+\subsection{User Acceptance and Trust}
+The successful adoption of SDVs relies on user acceptance and trust in the technology. The project examines factors influencing user perception, concerns, and attitudes towards SDVs, including issues such as privacy, data collection, and the reliability of autonomous systems. It aims to identify strategies to increase user acceptance, improve transparency, and build trust by addressing user concerns through effective communication, education, and user-centered design principles.
+
+\subsection{Infrastructure Readiness}
+The deployment of SDVs requires a supportive infrastructure that includes robust communication networks, intelligent transportation systems, and infrastructure-to-vehicle connectivity. The project investigates the readiness of existing infrastructure to accommodate SDVs and identifies the necessary upgrades and investments needed to enable seamless integration and communication. It explores challenges related to network coverage, latency, data transmission, and infrastructure compatibility to ensure the infrastructure can support the demands of SDVs effectively.
+
 \chapter{TCU Architecture}
 \section{Overview of the TCU Functionality}
 The Telematics Control Unit (TCU) implemented in this project aims to transform conventional vehicles into software-defined vehicles with advanced features including Vehicle-to-Vehicle (V2V) and Vehicle-to-Cloud (V2C) communication capabilities. The TCU incorporates various functionalities to enhance vehicle connectivity, safety, customization, and communication with external entities.
@@ -307,7 +396,7 @@ The TCU supports Vehicle-to-Cloud (V2C) communication. This functionality enable
 The TCU integrates with a cloud backend, enabling V2C communication and providing a gateway for interactions with external systems. Through this integration, the vehicle can transmit and receive data to and from the cloud infrastructure securely. V2C communication enables various services, such as remote vehicle monitoring, data analytics, and personalized services, which can be delivered to the vehicle from the cloud. The TCU utilizes cloud connectivity for OTA updates, remote diagnostics, and other cloud-based services.
 
 \section{V2V Communication overview}
-The TCU enables Vehicle-to-Vehicle (V2V) communication, allowing vehicles to exchange critical information with each other. This functionality enhances road safety by facilitating the sharing of real-time data, such as location, speed, and potential hazards, among nearby vehicles. This information exchange enables the implementation of cooperative features like cooperative adaptive cruise control, where vehicles can maintain a safe distance and adjust their speed collectively, improving traffic flow and reducing accidents. V2V communication can also enhance safety by alerting drivers to potential hazards, such as sudden braking or approaching emergency vehicles. V2V communication helps drivers make informed decisions and mitigates potential accidents.
+The TCU enables Vehicle-to-Vehicle \cite{biswas2006vehicle} (V2V) communication, allowing vehicles to exchange critical information with each other. This functionality enhances road safety by facilitating the sharing of real-time data, such as location, speed, and potential hazards, among nearby vehicles. This information exchange enables the implementation of cooperative features like cooperative adaptive cruise control, where vehicles can maintain a safe distance and adjust their speed collectively, improving traffic flow and reducing accidents. V2V communication can also enhance safety by alerting drivers to potential hazards, such as sudden braking or approaching emergency vehicles. V2V communication helps drivers make informed decisions and mitigates potential accidents.
 
 \begin{figure}[!ht]
 \centering
@@ -450,7 +539,7 @@ However, DSRC modules are not readily available in Egypt due to their working fr
 To address this challenge, we opted to utilize ESP32/8266 microcontrollers as a replacement for DSRC modules. These microcontrollers support the ESP-NOW communication protocol, which allows direct communication between ESP32/8266 chips without the need for a centralized access point or router. By leveraging the ESP-NOW protocol, we were able to establish reliable and efficient communication between vehicles, enabling the exchange of vital information and mimicking the core functionality of DSRC.
 
 \section{ESP32/8266 and ESP-NOW Protocol}
-ESP-NOW is a communication protocol developed by Espressif Systems, the company behind the ESP8266 and ESP32 microcontroller platforms. It enables low-power, low-latency, and peer-to-peer communication between ESP8266 and ESP32 devices without the need for an existing Wi-Fi network.
+ESP-NOW \cite{ESP-NOW} is a communication protocol developed by Espressif Systems, the company behind the ESP8266 and ESP32 microcontroller platforms. It enables low-power, low-latency, and peer-to-peer communication between ESP8266 and ESP32 devices without the need for an existing Wi-Fi network.
 
 ESP-NOW operates in the 2.4 GHz frequency band and uses a simple point-to-point or broadcast communication model. It is designed for scenarios where devices need to communicate directly with each other, such as sensor networks or home automation systems.
 
@@ -776,7 +865,7 @@ Dependency management is another area where Docker Compose proves beneficial in 
 
 \section{VSOME/IP}
 \subsection{SOME/IP Overview}
-SOME/IP, short for "Scalable service-Oriented middlewarE over IP," is a middleware specifically developed for automotive applications and designed to be compatible with AUTOSAR (at least at the wire-format level). A comprehensive specification for SOME/IP can be accessed publicly at \url{http://some-ip.com/}. The specification encompasses three key components:
+SOME/IP \cite{ioana2020opc}, short for "Scalable service-Oriented middlewarE over IP," is a middleware specifically developed for automotive applications and designed to be compatible with AUTOSAR (at least at the wire-format level). A comprehensive specification for SOME/IP can be accessed publicly at \url{http://some-ip.com/} \cite{SOME/IP}. The specification encompasses three key components:
 \begin{itemize}
 \item On-wire format
 \item Protocol
@@ -1105,7 +1194,7 @@ The Unity simulation doesn't have real sensors because it is in a virtualized en
 The Encoder/Decoder software is responsible for generating compact payloads that encapsulate any of our vehicles. However, when connected to any real vehicle, The readings come from real sensors through services concerned with fetching data from sensors and sent over VSOMEIP to the Encoder/Decoder. However, for unity simulation, there are no real sensors. So, simulated vehicle information is being sent to the Encoder/Decoder over Unix Sockets. The payloads are created as normal by the Encoder/Decoder module and are then sent to the surrounding vehicles as normal.
 
 \section{DSRC Module: Reception and Broadcast}
-Upon receiving the payload messages from neighboring virtual vehicles, the DSRC module receives the message, sends it to the Encoder/Decoder of the Unity simulation device, Encodes the message in a defined string format, and sends it over Unix socket to the Unity simulation. The Unity simulation decodes the messages, independently extracting the payload ID byte. This ID byte determines the type of payload received, allowing the simulation to identify the appropriate payload struct for storing the information. By simulating the DSRC module's reception and broadcasting capabilities, the simulation accurately replicates the behavior of a real V2V network.
+Upon receiving the payload messages from neighboring virtual vehicles, the DSRC \cite{kenney2011dedicated} module receives the message, sends it to the Encoder/Decoder of the Unity simulation device, Encodes the message in a defined string format, and sends it over Unix socket to the Unity simulation. The Unity simulation decodes the messages, independently extracting the payload ID byte. This ID byte determines the type of payload received, allowing the simulation to identify the appropriate payload struct for storing the information. By simulating the DSRC module's reception and broadcasting capabilities, the simulation accurately replicates the behavior of a real V2V network.
 
 \section{Memory Management and Struct Allocation}
 When the DSRC module forwards received payload messages to the Encoder/Decoder within the simulation, the struct allocation process occurs. If no struct has been allocated for a specific virtual vehicle, the Encoder/Decoder module dynamically creates a new struct. This allocation ensures efficient organization and storage of sensor data, enabling subsequent direct access for detailed analysis and further processing.
@@ -1709,7 +1798,7 @@ Applications of buck converter:
 \label{fig:TCU}
 \end{figure}
 \section{Introduction}
-The automotive industry is going through a big change as it integrates IoT technologies and cloud-based services. This transformation is revolutionizing how vehicles communicate, collect and analyze data, and enable remote control functions. To establish efficient communication between automotive systems, cloud servers, and mobile devices, choosing a strong messaging protocol is essential. In this documentation, we explore the use of MQTT (Message Queuing Telemetry Transport) in the automotive sector. We highlight its benefits and discuss how to implement an MQTT client using STM32 microcontrollers. We also look at how the STM32 client can wake up a Raspberry Pi to perform specific tasks, like sending the car's location or streaming camera data.
+The automotive industry is going through a big change as it integrates IoT technologies and cloud-based services. This transformation is revolutionizing how vehicles communicate, collect and analyze data, and enable remote control functions. To establish efficient communication between automotive systems, cloud servers, and mobile devices, choosing a strong messaging protocol is essential. In this documentation, we explore the use of MQTT \cite{yokotani2016comparison} (Message Queuing Telemetry Transport) in the automotive sector. We highlight its benefits and discuss how to implement an MQTT client using STM32 microcontrollers. We also look at how the STM32 client can wake up a Raspberry Pi to perform specific tasks, like sending the car's location or streaming camera data.
 
 \subsection{Overview of MQTT in Automotive Communication}
 MQTT allows multiple clients to exchange data simultaneously using a publish-subscribe messaging model. Clients can publish data to specific topics and only receive updates for the topics they subscribe to. This ensures efficient and targeted communication within the automotive ecosystem. MQTT is well-suited for real-time data exchange in applications such as vehicle tracking, telemetry, and sensor data transmission.
@@ -1900,30 +1989,39 @@ When the STM32 microcontroller receives a wake-up command by subscribing to the 
 \subsection{Conclusion}
 In conclusion, MQTT has become a preferred messaging protocol in the automotive industry due to its low overhead, efficiency, publish-subscribe messaging model, real-time data exchange capabilities, and support for different Quality of Service (QoS) levels. Its scalability and flexibility make it suitable for automotive environments with multiple vehicles and cloud-based infrastructure. Implementing an MQTT client using STM32 microcontrollers offers several advantages in automotive scenarios. The STM32 client acts as an always-on device, receiving messages from the cloud and triggering wake-up notifications for specific tasks. The integration of STM32 microcontrollers with Raspberry Pi enables seamless communication and control in the automotive system. The STM32 microcontroller serves as the communication link between the user and the Raspberry Pi, relaying commands and instructions through the MQTT broker. The Raspberry Pi functions as the central control unit, executing commands and performing actions based on wake-up notifications received from the STM32 microcontroller. By leveraging the MQTT broker for message transmission, the system enables rapid and reliable communication between the user, STM32 microcontroller, and Raspberry Pi. A step-by-step guide for waking up the Raspberry Pi was provided, outlining the process of subscribing to a specific topic, generating an output voltage, converting the voltage to the required level, and powering on the Raspberry Pi. The duration of the high pin state ensures that the Raspberry Pi has sufficient time to complete its wake-up process successfully. Additionally, the STM32 Guard system enhances car security by integrating an STM32 microcontroller with a vibration and shock sensor. The system detects crash events and publishes messages on the "car/crashed" topic, alerting the user and enabling further actions. The user can publish messages to the "vehicle/wake-up" topic to wake up the car for additional information or actions, which are executed by the Raspberry Pi based on the received commands. Overall, the use of MQTT in conjunction with STM32 microcontrollers and Raspberry Pi integration provides a robust and efficient solution for communication, control, and security in the automotive industry. The system offers real-time data exchange, remote monitoring capabilities, and the ability to perform various actions based on user commands and sensor inputs. With the continuous advancement of IoT technologies, MQTT is poised to play a crucial role in shaping the future of smart and connected automotive systems.
 
-
-\chapter{Conclusion and Future Work}
+\chapter{Conclusion and future work}
 \section{Conclusion}
+In conclusion, software-defined vehicles represent a transformative leap forward in the automotive industry, offering a multitude of benefits that can revolutionize the way we conceive, manufacture, and experience vehicles. By decoupling hardware from software, these vehicles bring increased flexibility, scalability, and customization possibilities for manufacturers and consumers alike.
+
+One of the primary advantages of software-defined vehicles is the streamlined production process they enable. Manufacturers can focus on developing standardized hardware components that can be utilized across different vehicle models. This approach simplifies manufacturing, reduces costs, and accelerates production cycles. Additionally, remote software updates and customizations can be seamlessly applied without the need for physical modifications, further enhancing efficiency and reducing time-to-market.
+
+From a consumer perspective, software-defined vehicles offer an enhanced driving experience. Through over-the-air updates, these vehicles can continuously receive the latest software upgrades, bug fixes, and feature enhancements. This ensures that the vehicle's performance, safety features, and infotainment systems remain up to date throughout its lifespan. Moreover, software-defined vehicles allow for personalized settings and preferences, tailoring the driving experience to individual users' preferences and needs.
+
+The integration of software-defined vehicles with the cloud takes these benefits to a new level. By leveraging the power of cloud computing resources, manufacturers gain access to massive computational capabilities and storage capacities. This empowers vehicles with advanced technologies such as artificial intelligence, machine learning, and predictive analytics. Real-time data processing, analysis, and decision-making become possible, enabling vehicles to make intelligent, data-driven decisions on the road. Furthermore, seamless connectivity facilitated by the cloud allows vehicles to communicate with each other, infrastructure, and other devices, leading to improved safety, efficient traffic management, and the development of autonomous driving capabilities.
+
+Another significant advantage of cloud integration is the ability to collect and analyze vast amounts of data generated by software-defined vehicles. This data can provide valuable insights into vehicle performance, usage patterns, and user behavior. Manufacturers can leverage this information to improve their products, optimize maintenance schedules, and develop new services tailored to customer needs. The cloud platform becomes a powerful tool for innovation and continuous improvement in the automotive industry.
+
+However, it is crucial to address the challenges and concerns associated with software-defined vehicles and cloud integration. Security and privacy become paramount considerations when dealing with connected vehicles and sensitive user data. Robust cybersecurity measures and data protection protocols must be implemented to safeguard against unauthorized access and ensure the privacy of users' information.
+
+In summary, the integration of software-defined vehicles with cloud technology presents an exciting opportunity for the automotive industry. By embracing this innovative approach, manufacturers can achieve streamlined production processes, personalized driving experiences, and access to advanced computational capabilities. Cloud integration enables the collection and analysis of valuable data, empowering manufacturers to optimize their products and services. While challenges exist, addressing them through robust security measures can ensure a safer and more connected future for software-defined vehicles. By embracing the potential of software-defined vehicles and cloud integration, we can drive the industry forward and shape the future of mobility.
+
 \section{Future Work}
-\subsection{Cloud Native Development}
-    
+\subsection{Cloud native Development}
+Modern DevOps processes have robust testing infrastructure build into their testing and deployment pipelines. Currently this infrastructure from the cloud-native world lacks the ability to test and validate real-time workloads, or workloads that are targeting real-time or microcontroller based architectures. We need to enhance the cloud based tooling to meet the validation needs of safety and real-time domains.
+\subsection{Cloud Native Trail}
+The adoption of Cloud Native in Automotive requires collaboration and contribution of many different stakeholders. To indicate a clear and stepwise approach for a migration, a clear trail needs to be described 
+
 %----------------------------------------------------------------------------------------
 %	REFERENCES TABLE (DO NOT MODIFY)
 %----------------------------------------------------------------------------------------
-\listreferences
-
-%----------------------------------------------------------------------------------------
-%	LIST OF PUBLICATIONS (optional for BSc Graduation Project) (MODIFY AS DESIRED)
-%----------------------------------------------------------------------------------------
-\begin{listofpublicationsp}
-Put a list of your publications here.
-\end{listofpublicationsp}
+\newpage
+\phantomsection 
+\addchaptertocentry{References}  
+\begin{center}{\Large\MakeUppercase{\textbf{References}}\par}\end{center}
+\vspace{20pt}
+\printbibliography[heading=none]
 
 
-%----------------------------------------------------------------------------------------
-%	APPENDICES START HERE (MODIFY AS DESIRED)
-%----------------------------------------------------------------------------------------
-\appendixstart 
-\chapter{First Appendix}
 
 %----------------------------------------------------------------------------------------
 %	ARABIC ABSTRACT (MODIFY AS DESIRED)

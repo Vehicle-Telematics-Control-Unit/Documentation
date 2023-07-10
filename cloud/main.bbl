@@ -17,6 +17,42 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{liu2022impact}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zongwei},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Wang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZF}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Fuquan},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{LZ+1}
+    \strng{fullhash}{LZZWZF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{180\bibrangedash 194}
+    \field{title}{Impact, challenges and prospect of software-defined vehicles}
+    \field{volume}{5}
+    \field{journaltitle}{Automotive Innovation}
+    \field{year}{2022}
+  \endentry
+
   \entry{eSyncAlliance}{online}{}
     \name{author}{1}{}{%
       {{hash=GM}{%
@@ -81,25 +117,16 @@
   \endentry
 
   \entry{AWS_CAedge}{online}{}
-    \name{author}{2}{}{%
-      {{hash=MSDKAFDC}{%
-         family={Martin\bibnamedelima Stamm},
-         familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
-         suffix={David\bibnamedelima Crescence},
-         suffixi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-         given={Daniel Krumpholz Andreas\bibnamedelima Falkenberg},
-         giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
-  A\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=TJ}{%
-         family={Tang},
-         familyi={T\bibinitperiod},
-         given={Junjie},
-         giveni={J\bibinitperiod},
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Stamm},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{MSDCDKAF+1}
-    \strng{fullhash}{MSDCDKAFTJ1}
+    \strng{namehash}{SM2}
+    \strng{fullhash}{SM2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Developing a Platform for Software-defined Vehicles with
@@ -132,6 +159,36 @@
     \field{note}{Accessed: June 27, 2023}
     \field{title}{{UN Regulation No. 156 - Software Update Processes and
   Management Systems}}
+  \endentry
+
+  \entry{yokotani2016comparison}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=YT}{%
+         family={Yokotani},
+         familyi={Y\bibinitperiod},
+         given={Tetsuya},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SY}{%
+         family={Sasaki},
+         familyi={S\bibinitperiod},
+         given={Yuya},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{YT+1}
+    \strng{fullhash}{YTSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 international conference on control, electronics,
+  renewable energy and communications (ICCEREC)}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Comparison with HTTP and MQTT on required network resources
+  for IoT}
+    \field{year}{2016}
   \endentry
 
   \entry{li2013software}{article}{}

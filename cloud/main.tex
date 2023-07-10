@@ -87,7 +87,8 @@ chapterinoneline,
 %------------------------------------------------------------------------ 
 % Thesis Title in English
 %------------------------------------------------------------------------ 
-\thesistitle{Vehicle Telematics – The Key to smart cars (Part 2)} 
+\thesistitle{Vehicle Telematics – The Key to smart cars (Part 2)}
+
 
 %------------------------------------------------------------------------ 
 % Thesis Title in Arabic
@@ -206,16 +207,14 @@ chapterinoneline,
 %----------------------------------------------------------------------------------------
 %	DEDICATION PAGE (optional) (MODIFY AS DESIRED)
 %----------------------------------------------------------------------------------------
-\dedicationp{We dedicate this graduation document to our prof. Sherif Fadel, whose guidance, support, and his dedication of teaching have been invaluable and changed our understanding for our field of Computer Engineering. Also, we dedicate this report to our mentors from Valeo Automaker company, because of their help and expertise that have shaped our project’s success.\ldots}
-
+\dedicationp{We dedicate this graduation project to our loving family and esteemed mentors, Prof. Sherif Fadel and Eng. Alaa Mahdy. Your guidance and unwavering support have shaped our passion and inspired us to push the boundaries of our knowledge. We are grateful for the countless opportunities, including the invaluable Valeo mentorship, that have contributed to our personal and professional growth. This achievement is a testament to our collective dedication and collaboration. Thank you for being an integral part of our remarkable journey.\ldots}
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGMENTS PAGE (optional) (MODIFY AS DESIRED)
 %----------------------------------------------------------------------------------------
 \begin{acknowledgmentsp}
-We Would like to express our gratitude and appreciation to our supervisor Prof. Sherif Fadel for his wisdom, support and constructive feed-backs throughout this journey, Furthermore, we are grateful to our sponsor Valeo Automaker Company as their involvement in our project has enriched this work and made as understand the industry's current trends and challenges.
-Lastly, we want to express our deepest appreciation to our families for their support, unconditional love, and their patience during hard times throughout our academic journey. 
-We would like to extend our appreciation to all those mentioned above and those who have supported us from our friends. We are truly grateful for the valuable support everyone has made.
-\ldots
+	We express our deepest appreciation to our mentors, Prof. Sherif Fadel and Eng. Alaa Mady. Their guidance, expertise, and unwavering support have been invaluable throughout this project. Their mentorship has not only shaped our understanding of computer engineering but has also inspired us to push the boundaries of our knowledge. We are truly grateful for their dedication and the time they have invested in us.
+	
+	We would also like to acknowledge the contribution of the Valeo mentorship program. The opportunity to be part of this program has been a transformative experience for us. The insights, resources, and industry exposure provided through the program have significantly enhanced our understanding of the automotive industry. We are thankful to Valeo for their support and for fostering an environment of collaboration and innovation.\ldots
 \end{acknowledgmentsp}
 
 %-----------------------DO NOT MODIFY THIS SECTION-----------------------
@@ -364,7 +363,7 @@ Overall, this thesis contributes to the advancement of SDVs by addressing key ob
 %----------------------------------------------------------------------------------------
 \chapter{Introduction}
 \section{what is a software defined vehicle ?}
-SDV stands for Software-Defined Vehicle. It refers to a vehicle that incorporates advanced software and digital technologies to enhance its functionality, performance, and connectivity. SDVs are transforming the automotive industry by integrating concepts from cloud computing, Internet of Things (IoT), and other emerging technologies.
+SDV \cite{liu2022impact} stands for Software-Defined Vehicle. It refers to a vehicle that incorporates advanced software and digital technologies to enhance its functionality, performance, and connectivity. SDVs are transforming the automotive industry by integrating concepts from cloud computing, Internet of Things (IoT), and other emerging technologies.
 
 \begin{figure}[!ht]
 	\centering
@@ -502,7 +501,7 @@ The CoVeSA initiative also emphasizes security and privacy considerations. It de
 
 Through collaborative working groups and regular meetings, the CoVeSA initiative enables its members to contribute to the development and refinement of the architecture. It provides a platform for sharing knowledge, exchanging ideas, and addressing common challenges in the connected vehicle services domain.
 \newpage
-\section{Known proposed architectures}
+\section{Used standards}
 \subsection{SOAFEE architicture}
 The Scalable Open Architecture for Embedded Edge (SOAFEE)\cite{SOAFEE_ARCH} project is an industry-led collaboration defined by automakers, semiconductor suppliers, open source and independent software vendors, and cloud technology leaders. The initiative intends to deliver a cloud-native architecture enhanced for mixed-criticality automotive applications with corresponding open-source reference implementations to enable commercial and non-commercial offerings.
 
@@ -534,8 +533,6 @@ The architecture also emphasizes automation and self-service capabilities. Servi
 
 By adopting the AWS CAEdge architecture, Continental has established a secure and scalable platform that enables OEMs, suppliers, and partners to quickly onboard and start developing software-intensive solutions for vehicles. This solution accelerates the transformation into a software-centric organization, allowing developers to focus on building innovative solutions within hours instead of months.
 
-\section{Used standards}
-
 \subsection{UN R155}
 UN Regulation No. 155, titled "Cyber Security and Cybersecurity Management," \cite{UNR155} is an important regulatory framework established by the United Nations Economic Commission for Europe (UNECE) to address the growing concern of cybersecurity in the automotive industry. The regulation aims to ensure the safe and secure operation of vehicles, focusing on the prevention and mitigation of cyber threats.
 
@@ -548,6 +545,7 @@ Furthermore, UN R155 highlights the significance of software update processes an
 In addition to technical requirements, UN R155 also emphasizes the importance of collaboration and information sharing among relevant stakeholders. It encourages cooperation between vehicle manufacturers, regulatory authorities, and cybersecurity experts to exchange best practices, share information about potential threats, and foster a proactive approach to cybersecurity in the automotive industry.
 
 Overall, UN Regulation No. 155 plays a crucial role in promoting cybersecurity and establishing a common framework for ensuring the safe and secure operation of vehicles. By addressing key cybersecurity concerns and providing guidelines for implementation, the regulation aims to enhance consumer trust, protect user privacy, and mitigate the risks associated with cyber threats in the automotive ecosystem.
+\newpage
 \subsection{UN R156}
 UN Regulation No. 156, titled "Software Update Processes and Management Systems," \cite{UNR156} is an essential regulatory framework established by the United Nations Economic Commission for Europe (UNECE) to address the challenges and best practices associated with software updates in the automotive industry. The regulation aims to ensure the efficient and secure management of software updates throughout a vehicle's lifecycle.
 
@@ -562,6 +560,27 @@ Furthermore, the regulation highlights the importance of transparency and commun
 UN R156 also promotes collaboration and information sharing among stakeholders. It encourages the establishment of industry standards, best practices, and cooperation between vehicle manufacturers, regulatory authorities, and cybersecurity experts to ensure the continuous improvement of software update processes and management systems.
 
 Overall, UN Regulation No. 156 addresses the critical aspects of software update management in the automotive industry. By setting guidelines and requirements for secure and efficient software updates, the regulation aims to enhance vehicle performance, functionality, and security while ensuring the safety and satisfaction of end-users.
+
+
+\subsection{DevOps}
+
+DevOps, short for Development and Operations, is an approach that emphasizes collaboration, communication, and integration between software development teams and operations teams. While there isn't a specific "DevOps standard" in the sense of a universally defined set of rules or guidelines, there are several principles and best practices commonly followed in the DevOps community.
+
+
+\subsection{HTTP/3}
+
+HTTP/3 is the latest version of the Hypertext Transfer Protocol (HTTP) protocol, which is used for communication between web browsers and web servers. Also known as HTTP over QUIC (Quick UDP Internet Connections), HTTP/3 is designed to improve the performance, efficiency, and security of web communication.
+
+The primary difference between HTTP/3 and its predecessors (HTTP/1.1 and HTTP/2) lies in the underlying transport protocol. While HTTP/1.1 and HTTP/2 use TCP (Transmission Control Protocol) for communication, HTTP/3 utilizes QUIC, which is built on top of the User Datagram Protocol (UDP). UDP offers lower latency and better performance for real-time and interactive applications, making it a suitable choice for HTTP/3.
+
+One of the key advantages of HTTP/3 is its improved performance. By using QUIC's multiplexing and stream prioritization features, HTTP/3 enables faster and more efficient data transfer. It reduces latency by minimizing the connection setup time and mitigating the effects of packet loss. Additionally, HTTP/3 supports features like zero-round-trip connection establishment and improved congestion control mechanisms, further enhancing performance.
+
+Another significant benefit of HTTP/3 is its enhanced security. QUIC incorporates encryption by default, ensuring that all data transferred over HTTP/3 is encrypted, providing a higher level of privacy and protection against eavesdropping and tampering. This encryption is achieved using the Transport Layer Security (TLS) protocol, similar to HTTPS in previous versions of HTTP.
+
+Moreover, HTTP/3 is designed to be more resilient to network conditions. Its ability to seamlessly switch between network connections, such as Wi-Fi and mobile networks, without interrupting the communication contributes to a smoother user experience. This feature is particularly valuable for mobile devices and scenarios where network connectivity may change frequently.
+
+While HTTP/3 brings notable improvements, its adoption is still ongoing, and support varies across different browsers and servers. Major web browsers, such as Google Chrome, Mozilla Firefox, and Microsoft Edge, have started supporting HTTP/3, and many content delivery networks (CDNs) and websites are gradually deploying HTTP/3 to benefit from its advantages.
+
 \chapter{Solution Architecture}
 
 \section{Architecture overview}
@@ -681,7 +700,7 @@ In summary, the implementation of advanced authentication and authorization sche
 \subsection{Vehicle signaling system}
 In the dynamic environment of automotive systems, characterized by high mobility and constantly changing logical addresses of vehicles, the traditional client/server model becomes impractical and ineffective. The client/server model relies on the concept of sending requests to specific logical addresses and expecting responses. However, in the automotive context, it is not feasible to identify and maintain the logical address of a vehicle due to its continuous movement and changing network configurations.
 
-To address this challenge, we needed to devise an innovative solution that could enable seamless and efficient communication between vehicles and the backend services. This led us to explore the concepts of Software-Defined Networks (SDNs) and the MQTT protocol.
+To address this challenge, we needed to devise an innovative solution that could enable seamless and efficient communication between vehicles and the backend services. This led us to explore the concepts of Software-Defined Networks (SDNs) and the MQTT\cite{yokotani2016comparison} protocol.
 
 SDNs offer a paradigm shift in network architecture, providing a centralized control plane that can dynamically manage and control network resources. By decoupling the control plane from the data plane, SDNs allow for the programmability and flexibility needed to adapt to the dynamic nature of automotive environments. In our solution, we leveraged SDNs to create a network infrastructure that could accommodate the mobility and changing logical addresses of vehicles.
 
@@ -1626,7 +1645,7 @@ However, it is crucial to address the challenges and concerns associated with so
 In summary, the integration of software-defined vehicles with cloud technology presents an exciting opportunity for the automotive industry. By embracing this innovative approach, manufacturers can achieve streamlined production processes, personalized driving experiences, and access to advanced computational capabilities. Cloud integration enables the collection and analysis of valuable data, empowering manufacturers to optimize their products and services. While challenges exist, addressing them through robust security measures can ensure a safer and more connected future for software-defined vehicles. By embracing the potential of software-defined vehicles and cloud integration, we can drive the industry forward and shape the future of mobility.
 
 \section{Future Work}
-\subsection{Cloud native Testing}
+\subsection{Cloud native Development}
 Modern DevOps processes have robust testing infrastructure build into their testing and deployment pipelines. Currently this infrastructure from the cloud-native world lacks the ability to test and validate real-time workloads, or workloads that are targeting real-time or microcontroller based architectures. We need to enhance the cloud based tooling to meet the validation needs of safety and real-time domains.
 \subsection{Cloud Native Trail}
 The adoption of Cloud Native in Automotive requires collaboration and contribution of many different stakeholders. To indicate a clear and stepwise approach for a migration, a clear trail needs to be described 
