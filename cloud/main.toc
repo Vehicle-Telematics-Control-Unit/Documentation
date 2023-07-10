@@ -110,7 +110,7 @@
 \contentsline {section}{\numberline {4.5}Authentication and authorization}{60}{section.135}%
 \contentsline {subsection}{\numberline {4.5.1}Mobile Authentication}{60}{subsection.136}%
 \contentsline {subsubsection}{Primary device authentication}{61}{subsubsection*.137}%
-\contentsline {subsubsection}{Sharing vehicle access through primary device}{63}{subsubsection*.141}%
+\contentsline {subsubsection}{Sharing vehicle access through primary device}{62}{subsubsection*.141}%
 \contentsline {subsection}{\numberline {4.5.2}TCU authentication}{65}{subsection.145}%
 \contentsline {subsubsection}{vehicle registration}{66}{subsubsection*.146}%
 \contentsline {subsubsection}{Authentication using challenges}{67}{subsubsection*.148}%
@@ -118,7 +118,7 @@
 \contentsline {section}{\numberline {4.6}Alerts and notifications}{69}{section.161}%
 \contentsline {section}{\numberline {4.7}Live location tracking}{71}{section.164}%
 \contentsline {subsection}{\numberline {4.7.1}What is SingalR ?}{72}{subsection.165}%
-\contentsline {subsection}{\numberline {4.7.2}What does the MQTT client do ?}{72}{subsection.166}%
+\contentsline {subsection}{\numberline {4.7.2}What does the MQTT client do ?}{73}{subsection.166}%
 \contentsline {subsection}{\numberline {4.7.3}System operation}{73}{subsection.167}%
 \contentsline {chapter}{\numberline {5}TCU integration}{75}{chapter.168}%
 \contentsline {section}{\numberline {5.1}vehicle signaling}{75}{section.169}%
