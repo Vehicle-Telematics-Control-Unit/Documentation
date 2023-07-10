@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.26)  9 JUL 2023 17:54
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.26)  9 JUL 2023 19:12
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1763,26 +1763,20 @@ File: Figures/DevOps/linux.jpeg Graphic file (type jpg)
 Package luatex.def Info: Figures/DevOps/linux.jpeg  used on input line 1251.
 (luatex.def)             Requested size: 103.38599pt x 122.45718pt.
  [58<./Figures/DevOps/linux.jpeg>]
-[59]
-Overfull \hbox (4.28499pt too wide) in paragraph at lines 1283--1284
-[]\TU/times(0)/m/n/12 In terms of se-cu-rity, Post-greSQL pro-vides var-i-ous me
-ch-a-nisms to pro-tect data within the database.
- []
-
-[60]
+[59] [60]
 <Figures/mobileApp/1.png, id=1119, 277.911pt x 261.486pt>
 File: Figures/mobileApp/1.png Graphic file (type png)
 <use Figures/mobileApp/1.png>
-Package luatex.def Info: Figures/mobileApp/1.png  used on input line 1311.
+Package luatex.def Info: Figures/mobileApp/1.png  used on input line 1309.
 (luatex.def)             Requested size: 277.91031pt x 261.48534pt.
 
-Overfull \hbox (5.69882pt too wide) in paragraph at lines 1319--1320
+Overfull \hbox (5.69882pt too wide) in paragraph at lines 1317--1318
 []\TU/times(0)/m/n/12 The back-end in-cludes an end-point ”/au-then-ti-ca-tion
 /mo-bile/lo-gin” that ac-cepts a POST
  []
 
 [61] [62<./Figures/mobileApp/1.png>]
-Overfull \hbox (1.78456pt too wide) in paragraph at lines 1343--1344
+Overfull \hbox (1.78456pt too wide) in paragraph at lines 1341--1342
 []\TU/times(0)/m/n/12 Af-ter suc-cess-ful scan-ning, the sec-ondary de-vice make
 s a POST re-quest to the server’s
  []
@@ -1790,16 +1784,16 @@ s a POST re-quest to the server’s
 <Figures/mobileApp/2.png, id=1131, 372.519pt x 325.653pt>
 File: Figures/mobileApp/2.png Graphic file (type png)
 <use Figures/mobileApp/2.png>
-Package luatex.def Info: Figures/mobileApp/2.png  used on input line 1350.
+Package luatex.def Info: Figures/mobileApp/2.png  used on input line 1348.
 (luatex.def)             Requested size: 372.51808pt x 325.6522pt.
 [63]
-Overfull \hbox (4.7872pt too wide) in paragraph at lines 1360--1361
+Overfull \hbox (4.7872pt too wide) in paragraph at lines 1358--1359
 []\TU/times(0)/m/n/12 The back-end in-cludes an end-point ”/au-then-ti-ca-tion
 /mo-bile/shareAc-cess/re-quest”
  []
 
 
-Overfull \hbox (2.80673pt too wide) in paragraph at lines 1367--1368
+Overfull \hbox (2.80673pt too wide) in paragraph at lines 1365--1366
 []\TU/times(0)/m/n/12 The back-end in-cludes an end-point ”/au-then-ti-ca-tion
 /mo-bile/shareAc-cess/sub-mit”
  []
@@ -1810,32 +1804,32 @@ pt>
 File: Figures/Architicture/tcu_register.drawio.png Graphic file (type png)
 <use Figures/Architicture/tcu_register.drawio.png>
 Package luatex.def Info: Figures/Architicture/tcu_register.drawio.png  used on 
-input line 1397.
+input line 1395.
 (luatex.def)             Requested size: 383.93343pt x 177.16144pt.
  [66]
 <Figures/Architicture/tcu_auth.png, id=1152, 742.9356pt x 774.7344pt>
 File: Figures/Architicture/tcu_auth.png Graphic file (type png)
 <use Figures/Architicture/tcu_auth.png>
 Package luatex.def Info: Figures/Architicture/tcu_auth.png  used on input line 
-1409.
+1407.
 (luatex.def)             Requested size: 371.46689pt x 387.36626pt.
  [67<./Figures/Architicture/tcu_register.drawio.png>] [68<./Figures/Architicture
 /tcu_auth.png>]
-Overfull \hbox (3.33302pt too wide) in paragraph at lines 1453--1454
+Overfull \hbox (3.33302pt too wide) in paragraph at lines 1451--1452
 []\TU/times(0)/m/n/12 Fire-base Cloud Mes-sag-ing (FCM) is an open-source cloud mes-sag-ing ser-vice pro-vided by Google
  []
 
 <Figures/Architicture/fcm.jpeg, id=1167, 839.135pt x 394.47375pt>
 File: Figures/Architicture/fcm.jpeg Graphic file (type jpg)
 <use Figures/Architicture/fcm.jpeg>
-Package luatex.def Info: Figures/Architicture/fcm.jpeg  used on input line 1457
+Package luatex.def Info: Figures/Architicture/fcm.jpeg  used on input line 1455
 .
 (luatex.def)             Requested size: 335.64804pt x 157.7867pt.
 [69]
 <Figures/mobileApp/3.png, id=1179, 167.2065pt x 371.862pt>
 File: Figures/mobileApp/3.png Graphic file (type png)
 <use Figures/mobileApp/3.png>
-Package luatex.def Info: Figures/mobileApp/3.png  used on input line 1476.
+Package luatex.def Info: Figures/mobileApp/3.png  used on input line 1474.
 (luatex.def)             Requested size: 167.20609pt x 371.86108pt.
  [70<./Figures/Architicture/fcm.jpeg>] [71<./Figures/mobileApp/3.png>]
 [72] [73] [74]
@@ -1843,7 +1837,7 @@ Chapter 5.
 <Figures/Architicture/mqtt.png, id=1201, 548.0475pt x 478.78876pt>
 File: Figures/Architicture/mqtt.png Graphic file (type png)
 <use Figures/Architicture/mqtt.png>
-Package luatex.def Info: Figures/Architicture/mqtt.png  used on input line 1541
+Package luatex.def Info: Figures/Architicture/mqtt.png  used on input line 1539
 .
 (luatex.def)             Requested size: 274.02307pt x 239.39378pt.
 1: section
@@ -1854,19 +1848,19 @@ Package luatex.def Info: Figures/Architicture/mqtt.png  used on input line 1541
 File: Figures/FrontEnd/AdminConsole/add.PNG Graphic file (type png)
 <use Figures/FrontEnd/AdminConsole/add.PNG>
 Package luatex.def Info: Figures/FrontEnd/AdminConsole/add.PNG  used on input l
-ine 1585.
+ine 1583.
 (luatex.def)             Requested size: 406.51155pt x 188.80202pt.
 <Figures/FrontEnd/AdminConsole/configure.PNG, id=1216, 1028.34187pt x 473.51906
 pt>
 File: Figures/FrontEnd/AdminConsole/configure.PNG Graphic file (type png)
 <use Figures/FrontEnd/AdminConsole/configure.PNG>
 Package luatex.def Info: Figures/FrontEnd/AdminConsole/configure.PNG  used on i
-nput line 1592.
+nput line 1590.
 (luatex.def)             Requested size: 411.32947pt x 189.40425pt.
 <Figures/mobileApp/5.png, id=1217, 1084.05pt x 2409.0pt>
 File: Figures/mobileApp/5.png Graphic file (type png)
 <use Figures/mobileApp/5.png>
-Package luatex.def Info: Figures/mobileApp/5.png  used on input line 1603.
+Package luatex.def Info: Figures/mobileApp/5.png  used on input line 1601.
 (luatex.def)             Requested size: 162.60048pt x 361.33441pt.
  [78<./Figures/FrontEnd/AdminConsole/add.PNG><./Figures/FrontEnd/AdminConsole/co
 nfigure.PNG>] [79<./Figures/mobileApp/5.png>]
@@ -1875,14 +1869,14 @@ Chapter 6.
 [80
 
 ] [81]
-Overfull \hbox (0.71704pt too wide) in paragraph at lines 1644--1644
+Overfull \hbox (0.71704pt too wide) in paragraph at lines 1642--1642
 []\TU/times(0)/m/n/12 Matt Spencer, \TU/times(0)/m/it/12 Scal-able Open Ar-chi-t
 ec-ture for Em-bed-ded Edge project\TU/times(0)/m/n/12 , 2021, \TU/times(0)/m/s
 c/12 󰋫󰋨󰋢\TU/times(0)/m/n/12 : []$\TU/lmtt/m/n/12 https :
  []
 
 
-Overfull \hbox (3.01956pt too wide) in paragraph at lines 1644--1644
+Overfull \hbox (3.01956pt too wide) in paragraph at lines 1642--1642
 \TU/times(0)/m/it/12 ing a Plat-form for Software-defined Ve-hi-cles with Con-ti
 -nen-tal Au-to-mo-tive Edge (CAEdge)\TU/times(0)/m/n/12 ,
  []
@@ -1890,7 +1884,7 @@ Overfull \hbox (3.01956pt too wide) in paragraph at lines 1644--1644
 [82]
 Appendix A.
 
-Overfull \hbox (1.74092pt too wide) in paragraph at lines 1653--1654
+Overfull \hbox (1.74092pt too wide) in paragraph at lines 1651--1652
 \TU/times(0)/m/n/12 num-bers. The al-go-rithm uti-lizes mod-u-lar ex-po-nen-ti-a
 -tion and num-ber the-ory prin-ci-ples to achieve
  []
@@ -1905,9 +1899,9 @@ Appendix B.
 
 ] [85]
 LaTeX Font Info:    Font shape `TU/Arial(0)/b/n' will be
-(Font)              scaled to size 20.73593pt on input line 1683.
+(Font)              scaled to size 20.73593pt on input line 1681.
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 1683.
+(Font)              scaled to size 14.39996pt on input line 1681.
 
 1: section
 [86
@@ -1950,7 +1944,7 @@ i.ttf><//?/c:/windows/fonts/times.ttf><//?/c:/windows/fonts/timesbd.ttf><C:/Prog
 ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (99 pages, 3954055 bytes).
+Output written on main.pdf (99 pages, 3953705 bytes).
 
 PDF statistics: 1338 PDF objects out of 1440 (max. 8388607)
  291 named destinations out of 1000 (max. 131072)
