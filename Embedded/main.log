@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.26)  10 JUL 2023 14:32
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.6.26)  10 JUL 2023 17:40
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1293,6 +1293,12 @@ LaTeX Warning: Label `fig:TCU' multiply defined.
 LaTeX Warning: Label `fig:TCU' multiply defined.
 
 
+LaTeX Warning: Label `fig:SOME/IP On-wire format' multiply defined.
+
+
+LaTeX Warning: Label `fig:SOME/IP On-wire format' multiply defined.
+
+
 LaTeX Warning: Label `fig:TCU' multiply defined.
 
 
@@ -1568,7 +1574,7 @@ Package hyperref Info: Link coloring OFF on input line 191.
 \openout5 = main.out
 
 1: section
-<Figures/aast.jpg, id=726, 341.3553pt x 327.1422pt>
+<Figures/aast.jpg, id=730, 341.3553pt x 327.1422pt>
 File: Figures/aast.jpg Graphic file (type jpg)
 <use Figures/aast.jpg>
 Package luatex.def Info: Figures/aast.jpg  used on input line 199.
@@ -1645,19 +1651,19 @@ Overfull \vbox (5.99445pt too high) has occurred while \output is active []
 \tf@toc=\write6
 
 \openout6 = main.toc
- [7] (./main.lof
+ [7] [8] (./main.lof
 1: section
-[8
+[9
 
 ])
 \tf@lof=\write7
 
 \openout7 = main.lof
- [9] (./main.listofabbrev)
+ [10] (./main.listofabbrev)
 \tf@listofabbrev=\write8
 
 \openout8 = main.listofabbrev
- [10
+ [11
 
 ]
 1: section
@@ -1667,7 +1673,7 @@ Chapter 1.
 
 
 ] [2] [3]
-<Figures/SDV.png, id=1112, 1445.4pt x 803.0pt>
+<Figures/SDV.png, id=1126, 1445.4pt x 803.0pt>
 File: Figures/SDV.png Graphic file (type png)
 <use Figures/SDV.png>
 Package luatex.def Info: Figures/SDV.png  used on input line 341.
@@ -1679,7 +1685,7 @@ Overfull \hbox (7.29335pt too wide) in paragraph at lines 341--342
 
 [4<./Figures/SDV.png>] [5] [6]
 Chapter 2.
-<Figures/1.png, id=1125, 422.32782pt x 243.91125pt>
+<Figures/1.png, id=1140, 422.32782pt x 243.91125pt>
 File: Figures/1.png Graphic file (type png)
 <use Figures/1.png>
 Package luatex.def Info: Figures/1.png  used on input line 383.
@@ -1688,530 +1694,580 @@ Package luatex.def Info: Figures/1.png  used on input line 383.
 [7
 
 <./Figures/1.png>]
-<Figures/V2V communication data exchange between vehicles.png, id=1132, 246.922
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+[]|\TU/times(0)/m/n/12 UART (Uni-ver-sal Asyn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+\TU/times(0)/m/n/12 chronous Receiver-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 406--406
+[]|\TU/times(0)/m/n/12 SOME/IP (Scal-able service-
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 406--406
+\TU/times(0)/m/n/12 Oriented Mid-dle-warE over
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+[]|\TU/times(0)/m/n/12 widely adopted mes-sag-ing pro-to-col de-signed for
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 424--425
+\TU/times(0)/m/n/12 It is a pub-lish/subscribe-based pro-to-col that pro-vides 
+a
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 431--431
+[]|\TU/times(0)/m/n/12 AES (Ad-vanced En-cryp-tion
+ []
+
+[8] [9]
+<Figures/V2V communication data exchange between vehicles.png, id=1154, 246.922
 5pt x 121.95563pt>
 File: Figures/V2V communication data exchange between vehicles.png Graphic file
  (type png)
 <use Figures/V2V communication data exchange between vehicles.png>
 Package luatex.def Info: Figures/V2V communication data exchange between vehicl
-es.png  used on input line 403.
+es.png  used on input line 449.
 (luatex.def)             Requested size: 123.46094pt x 60.97765pt.
- [8<./Figures/V2V communication data exchange between vehicles.png>] [9]
-<Figures/TCUs Layered architecture.png, id=1144, 824.07875pt x 724.7075pt>
+ [10<./Figures/V2V communication data exchange between vehicles.png>]
+[11]
+<Figures/TCUs Layered architecture.png, id=1166, 824.07875pt x 724.7075pt>
 File: Figures/TCUs Layered architecture.png Graphic file (type png)
 <use Figures/TCUs Layered architecture.png>
 Package luatex.def Info: Figures/TCUs Layered architecture.png  used on input l
-ine 427.
+ine 473.
 (luatex.def)             Requested size: 412.03836pt x 362.35286pt.
- [10
+ [12
 
 <./Figures/TCUs Layered architecture.png>]
-<Figures/LinuxKernel.png, id=1150, 295.85532pt x 399.74344pt>
+<Figures/LinuxKernel.png, id=1172, 295.85532pt x 399.74344pt>
 File: Figures/LinuxKernel.png Graphic file (type png)
 <use Figures/LinuxKernel.png>
-Package luatex.def Info: Figures/LinuxKernel.png  used on input line 452.
+Package luatex.def Info: Figures/LinuxKernel.png  used on input line 498.
 (luatex.def)             Requested size: 118.34003pt x 159.89453pt.
- [11<./Figures/LinuxKernel.png>] [12
+ [13<./Figures/LinuxKernel.png>] [14
 
 ]
-<Figures/5.png, id=1160, 295.1025pt x 558.085pt>
+<Figures/5.png, id=1182, 295.1025pt x 558.085pt>
 File: Figures/5.png Graphic file (type png)
 <use Figures/5.png>
-Package luatex.def Info: Figures/5.png  used on input line 474.
+Package luatex.def Info: Figures/5.png  used on input line 520.
 (luatex.def)             Requested size: 147.55087pt x 279.04182pt.
- [13
+ [15
 
-<./Figures/5.png>] [14]
+<./Figures/5.png>] [16]
 Chapter 3.
-<Figures/6.png, id=1170, 683.55376pt x 455.7025pt>
+<Figures/6.png, id=1193, 683.55376pt x 455.7025pt>
 File: Figures/6.png Graphic file (type png)
 <use Figures/6.png>
-Package luatex.def Info: Figures/6.png  used on input line 497.
+Package luatex.def Info: Figures/6.png  used on input line 543.
 (luatex.def)             Requested size: 341.77605pt x 227.85068pt.
 1: section
-[15
+[17
 
-<./Figures/6.png>] [16]
-Overfull \hbox (0.92757pt too wide) in paragraph at lines 532--533
+<./Figures/6.png>] [18]
+Overfull \hbox (0.92757pt too wide) in paragraph at lines 578--579
 []\TU/times(0)/m/n/12 Infrastructure-to-Vehicle Com-mu-ni-ca-tion (I2V): DSRC en
 -ables traf-fic in-fras-truc-ture, such
  []
 
-[17]
-<Figures/7.png, id=1185, 1841.88126pt x 859.21pt>
+[19]
+<Figures/7.png, id=1207, 1841.88126pt x 859.21pt>
 File: Figures/7.png Graphic file (type png)
 <use Figures/7.png>
-Package luatex.def Info: Figures/7.png  used on input line 562.
+Package luatex.def Info: Figures/7.png  used on input line 608.
 (luatex.def)             Requested size: 368.36974pt x 171.83896pt.
-<Figures/8.png, id=1186, 883.80188pt x 465.99094pt>
+<Figures/8.png, id=1208, 883.80188pt x 465.99094pt>
 File: Figures/8.png Graphic file (type png)
 <use Figures/8.png>
-Package luatex.def Info: Figures/8.png  used on input line 570.
+Package luatex.def Info: Figures/8.png  used on input line 616.
 (luatex.def)             Requested size: 441.89986pt x 232.99489pt.
- [18]
-<Figures/9.png, id=1191, 883.80188pt x 468.24937pt>
+ [20]
+<Figures/9.png, id=1213, 883.80188pt x 468.24937pt>
 File: Figures/9.png Graphic file (type png)
 <use Figures/9.png>
-Package luatex.def Info: Figures/9.png  used on input line 577.
+Package luatex.def Info: Figures/9.png  used on input line 623.
 (luatex.def)             Requested size: 441.89986pt x 234.1241pt.
-<Figures/10.png, id=1192, 1048.91875pt x 621.32124pt>
+<Figures/10.png, id=1214, 1048.91875pt x 621.32124pt>
 File: Figures/10.png Graphic file (type png)
 <use Figures/10.png>
-Package luatex.def Info: Figures/10.png  used on input line 588.
+Package luatex.def Info: Figures/10.png  used on input line 634.
 (luatex.def)             Requested size: 314.67805pt x 186.39781pt.
 
-Overfull \hbox (41.12404pt too wide) in paragraph at lines 581--593
+Overfull \hbox (41.12404pt too wide) in paragraph at lines 627--639
 \TU/times(0)/m/n/12 the MAC ad-dress into a print-able string with min-i-mum for
 -mat pos-si-ble (0xFF0xFF0xFF0xFF0xFF0xFF),
  []
 
-[19<./Figures/7.png><./Figures/8.png>] [20<./Figures/9.png>]
-<Figures/11.png, id=1204, 200.75pt x 200.75pt>
+[21<./Figures/7.png><./Figures/8.png>] [22<./Figures/9.png>]
+<Figures/11.png, id=1226, 200.75pt x 200.75pt>
 File: Figures/11.png Graphic file (type png)
 <use Figures/11.png>
-Package luatex.def Info: Figures/11.png  used on input line 601.
+Package luatex.def Info: Figures/11.png  used on input line 647.
 (luatex.def)             Requested size: 100.37474pt x 100.37474pt.
- [21<./Figures/10.png><./Figures/11.png>]
-<Figures/Ha.png, id=1211, 651.43375pt x 560.0925pt>
+ [23<./Figures/10.png><./Figures/11.png>]
+<Figures/Ha.png, id=1233, 651.43375pt x 560.0925pt>
 File: Figures/Ha.png Graphic file (type png)
 <use Figures/Ha.png>
-Package luatex.def Info: Figures/Ha.png  used on input line 619.
+Package luatex.def Info: Figures/Ha.png  used on input line 665.
 (luatex.def)             Requested size: 204.85846pt x 176.13095pt.
-<Figures/13.png, id=1212, 511.9125pt x 479.7925pt>
+<Figures/13.png, id=1234, 511.9125pt x 479.7925pt>
 File: Figures/13.png Graphic file (type png)
 <use Figures/13.png>
-Package luatex.def Info: Figures/13.png  used on input line 625.
+Package luatex.def Info: Figures/13.png  used on input line 671.
 (luatex.def)             Requested size: 204.85846pt x 192.00143pt.
- [22<./Figures/Ha.png><./Figures/13.png>] [23]
+ [24<./Figures/Ha.png><./Figures/13.png>] [25]
 Chapter 4.
 1: section
-[24
+[26
 
-] [25] [26]
-<Figures/16.png, id=1233, 325.215pt x 156.585pt>
+] [27] [28]
+<Figures/16.png, id=1256, 325.215pt x 156.585pt>
 File: Figures/16.png Graphic file (type png)
 <use Figures/16.png>
-Package luatex.def Info: Figures/16.png  used on input line 695.
+Package luatex.def Info: Figures/16.png  used on input line 741.
 (luatex.def)             Requested size: 130.0837pt x 62.63287pt.
 
-Overfull \hbox (3.93344pt too wide) in paragraph at lines 704--705
+Overfull \hbox (3.93344pt too wide) in paragraph at lines 750--751
 []\TU/times(0)/m/n/12 Ad-di-tion-ally, we need to con-sider the layer de-pen-den
 -cies as-so-ci-ated with the \TU/lmtt/m/n/12 meta-raspberrypi
  []
 
-[27<./Figures/16.png>]
-Overfull \hbox (25.93806pt too wide) in paragraph at lines 706--707
+[29<./Figures/16.png>]
+Overfull \hbox (25.93806pt too wide) in paragraph at lines 752--753
 \TU/times(0)/m/n/12 the \TU/lmtt/m/n/12 meta-virtualization \TU/times(0)/m/n/12
  layer and its as-so-ci-ated layer de-pen-den-cies. The \TU/lmtt/m/n/12 meta-vir
 tualization
  []
 
-[28]
-Overfull \hbox (0.57193pt too wide) in paragraph at lines 719--720
+[30]
+Overfull \hbox (0.57193pt too wide) in paragraph at lines 765--766
 []\TU/times(0)/m/n/12 The pri-mary driv-ing fac-tor be-hind se-lect-ing the \TU
 /lmtt/m/n/12 core-image-minimal \TU/times(0)/m/n/12 is its in-her-ent lightweigh
 t
  []
 
-[29] [30] [31]
+[31] [32] [33]
 Chapter 5.
 1: section
-[32
+[34
 
 ]
-<Figures/containervsVM.JPG, id=1261, 837.88031pt x 405.76593pt>
+<Figures/containervsVM.JPG, id=1283, 837.88031pt x 405.76593pt>
 File: Figures/containervsVM.JPG Graphic file (type jpg)
 <use Figures/containervsVM.JPG>
-Package luatex.def Info: Figures/containervsVM.JPG  used on input line 772.
+Package luatex.def Info: Figures/containervsVM.JPG  used on input line 818.
 (luatex.def)             Requested size: 418.93913pt x 202.88246pt.
- [33<./Figures/containervsVM.JPG>]
-<Figures/docker_logo.png, id=1267, 1206.5075pt x 310.15875pt>
+ [35<./Figures/containervsVM.JPG>]
+<Figures/docker_logo.png, id=1289, 1206.5075pt x 310.15875pt>
 File: Figures/docker_logo.png Graphic file (type png)
 <use Figures/docker_logo.png>
-Package luatex.def Info: Figures/docker_logo.png  used on input line 793.
+Package luatex.def Info: Figures/docker_logo.png  used on input line 839.
 (luatex.def)             Requested size: 193.04514pt x 49.6264pt.
- [34<./Figures/docker_logo.png>] [35]
-<Figures/14.png, id=1279, 497.86pt x 241.90375pt>
+ [36<./Figures/docker_logo.png>] [37]
+<Figures/14.png, id=1302, 497.86pt x 241.90375pt>
 File: Figures/14.png Graphic file (type png)
 <use Figures/14.png>
-Package luatex.def Info: Figures/14.png  used on input line 819.
+Package luatex.def Info: Figures/14.png  used on input line 865.
 (luatex.def)             Requested size: 348.49962pt x 169.33147pt.
-<Figures/15.png, id=1281, 945.5325pt x 691.58376pt>
+<Figures/15.png, id=1304, 945.5325pt x 691.58376pt>
 File: Figures/15.png Graphic file (type png)
 <use Figures/15.png>
-Package luatex.def Info: Figures/15.png  used on input line 833.
+Package luatex.def Info: Figures/15.png  used on input line 879.
 (luatex.def)             Requested size: 378.2063pt x 276.6286pt.
 
-[36
+[38
 
-<./Figures/14.png>] [37<./Figures/15.png>]
-<Figures/17.png, id=1294, 456.95718pt x 215.30438pt>
+<./Figures/14.png>] [39<./Figures/15.png>]
+<Figures/17.png, id=1316, 456.95718pt x 215.30438pt>
 File: Figures/17.png Graphic file (type png)
 <use Figures/17.png>
-Package luatex.def Info: Figures/17.png  used on input line 852.
+Package luatex.def Info: Figures/17.png  used on input line 898.
 (luatex.def)             Requested size: 182.77963pt x 86.12022pt.
- [38
+ [40
 
 <./Figures/17.png>]
-<Figures/docker_compose_script.JPG, id=1300, 486.31688pt x 486.31688pt>
+<Figures/docker_compose_script.JPG, id=1322, 486.31688pt x 486.31688pt>
 File: Figures/docker_compose_script.JPG Graphic file (type jpg)
 <use Figures/docker_compose_script.JPG>
 Package luatex.def Info: Figures/docker_compose_script.JPG  used on input line 
-861.
+907.
 (luatex.def)             Requested size: 291.79237pt x 291.79237pt.
-<Figures/18.png, id=1302, 1155.31625pt x 543.02875pt>
+<Figures/18.png, id=1324, 1155.31625pt x 543.02875pt>
 File: Figures/18.png Graphic file (type png)
 <use Figures/18.png>
-Package luatex.def Info: Figures/18.png  used on input line 878.
+Package luatex.def Info: Figures/18.png  used on input line 924.
 (luatex.def)             Requested size: 346.59755pt x 162.90987pt.
- [39
+ [41
 
 <./Figures/docker_compose_script.JPG>]
-<Figures/19.png, id=1308, 1303.87125pt x 652.4375pt>
+<Figures/19.png, id=1330, 1303.87125pt x 652.4375pt>
 File: Figures/19.png Graphic file (type png)
 <use Figures/19.png>
-Package luatex.def Info: Figures/19.png  used on input line 905.
+Package luatex.def Info: Figures/19.png  used on input line 951.
 (luatex.def)             Requested size: 391.1644pt x 195.73276pt.
- [40<./Figures/18.png>]
-<Figures/20.png, id=1322, 1278.7775pt x 430.60875pt>
+ [42<./Figures/18.png>]
+<Figures/20.png, id=1344, 1278.7775pt x 430.60875pt>
 File: Figures/20.png Graphic file (type png)
 <use Figures/20.png>
-Package luatex.def Info: Figures/20.png  used on input line 915.
+Package luatex.def Info: Figures/20.png  used on input line 961.
 (luatex.def)             Requested size: 383.63622pt x 129.18361pt.
- [41<./Figures/19.png>]
-<Figures/21.png, id=1327, 1410.26875pt x 711.65875pt>
+ [43<./Figures/19.png>]
+<Figures/21.png, id=1349, 1410.26875pt x 711.65875pt>
 File: Figures/21.png Graphic file (type png)
 <use Figures/21.png>
-Package luatex.def Info: Figures/21.png  used on input line 932.
+Package luatex.def Info: Figures/21.png  used on input line 978.
 (luatex.def)             Requested size: 423.0839pt x 213.49927pt.
 
-Overfull \hbox (5.02621pt too wide) in paragraph at lines 938--939
+Overfull \hbox (5.02621pt too wide) in paragraph at lines 984--985
 []\TU/times(0)/m/n/12 By uti-liz-ing com-mu-ni-ca-tion end-points and lo-cal end
 -points with Unix do-main sock-ets, VSOME/IP
  []
 
-[42<./Figures/20.png>]
-<Figures/22.png, id=1332, 352.31625pt x 204.765pt>
+[44<./Figures/20.png>]
+<Figures/22.png, id=1354, 352.31625pt x 204.765pt>
 File: Figures/22.png Graphic file (type png)
 <use Figures/22.png>
-Package luatex.def Info: Figures/22.png  used on input line 944.
+Package luatex.def Info: Figures/22.png  used on input line 990.
 (luatex.def)             Requested size: 281.85338pt x 163.8122pt.
- [43<./Figures/21.png><./Figures/22.png>] [44]
+ [45<./Figures/21.png><./Figures/22.png>]
+<Figures/Vehicle_Plus_VsomeIp_repo.png, id=1360, 67.3425pt x 67.3425pt>
+File: Figures/Vehicle_Plus_VsomeIp_repo.png Graphic file (type png)
+<use Figures/Vehicle_Plus_VsomeIp_repo.png>
+Package luatex.def Info: Figures/Vehicle_Plus_VsomeIp_repo.png  used on input l
+ine 1006.
+(luatex.def)             Requested size: 67.34233pt x 67.34233pt.
+ [46<./Figures/Vehicle_Plus_VsomeIp_repo.png>]
 Chapter 6.
-<Figures/23.png, id=1342, 1211.52625pt x 861.2175pt>
+<Figures/23.png, id=1367, 1211.52625pt x 861.2175pt>
 File: Figures/23.png Graphic file (type png)
 <use Figures/23.png>
-Package luatex.def Info: Figures/23.png  used on input line 960.
+Package luatex.def Info: Figures/23.png  used on input line 1016.
 (luatex.def)             Requested size: 460.38477pt x 327.26605pt.
 
-Overfull \hbox (5.14066pt too wide) in paragraph at lines 960--961
+Overfull \hbox (5.14066pt too wide) in paragraph at lines 1016--1017
  [][] 
  []
 
 1: section
-[45
+[47
 
 <./Figures/23.png>]
-<Figures/24.png, id=1350, 314.17375pt x 318.18875pt>
+<Figures/24.png, id=1375, 314.17375pt x 318.18875pt>
 File: Figures/24.png Graphic file (type png)
 <use Figures/24.png>
-Package luatex.def Info: Figures/24.png  used on input line 974.
+Package luatex.def Info: Figures/24.png  used on input line 1030.
 (luatex.def)             Requested size: 204.85846pt x 207.47566pt.
-<Figures/25.png, id=1351, 266.9975pt x 288.07625pt>
+<Figures/25.png, id=1376, 266.9975pt x 288.07625pt>
 File: Figures/25.png Graphic file (type png)
 <use Figures/25.png>
-Package luatex.def Info: Figures/25.png  used on input line 980.
+Package luatex.def Info: Figures/25.png  used on input line 1036.
 (luatex.def)             Requested size: 204.85846pt x 221.04135pt.
- [46<./Figures/24.png><./Figures/25.png>] [47]
-<Figures/26.png, id=1363, 1384.17125pt x 1441.385pt>
+<Figures/backend_gateway_QR.png, id=1377, 67.3425pt x 67.3425pt>
+File: Figures/backend_gateway_QR.png Graphic file (type png)
+<use Figures/backend_gateway_QR.png>
+Package luatex.def Info: Figures/backend_gateway_QR.png  used on input line 104
+5.
+(luatex.def)             Requested size: 67.34233pt x 67.34233pt.
+ [48<./Figures/24.png><./Figures/25.png>] [49<./Figures/backend_gateway_QR.png>]
+<Figures/26.png, id=1389, 1384.17125pt x 1441.385pt>
 File: Figures/26.png Graphic file (type png)
 <use Figures/26.png>
-Package luatex.def Info: Figures/26.png  used on input line 1008.
+Package luatex.def Info: Figures/26.png  used on input line 1073.
 (luatex.def)             Requested size: 456.77794pt x 475.65852pt.
 
-Overfull \hbox (1.53383pt too wide) in paragraph at lines 1008--1009
+Overfull \hbox (1.53383pt too wide) in paragraph at lines 1073--1074
  [][] 
  []
 
-[48] [49<./Figures/26.png>]
-<Figures/27.png, id=1373, 306.14375pt x 296.10625pt>
+[50] [51<./Figures/26.png>]
+<Figures/27.png, id=1399, 306.14375pt x 296.10625pt>
 File: Figures/27.png Graphic file (type png)
 <use Figures/27.png>
-Package luatex.def Info: Figures/27.png  used on input line 1028.
+Package luatex.def Info: Figures/27.png  used on input line 1093.
 (luatex.def)             Requested size: 153.07149pt x 148.05275pt.
- [50
+ [52
 
-<./Figures/27.png>] [51]
-Overfull \hbox (2.0516pt too wide) in paragraph at lines 1061--1062
+<./Figures/27.png>] [53]
+Overfull \hbox (2.0516pt too wide) in paragraph at lines 1126--1127
 []\TU/times(0)/m/n/12 To ef-fec-tively cat-e-go-rize and pro-cess these di-ag-no
 s-tic mes-sages, the ECUs Gate-way Data Fetcher
  []
 
-[52]
-<Figures/28.png, id=1392, 1010.27437pt x 514.92375pt>
+[54]
+<Figures/28.png, id=1418, 1010.27437pt x 514.92375pt>
 File: Figures/28.png Graphic file (type png)
 <use Figures/28.png>
-Package luatex.def Info: Figures/28.png  used on input line 1071.
+Package luatex.def Info: Figures/28.png  used on input line 1136.
 (luatex.def)             Requested size: 404.10258pt x 205.96585pt.
-<Figures/29.png, id=1393, 985.6825pt x 503.8825pt>
+<Figures/29.png, id=1419, 985.6825pt x 503.8825pt>
 File: Figures/29.png Graphic file (type png)
 <use Figures/29.png>
-Package luatex.def Info: Figures/29.png  used on input line 1077.
+Package luatex.def Info: Figures/29.png  used on input line 1142.
 (luatex.def)             Requested size: 394.266pt x 201.54942pt.
- [53<./Figures/28.png>]
-<Figures/30.png, id=1399, 432.61626pt x 419.5675pt>
+ [55<./Figures/28.png>]
+<Figures/30.png, id=1425, 432.61626pt x 419.5675pt>
 File: Figures/30.png Graphic file (type png)
 <use Figures/30.png>
-Package luatex.def Info: Figures/30.png  used on input line 1088.
+Package luatex.def Info: Figures/30.png  used on input line 1153.
 (luatex.def)             Requested size: 216.3076pt x 209.78323pt.
- [54<./Figures/29.png>] [55<./Figures/30.png>]
-<Figures/31.png, id=1410, 542.025pt x 339.2675pt>
+ [56<./Figures/29.png>] [57<./Figures/30.png>]
+<Figures/31.png, id=1437, 542.025pt x 339.2675pt>
 File: Figures/31.png Graphic file (type png)
 <use Figures/31.png>
-Package luatex.def Info: Figures/31.png  used on input line 1105.
+Package luatex.def Info: Figures/31.png  used on input line 1170.
 (luatex.def)             Requested size: 271.01183pt x 169.63333pt.
 
-[56<./Figures/31.png>] [57]
-<Figures/ReceptionandBroadcast.png, id=1421, 1072.005pt x 457.71pt>
+[58<./Figures/31.png>] [59]
+<Figures/ReceptionandBroadcast.png, id=1447, 1072.005pt x 457.71pt>
 File: Figures/ReceptionandBroadcast.png Graphic file (type png)
 <use Figures/ReceptionandBroadcast.png>
 Package luatex.def Info: Figures/ReceptionandBroadcast.png  used on input line 
-1142.
+1207.
 (luatex.def)             Requested size: 428.7944pt x 183.08075pt.
- [58<./Figures/ReceptionandBroadcast.png>]
-<Figures/ReceptionandBroadcast(2).png, id=1427, 1072.005pt x 458.46281pt>
+ [60<./Figures/ReceptionandBroadcast.png>]
+<Figures/ReceptionandBroadcast(2).png, id=1453, 1072.005pt x 458.46281pt>
 File: Figures/ReceptionandBroadcast(2).png Graphic file (type png)
 <use Figures/ReceptionandBroadcast(2).png>
 Package luatex.def Info: Figures/ReceptionandBroadcast(2).png  used on input li
-ne 1151.
+ne 1216.
 (luatex.def)             Requested size: 428.7944pt x 183.38187pt.
 File: Figures/31.png Graphic file (type png)
 <use Figures/31.png>
-Package luatex.def Info: Figures/31.png  used on input line 1162.
+Package luatex.def Info: Figures/31.png  used on input line 1227.
 (luatex.def)             Requested size: 216.80615pt x 135.70459pt.
-<Figures/32.png, id=1428, 2055.68pt x 1601.985pt>
+<Figures/32.png, id=1454, 2055.68pt x 1601.985pt>
 File: Figures/32.png Graphic file (type png)
 <use Figures/32.png>
-Package luatex.def Info: Figures/32.png  used on input line 1168.
+Package luatex.def Info: Figures/32.png  used on input line 1233.
 (luatex.def)             Requested size: 411.12872pt x 320.39133pt.
- [59
+ [61
 
-<./Figures/ReceptionandBroadcast(2).png>] [60<./Figures/32.png>]
+<./Figures/ReceptionandBroadcast(2).png>] [62<./Figures/32.png>]
 Chapter 7.
-<Figures/33.png, id=1439, 1385.175pt x 778.91pt>
+<Figures/33.png, id=1465, 1385.175pt x 778.91pt>
 File: Figures/33.png Graphic file (type png)
 <use Figures/33.png>
-Package luatex.def Info: Figures/33.png  used on input line 1180.
+Package luatex.def Info: Figures/33.png  used on input line 1245.
 (luatex.def)             Requested size: 415.55571pt x 233.6748pt.
 
-Overfull \hbox (31.12845pt too wide) in paragraph at lines 1184--1184
+Overfull \hbox (31.12845pt too wide) in paragraph at lines 1249--1249
 |[]| 
  []
 
 1: section
-[61
+[63
 
-<./Figures/33.png>] [62] [63]
-<Figures/34.png, id=1452, 1927.2pt x 1084.05pt>
+<./Figures/33.png>] [64] [65]
+<Figures/34.png, id=1478, 1927.2pt x 1084.05pt>
 File: Figures/34.png Graphic file (type png)
 <use Figures/34.png>
-Package luatex.def Info: Figures/34.png  used on input line 1208.
+Package luatex.def Info: Figures/34.png  used on input line 1273.
 (luatex.def)             Requested size: 385.43318pt x 216.80615pt.
- [64
+ [66
 
 <./Figures/34.png>]
 Chapter 8.
 1: section
-[65
+[67
 
 ]
-<Figures/STM32.png, id=1461, 361.35pt x 350.81062pt>
+<Figures/STM32.png, id=1488, 361.35pt x 350.81062pt>
 File: Figures/STM32.png Graphic file (type png)
 <use Figures/STM32.png>
-Package luatex.def Info: Figures/STM32.png  used on input line 1235.
+Package luatex.def Info: Figures/STM32.png  used on input line 1300.
 (luatex.def)             Requested size: 108.40584pt x 105.24399pt.
- [66<./Figures/STM32.png>]
-Overfull \hbox (2.67154pt too wide) in paragraph at lines 1263--1264
+ [68<./Figures/STM32.png>]
+Overfull \hbox (2.67154pt too wide) in paragraph at lines 1328--1329
 []\TU/times(0)/m/n/12 Power Con-sump-tion: Varies based on the op-er-at-ing mode
  (ac-tive, sleep, low-power modes,
  []
 
-<Figures/W5500.png, id=1467, 897.3525pt x 724.7075pt>
+<Figures/W5500.png, id=1494, 897.3525pt x 724.7075pt>
 File: Figures/W5500.png Graphic file (type png)
 <use Figures/W5500.png>
-Package luatex.def Info: Figures/W5500.png  used on input line 1275.
+Package luatex.def Info: Figures/W5500.png  used on input line 1340.
 (luatex.def)             Requested size: 89.7405pt x 72.47499pt.
-[67]
-Overfull \hbox (9.05276pt too wide) in paragraph at lines 1285--1286
+[69]
+Overfull \hbox (9.05276pt too wide) in paragraph at lines 1350--1351
 []\TU/times(0)/m/n/12 Built-in Mem-ory: The chip in-cludes built-in mem-ory for data buffer-ing and stor-ing network-
  []
 
-<Figures/4G Modem.png, id=1473, 225.84375pt x 225.84375pt>
+<Figures/4G Modem.png, id=1499, 225.84375pt x 225.84375pt>
 File: Figures/4G Modem.png Graphic file (type png)
 <use Figures/4G Modem.png>
-Package luatex.def Info: Figures/4G Modem.png  used on input line 1294.
+Package luatex.def Info: Figures/4G Modem.png  used on input line 1359.
 (luatex.def)             Requested size: 90.33589pt x 90.33589pt.
-[68<./Figures/W5500.png>]
-Overfull \hbox (3.34332pt too wide) in paragraph at lines 1303--1304
+[70<./Figures/W5500.png>]
+Overfull \hbox (3.34332pt too wide) in paragraph at lines 1368--1369
 []\TU/times(0)/m/n/12 3G: Pro-vides fall-back sup-port for 3G net-works (UMTS/HS
 PA) with down-load speeds
  []
 
-[69<./Figures/4G Modem.png>]
-<Figures/Switch.png, id=1488, 308.15125pt x 164.615pt>
+[71<./Figures/4G Modem.png>]
+<Figures/Switch.png, id=1514, 308.15125pt x 164.615pt>
 File: Figures/Switch.png Graphic file (type png)
 <use Figures/Switch.png>
-Package luatex.def Info: Figures/Switch.png  used on input line 1351.
+Package luatex.def Info: Figures/Switch.png  used on input line 1416.
 (luatex.def)             Requested size: 123.2583pt x 65.84482pt.
- [70] [71<./Figures/Switch.png>]
-<Figures/HALL EFFECT SENSOR.png, id=1509, 300.3722pt x 205.5178pt>
+ [72] [73<./Figures/Switch.png>]
+<Figures/HALL EFFECT SENSOR.png, id=1535, 300.3722pt x 205.5178pt>
 File: Figures/HALL EFFECT SENSOR.png Graphic file (type png)
 <use Figures/HALL EFFECT SENSOR.png>
-Package luatex.def Info: Figures/HALL EFFECT SENSOR.png  used on input line 137
-7.
+Package luatex.def Info: Figures/HALL EFFECT SENSOR.png  used on input line 144
+2.
 (luatex.def)             Requested size: 120.14674pt x 82.20566pt.
- [72<./Figures/HALL EFFECT SENSOR.png>]
-<Figures/mpu6050.png, id=1515, 225.84375pt x 225.84375pt>
+ [74<./Figures/HALL EFFECT SENSOR.png>]
+<Figures/mpu6050.png, id=1541, 225.84375pt x 225.84375pt>
 File: Figures/mpu6050.png Graphic file (type png)
 <use Figures/mpu6050.png>
-Package luatex.def Info: Figures/mpu6050.png  used on input line 1401.
+Package luatex.def Info: Figures/mpu6050.png  used on input line 1466.
 (luatex.def)             Requested size: 112.92159pt x 112.92159pt.
- [73<./Figures/mpu6050.png>]
-<Figures/VibrationANDShockSensor.png, id=1520, 282.30469pt x 265.74281pt>
+ [75<./Figures/mpu6050.png>]
+<Figures/VibrationANDShockSensor.png, id=1546, 282.30469pt x 265.74281pt>
 File: Figures/VibrationANDShockSensor.png Graphic file (type png)
 <use Figures/VibrationANDShockSensor.png>
 Package luatex.def Info: Figures/VibrationANDShockSensor.png  used on input lin
-e 1431.
+e 1496.
 (luatex.def)             Requested size: 56.45993pt x 53.14761pt.
- [74] [75<./Figures/VibrationANDShockSensor.png>]
+ [76] [77<./Figures/VibrationANDShockSensor.png>]
 Chapter 9.
 1: section
-[76
+[78
 
-] [77]
-<Figures/35.png, id=1542, 1105.88156pt x 313.17pt>
+] [79]
+<Figures/35.png, id=1568, 1105.88156pt x 313.17pt>
 File: Figures/35.png Graphic file (type png)
 <use Figures/35.png>
-Package luatex.def Info: Figures/35.png  used on input line 1477.
+Package luatex.def Info: Figures/35.png  used on input line 1542.
 (luatex.def)             Requested size: 442.34479pt x 125.26576pt.
- [78<./Figures/35.png>]
-<Figures/36.png, id=1548, 314.67563pt x 137.7647pt>
+ [80<./Figures/35.png>]
+<Figures/36.png, id=1574, 314.67563pt x 137.7647pt>
 File: Figures/36.png Graphic file (type png)
 <use Figures/36.png>
-Package luatex.def Info: Figures/36.png  used on input line 1492.
+Package luatex.def Info: Figures/36.png  used on input line 1557.
 (luatex.def)             Requested size: 220.27142pt x 96.43462pt.
- [79<./Figures/36.png>]
-<Figures/38.png, id=1554, 921.4425pt x 249.18094pt>
+ [81<./Figures/36.png>]
+<Figures/38.png, id=1580, 921.4425pt x 249.18094pt>
 File: Figures/38.png Graphic file (type png)
 <use Figures/38.png>
-Package luatex.def Info: Figures/38.png  used on input line 1512.
+Package luatex.def Info: Figures/38.png  used on input line 1577.
 (luatex.def)             Requested size: 460.72012pt x 124.59015pt.
 
-Overfull \hbox (5.47601pt too wide) in paragraph at lines 1512--1513
+Overfull \hbox (5.47601pt too wide) in paragraph at lines 1577--1578
  [][] 
  []
 
-[80<./Figures/38.png>]
-<Figures/39.png, id=1560, 361.35pt x 265.7565pt>
+[82<./Figures/38.png>]
+<Figures/39.png, id=1586, 361.35pt x 265.7565pt>
 File: Figures/39.png Graphic file (type png)
 <use Figures/39.png>
-Package luatex.def Info: Figures/39.png  used on input line 1547.
+Package luatex.def Info: Figures/39.png  used on input line 1612.
 (luatex.def)             Requested size: 180.67456pt x 132.87791pt.
- [81] [82<./Figures/39.png>] [83]
-Overfull \hbox (20.6002pt too wide) in paragraph at lines 1578--1578
+ [83] [84<./Figures/39.png>] [85]
+Overfull \hbox (20.6002pt too wide) in paragraph at lines 1643--1643
 |[]| 
  []
 
-<Figures/40.png, id=1578, 1204.5pt x 1606.0pt>
+<Figures/40.png, id=1604, 1204.5pt x 1606.0pt>
 File: Figures/40.png Graphic file (type png)
 <use Figures/40.png>
-Package luatex.def Info: Figures/40.png  used on input line 1581.
+Package luatex.def Info: Figures/40.png  used on input line 1646.
 (luatex.def)             Requested size: 240.89574pt x 321.19432pt.
-[84<./Figures/40.png>] [85]
-Overfull \hbox (7.13754pt too wide) in paragraph at lines 1627--1628
+[86<./Figures/40.png>] [87]
+Overfull \hbox (7.13754pt too wide) in paragraph at lines 1692--1693
 \TU/times(0)/m/n/12 In or-der to pro-vide ac-cu-rate mo-tion and di-rec-tion de-
 tec-tion, a va-ri-ety of de-vices use the LSM6DSO
  []
 
-[86] [87] [88] [89]
-<Figures/41.png, id=1604, 1708.3825pt x 818.05624pt>
+[88] [89] [90] [91]
+<Figures/41.png, id=1630, 1708.3825pt x 818.05624pt>
 File: Figures/41.png Graphic file (type png)
 <use Figures/41.png>
-Package luatex.def Info: Figures/41.png  used on input line 1720.
+Package luatex.def Info: Figures/41.png  used on input line 1785.
 (luatex.def)             Requested size: 341.67046pt x 163.60834pt.
-<Figures/46.png, id=1605, 702.82574pt x 304.7385pt>
+<Figures/46.png, id=1631, 702.82574pt x 304.7385pt>
 File: Figures/46.png Graphic file (type png)
 <use Figures/46.png>
-Package luatex.def Info: Figures/46.png  used on input line 1734.
+Package luatex.def Info: Figures/46.png  used on input line 1799.
 (luatex.def)             Requested size: 210.84935pt x 91.42224pt.
- [90<./Figures/41.png>] [91<./Figures/46.png>] [92] [93]
+ [92<./Figures/41.png>] [93<./Figures/46.png>] [94] [95]
 Chapter 10.
-<Figures/42.png, id=1624, 763.85374pt x 211.79124pt>
+<Figures/42.png, id=1650, 763.85374pt x 211.79124pt>
 File: Figures/42.png Graphic file (type png)
 <use Figures/42.png>
-Package luatex.def Info: Figures/42.png  used on input line 1796.
+Package luatex.def Info: Figures/42.png  used on input line 1861.
 (luatex.def)             Requested size: 381.92593pt x 105.89536pt.
 1: section
-[94
+[96
 
 <./Figures/42.png>]
-Overfull \hbox (23.56976pt too wide) in paragraph at lines 1816--1816
+Overfull \hbox (23.56976pt too wide) in paragraph at lines 1881--1881
 |[]| 
  []
 
-[95]
-<Figures/43.png, id=1634, 804.00375pt x 171.64125pt>
+[97]
+<Figures/43.png, id=1661, 804.00375pt x 171.64125pt>
 File: Figures/43.png Graphic file (type png)
 <use Figures/43.png>
-Package luatex.def Info: Figures/43.png  used on input line 1824.
+Package luatex.def Info: Figures/43.png  used on input line 1889.
 (luatex.def)             Requested size: 321.59581pt x 68.65527pt.
- [96<./Figures/43.png>] [97]
+ [98<./Figures/43.png>] [99]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1873.
+(hyperref)                than one, level fixed on input line 1938.
 
-[98]
-Overfull \hbox (45.23312pt too wide) in paragraph at lines 1890--1890
+[100]
+Overfull \hbox (45.23312pt too wide) in paragraph at lines 1955--1955
 |[]| 
  []
 
-[99]
-Overfull \hbox (23.8933pt too wide) in paragraph at lines 1903--1903
+[101]
+Overfull \hbox (23.8933pt too wide) in paragraph at lines 1968--1968
 |[]| 
  []
 
-[100] [101]
-<Figures/44.png, id=1661, 296.60812pt x 233.37187pt>
+[102] [103]
+<Figures/44.png, id=1687, 296.60812pt x 233.37187pt>
 File: Figures/44.png Graphic file (type png)
 <use Figures/44.png>
-Package luatex.def Info: Figures/44.png  used on input line 1952.
+Package luatex.def Info: Figures/44.png  used on input line 2017.
 (luatex.def)             Requested size: 148.3037pt x 116.68564pt.
- [102<./Figures/44.png>]
-<Figures/45.png, id=1667, 1180.41pt x 1014.79124pt>
+ [104<./Figures/44.png>]
+<Figures/45.png, id=1693, 1180.41pt x 1014.79124pt>
 File: Figures/45.png Graphic file (type png)
 <use Figures/45.png>
-Package luatex.def Info: Figures/45.png  used on input line 1982.
+Package luatex.def Info: Figures/45.png  used on input line 2047.
 (luatex.def)             Requested size: 354.12573pt x 304.43973pt.
- [103<./Figures/45.png>] [104]
+ [105<./Figures/45.png>] [106]
 Chapter 11.
 1: section
-[105
+[107
 
-] [106]
-Overfull \hbox (7.62132pt too wide) in paragraph at lines 2022--2022
+] [108]
+Overfull \hbox (7.62132pt too wide) in paragraph at lines 2087--2087
 \TU/times(0)/m/n/12 gate-way ap-pli-ca-tion in the con-text of car to in-fras-tr
 uc-ture com-mu-ni-ca-tion,” \TU/times(0)/m/it/12 Sen-sors \TU/times(0)/m/n/12
  , vol. 20.,
  []
 
-[107]
+[109]
 LaTeX Font Info:    Font shape `TU/Arial(0)/b/n' will be
-(Font)              scaled to size 20.73593pt on input line 2030.
+(Font)              scaled to size 20.73593pt on input line 2095.
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 14.39996pt on input line 2030.
+(Font)              scaled to size 14.39996pt on input line 2095.
 
 1: section
-[108
+[110
 
 ] (./main.aux)
  ***********
@@ -2226,7 +2282,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F100FFD3F9A40E7DF41CBF097621134;34649.
+(rerunfilecheck)             Checksum: 896F3A6025A7C2EC0FAD5789D1930AAC;34779.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -2238,14 +2294,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43290 strings out of 478031
+ 43317 strings out of 478031
  125056,1977958 words of node,token memory allocated
  821 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 14 dir, 2 glue, 3 kern, 1 glyph, 14 attribute, 106 
 glue_spec, 14 attribute_list, 2 write, 2 pdf_action nodes
-   avail lists: 1:7,2:1293,3:441,4:114,5:311,6:207,7:9141,8:96,9:1202,10:30,11:8
+   avail lists: 1:7,2:1297,3:441,4:114,5:311,6:207,7:9141,8:96,9:1202,10:30,11:8
 24
- 62373 multiletter control sequences out of 65536+600000
+ 62388 multiletter control sequences out of 65536+600000
  70 fonts using 25776623 bytes
  96i,20n,89p,2632b,1343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/arial.ttf><C:/Windows/Fonts/arialbd.ttf><//?/c:/program files/
@@ -2254,9 +2310,9 @@ i.ttf><//?/c:/windows/fonts/times.ttf><//?/c:/windows/fonts/timesbd.ttf><C:/Prog
 ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (122 pages, 7023785 bytes).
+Output written on main.pdf (125 pages, 7035654 bytes).
 
-PDF statistics: 1766 PDF objects out of 2073 (max. 8388607)
- 407 named destinations out of 1000 (max. 131072)
- 1456 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1792 PDF objects out of 2073 (max. 8388607)
+ 413 named destinations out of 1000 (max. 131072)
+ 1464 words of extra memory for PDF output out of 10000 (max. 100000000)
 

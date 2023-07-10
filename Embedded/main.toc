@@ -1,7 +1,7 @@
 \contentsline {chapter}{Acknowledgments}{i}{section*.7}%
 \contentsline {chapter}{Abstract}{ii}{section*.9}%
-\contentsline {chapter}{List of Figures}{viii}{section*.10}%
-\contentsline {chapter}{List of Abbreviations}{x}{section*.12}%
+\contentsline {chapter}{List of Figures}{ix}{section*.10}%
+\contentsline {chapter}{List of Abbreviations}{xi}{section*.12}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}%
 \contentsline {section}{\numberline {1.1}What is TCU}{1}{section.14}%
 \contentsline {section}{\numberline {1.2}What is Vehicle to Vehicle communication}{2}{section.15}%
@@ -16,165 +16,166 @@
 \contentsline {chapter}{\numberline {2}TCU Architecture}{7}{chapter.25}%
 \contentsline {section}{\numberline {2.1}Overview of the TCU Functionality}{7}{section.26}%
 \contentsline {section}{\numberline {2.2}Software defined vehicle overview (SDV)}{7}{section.27}%
-\contentsline {section}{\numberline {2.3}V2C Communication overview}{8}{section.29}%
-\contentsline {subsection}{\numberline {2.3.1}Integration with Cloud Backend overview}{8}{subsection.30}%
-\contentsline {section}{\numberline {2.4}V2V Communication overview}{8}{section.31}%
-\contentsline {section}{\numberline {2.5}Communication with External ECUs overview}{9}{section.33}%
-\contentsline {section}{\numberline {2.6}Industry Standards and Ecosystem Integration}{9}{section.34}%
-\contentsline {section}{\numberline {2.7}TCU Layered Architecture}{9}{section.35}%
-\contentsline {subsection}{\numberline {2.7.1}Hardware Layer}{10}{subsection.37}%
-\contentsline {subsection}{\numberline {2.7.2}Kernal Layer}{11}{subsection.38}%
-\contentsline {subsection}{\numberline {2.7.3}Docker runtime environment Layer}{12}{subsection.40}%
-\contentsline {subsection}{\numberline {2.7.4}Application Layer and VSOME/IP}{13}{subsection.42}%
-\contentsline {chapter}{\numberline {3}Hardware Components of the TCU}{15}{chapter.43}%
-\contentsline {section}{\numberline {3.1}Raspberry Pi 4B SOC}{15}{section.44}%
-\contentsline {subsection}{\numberline {3.1.1}What is the Raspberry Pi 4B?}{15}{subsection.45}%
-\contentsline {subsection}{\numberline {3.1.2}Raspberry Pi 4B Specifications}{15}{subsection.47}%
-\contentsline {section}{\numberline {3.2}The DSRC Module}{16}{section.48}%
-\contentsline {section}{\numberline {3.3}ESP32/8266 and ESP-NOW Protocol}{18}{section.49}%
-\contentsline {section}{\numberline {3.4}U-Blox M8N GNSS}{21}{section.54}%
-\contentsline {subsection}{\numberline {3.4.1}What is the U-blox M8N GNSS module}{21}{subsection.55}%
-\contentsline {subsection}{\numberline {3.4.2}U-blox M8N Specifications}{21}{subsection.57}%
-\contentsline {chapter}{\numberline {4}Linux OS and Kernel Layer}{24}{chapter.59}%
-\contentsline {section}{\numberline {4.1}Building Custom Image Using Yocto Project}{24}{section.60}%
-\contentsline {subsection}{\numberline {4.1.1}Introduction}{24}{subsection.61}%
-\contentsline {subsection}{\numberline {4.1.2}Why custom OS?}{25}{subsection.62}%
-\contentsline {subsection}{\numberline {4.1.3}Advantages of the Yocto Project}{25}{subsection.63}%
-\contentsline {subsubsection}{Yocto Project vs Buildroot}{26}{subsubsection*.64}%
-\contentsline {section}{\numberline {4.2}Yocto Project Build Process}{27}{section.66}%
-\contentsline {subsection}{\numberline {4.2.1}Setting Up The Yocto Environment}{27}{subsection.67}%
-\contentsline {subsection}{\numberline {4.2.2}Building core Image Minimal}{29}{subsection.68}%
-\contentsline {subsection}{\numberline {4.2.3}Building Custom Layer}{29}{subsection.69}%
-\contentsline {section}{\numberline {4.3}Conclusion}{30}{section.70}%
-\contentsline {chapter}{\numberline {5}Containers run time Environment}{32}{chapter.71}%
-\contentsline {section}{\numberline {5.1}Introduction}{32}{section.72}%
-\contentsline {section}{\numberline {5.2}Containers vs Virtual Machines (VMs)}{32}{section.73}%
-\contentsline {section}{\numberline {5.3}Docker Engine}{34}{section.75}%
-\contentsline {section}{\numberline {5.4}Microservices Architecture}{34}{section.77}%
-\contentsline {subsection}{\numberline {5.4.1}Why Using Microservices Architecture}{35}{subsection.78}%
-\contentsline {subsection}{\numberline {5.4.2}Microservices vs Monolithic Approach}{35}{subsection.79}%
-\contentsline {subsection}{\numberline {5.4.3}Microservices Architecture in SDV}{37}{subsection.81}%
-\contentsline {section}{\numberline {5.5}Docker Compose}{38}{section.83}%
-\contentsline {section}{\numberline {5.6}VSOME/IP}{39}{section.86}%
-\contentsline {subsection}{\numberline {5.6.1}SOME/IP Overview}{39}{subsection.87}%
-\contentsline {subsection}{\numberline {5.6.2}SOME/IP On-wire format}{39}{subsection.88}%
-\contentsline {subsection}{\numberline {5.6.3}SOME/IP Protocol}{41}{subsection.99}%
-\contentsline {subsection}{\numberline {5.6.4}SOME/IP Service Discovery}{41}{subsection.101}%
-\contentsline {subsection}{\numberline {5.6.5}VSOME/IP}{42}{subsection.103}%
-\contentsline {subsubsection}{Adopted implementation}{42}{subsubsection*.104}%
-\contentsline {subsection}{\numberline {5.6.6}Services communication using VSOME/IP}{43}{subsection.106}%
-\contentsline {subsubsection}{VSOME/IP with containerized services}{43}{subsubsection*.107}%
-\contentsline {subsubsection}{Containerizing service with VSOME/IP}{44}{subsubsection*.109}%
-\contentsline {chapter}{\numberline {6}TCU Applications and System Services}{45}{chapter.110}%
-\contentsline {section}{\numberline {6.1}Services Layout}{45}{section.111}%
-\contentsline {section}{\numberline {6.2}Backend Gateway Service}{46}{section.113}%
-\contentsline {subsection}{\numberline {6.2.1}Offered Services}{47}{subsection.115}%
-\contentsline {subsection}{\numberline {6.2.2}Challenge based authentication}{47}{subsection.116}%
-\contentsline {section}{\numberline {6.3}ECUs Gateway Data Fetcher}{50}{section.118}%
-\contentsline {subsection}{\numberline {6.3.1}Introduction}{50}{subsection.119}%
-\contentsline {subsubsection}{Purpose of The Service}{51}{subsubsection*.121}%
-\contentsline {subsection}{\numberline {6.3.2}Types of Messages}{51}{subsection.122}%
-\contentsline {subsection}{\numberline {6.3.3}VSOME/IP Usage}{53}{subsection.128}%
-\contentsline {subsubsection}{RPC}{53}{subsubsection*.129}%
-\contentsline {subsubsection}{Subscribe/Notify}{53}{subsubsection*.130}%
-\contentsline {subsection}{\numberline {6.3.4}Conclusion}{54}{subsection.133}%
-\contentsline {section}{\numberline {6.4}DSRC Encoder/Decoder}{54}{section.134}%
-\contentsline {subsection}{\numberline {6.4.1}Communication and Integration: The Encoder/Decoder's Role}{55}{subsection.136}%
-\contentsline {subsection}{\numberline {6.4.2}Sensor Data Capture and Storage: The Payload Stack}{55}{subsection.137}%
-\contentsline {subsection}{\numberline {6.4.3}Generating Payloads}{56}{subsection.138}%
-\contentsline {subsection}{\numberline {6.4.4}Payload Encryption Compression, and Decryption}{56}{subsection.140}%
-\contentsline {subsubsection}{Introduction}{56}{subsubsection*.141}%
-\contentsline {subsubsection}{Payload Encryption using AES}{56}{subsubsection*.142}%
-\contentsline {subsubsection}{LZW Compression for Payload Size Reduction}{57}{subsubsection*.143}%
-\contentsline {subsubsection}{Payload Encryption and Compression Sequence}{57}{subsubsection*.144}%
-\contentsline {subsubsection}{Payload Decompression and Decryption on Reception}{57}{subsubsection*.145}%
-\contentsline {subsubsection}{Benefits of Payload Encryption and Compression}{57}{subsubsection*.146}%
-\contentsline {subsubsection}{Conclusion}{58}{subsubsection*.147}%
-\contentsline {section}{\numberline {6.5}DSRC Module: Reception and Broadcast}{58}{section.148}%
-\contentsline {chapter}{\numberline {7}TCU Simulation}{61}{chapter.153}%
-\contentsline {section}{\numberline {7.1}Introduction}{61}{section.154}%
-\contentsline {section}{\numberline {7.2}The Purpose of the Simulation}{61}{section.155}%
-\contentsline {section}{\numberline {7.3}Overview of the Encoder/Decoder in the Simulation}{62}{section.157}%
-\contentsline {section}{\numberline {7.4}Communication Architecture in the Simulation}{62}{section.158}%
-\contentsline {section}{\numberline {7.5}Sensor Data Capture and Processing}{62}{section.159}%
-\contentsline {section}{\numberline {7.6}Payload Generation and Broadcasting}{62}{section.160}%
-\contentsline {section}{\numberline {7.7}DSRC Module: Reception and Broadcast}{63}{section.161}%
-\contentsline {section}{\numberline {7.8}Memory Management and Struct Allocation}{63}{section.162}%
-\contentsline {section}{\numberline {7.9}Data Analysis and Visualization}{63}{section.163}%
-\contentsline {section}{\numberline {7.10}Conclusion}{64}{section.165}%
-\contentsline {chapter}{\numberline {8}External ECUs}{65}{chapter.166}%
-\contentsline {section}{\numberline {8.1}Overview of the External ECUs}{65}{section.167}%
-\contentsline {section}{\numberline {8.2}Hardware Components of External ECUs}{66}{section.168}%
-\contentsline {subsection}{\numberline {8.2.1}STM32}{66}{subsection.169}%
-\contentsline {subsubsection}{What is STM32?}{66}{subsubsection*.170}%
-\contentsline {subsubsection}{STM32 Specifications}{66}{subsubsection*.172}%
-\contentsline {subsection}{\numberline {8.2.2}W5500}{67}{subsection.173}%
-\contentsline {subsubsection}{What is W5500}{67}{subsubsection*.174}%
-\contentsline {subsubsection}{W5500 Specifications}{68}{subsubsection*.175}%
-\contentsline {subsection}{\numberline {8.2.3}4G Modem and Router}{69}{subsection.177}%
-\contentsline {subsubsection}{What is 4G Modem and Router?}{69}{subsubsection*.178}%
-\contentsline {subsubsection}{Specifications}{69}{subsubsection*.180}%
-\contentsline {subsection}{\numberline {8.2.4}Ethernet Switch}{71}{subsection.199}%
-\contentsline {subsubsection}{What is an Ethernet Switch?}{71}{subsubsection*.200}%
-\contentsline {subsubsection}{Switch Specifications}{71}{subsubsection*.202}%
-\contentsline {subsection}{\numberline {8.2.5}Hall Effect Sensor}{72}{subsection.203}%
-\contentsline {subsubsection}{What is Hall Effect Sensor?}{72}{subsubsection*.204}%
-\contentsline {subsubsection}{Hall Effect Sensor Specifications}{72}{subsubsection*.206}%
-\contentsline {subsection}{\numberline {8.2.6}MPU6050}{73}{subsection.207}%
-\contentsline {subsubsection}{What is MPU6050?}{73}{subsubsection*.208}%
-\contentsline {subsubsection}{MPU6050 Specifications}{73}{subsubsection*.210}%
-\contentsline {subsection}{\numberline {8.2.7}Vibration and Shock Sensor}{74}{subsection.211}%
-\contentsline {subsubsection}{What is Vibration and Shock Sensor?}{74}{subsubsection*.212}%
-\contentsline {chapter}{\numberline {9}Software Hardware Interfacing and Connection}{76}{chapter.214}%
-\contentsline {section}{\numberline {9.1}W5500 Interfacing with STM32}{76}{section.215}%
-\contentsline {subsection}{\numberline {9.1.1}Introduction}{76}{subsection.216}%
-\contentsline {subsection}{\numberline {9.1.2}Hardware Connection}{77}{subsection.217}%
-\contentsline {subsection}{\numberline {9.1.3}SPI Operational Mode}{78}{subsection.219}%
-\contentsline {subsubsection}{Initialization and Configuration}{80}{subsubsection*.222}%
-\contentsline {section}{\numberline {9.2}Hall Effect Sensor}{82}{section.228}%
-\contentsline {subsection}{\numberline {9.2.1}Introduction}{82}{subsection.230}%
-\contentsline {subsection}{\numberline {9.2.2}Sensors for Speed Measurement}{83}{subsection.231}%
-\contentsline {subsubsection}{Why Hall Effect Sensor?}{83}{subsubsection*.232}%
-\contentsline {subsection}{\numberline {9.2.3}Pin Diagram of Hall Effect Sensor}{83}{subsection.233}%
-\contentsline {subsection}{\numberline {9.2.4}Methodology: Utilizing the Hall Effect Sensor for Speed Calculation}{84}{subsection.234}%
-\contentsline {subsubsection}{Hardware Setup}{84}{subsubsection*.236}%
-\contentsline {subsubsection}{Software Implementation}{84}{subsubsection*.237}%
-\contentsline {subsubsection}{Debouncing}{85}{subsubsection*.238}%
-\contentsline {subsubsection}{Speed Display}{85}{subsubsection*.239}%
-\contentsline {subsection}{\numberline {9.2.5}Conclusion}{85}{subsection.240}%
-\contentsline {section}{\numberline {9.3}Interfacing Compass Sensor}{86}{section.241}%
-\contentsline {subsection}{\numberline {9.3.1}Introduction}{86}{subsection.242}%
-\contentsline {subsection}{\numberline {9.3.2}How It's Done}{86}{subsection.243}%
-\contentsline {subsection}{\numberline {9.3.3}Applications of Compass Sensor}{87}{subsection.244}%
-\contentsline {subsection}{\numberline {9.3.4}Features}{87}{subsection.245}%
-\contentsline {subsection}{\numberline {9.3.5}Advantages of Compass Sensor}{88}{subsection.246}%
-\contentsline {section}{\numberline {9.4}Electrical Diagram}{90}{section.247}%
-\contentsline {subsection}{\numberline {9.4.1}Buck Converter}{91}{subsection.249}%
-\contentsline {subsection}{\numberline {9.4.2}Introduction}{91}{subsection.251}%
-\contentsline {subsection}{\numberline {9.4.3}Features}{92}{subsection.254}%
-\contentsline {subsection}{\numberline {9.4.4}Advantages of Buck Converter}{92}{subsection.255}%
-\contentsline {chapter}{\numberline {10}STM32 MQTT Client}{94}{chapter.256}%
-\contentsline {section}{\numberline {10.1}Introduction}{94}{section.258}%
-\contentsline {subsection}{\numberline {10.1.1}Overview of MQTT in Automotive Communication}{94}{subsection.259}%
-\contentsline {subsection}{\numberline {10.1.2}Advantages of MQTT in Automotive Applications}{94}{subsection.260}%
-\contentsline {subsection}{\numberline {10.1.3}Introducing the STM32 Guard System}{95}{subsection.261}%
-\contentsline {subsection}{\numberline {10.1.4}The Future of MQTT in Smart and Connected Automotive Systems}{95}{subsection.262}%
-\contentsline {section}{\numberline {10.2}What is MQTT and How Does it Work?}{96}{section.263}%
-\contentsline {section}{\numberline {10.3}Why MQTT is used in the automotive industry?}{97}{section.265}%
-\contentsline {subsubsection}{Companies Using MQTT in Connected Car Services}{98}{subsubsection*.266}%
-\contentsline {section}{\numberline {10.4}STM32 Client always Awake for Cloud Communication}{99}{section.267}%
-\contentsline {section}{\numberline {10.5}Raspberry Pi performing actions based on wake-up}{100}{section.268}%
-\contentsline {section}{\numberline {10.6}Step-by-Step Guide waking Up the Raspberry Pi}{101}{section.269}%
-\contentsline {section}{\numberline {10.7}STM32 Guard}{102}{section.270}%
-\contentsline {subsection}{\numberline {10.7.1}Vibration and Shock Sensor Interface}{102}{subsection.271}%
-\contentsline {subsection}{\numberline {10.7.2}STM32 Microcontroller Configuration}{102}{subsection.273}%
-\contentsline {subsection}{\numberline {10.7.3}User Notification and Wake-Up Actions}{103}{subsection.274}%
-\contentsline {subsection}{\numberline {10.7.4}Wake-Up Actions and Raspberry Pi Integration}{104}{subsection.276}%
-\contentsline {subsection}{\numberline {10.7.5}Conclusion}{104}{subsection.277}%
-\contentsline {chapter}{\numberline {11}Conclusion and future work}{105}{chapter.278}%
-\contentsline {section}{\numberline {11.1}Conclusion}{105}{section.279}%
-\contentsline {section}{\numberline {11.2}Future Work}{106}{section.280}%
-\contentsline {subsection}{\numberline {11.2.1}Cloud native Development}{106}{subsection.281}%
-\contentsline {subsection}{\numberline {11.2.2}Cloud Native Trail}{106}{subsection.282}%
-\contentsline {chapter}{References}{107}{section*.283}%
-\contentsline {chapter}{Arabic Abstract}{108}{section*.284}%
+\contentsline {section}{\numberline {2.3}Used Standards}{8}{section.29}%
+\contentsline {section}{\numberline {2.4}V2C Communication overview}{10}{section.30}%
+\contentsline {subsection}{\numberline {2.4.1}Integration with Cloud Backend overview}{10}{subsection.31}%
+\contentsline {section}{\numberline {2.5}V2V Communication overview}{10}{section.32}%
+\contentsline {section}{\numberline {2.6}Communication with External ECUs overview}{11}{section.34}%
+\contentsline {section}{\numberline {2.7}Industry Standards and Ecosystem Integration}{11}{section.35}%
+\contentsline {section}{\numberline {2.8}TCU Layered Architecture}{11}{section.36}%
+\contentsline {subsection}{\numberline {2.8.1}Hardware Layer}{12}{subsection.38}%
+\contentsline {subsection}{\numberline {2.8.2}Kernal Layer}{13}{subsection.39}%
+\contentsline {subsection}{\numberline {2.8.3}Docker runtime environment Layer}{14}{subsection.41}%
+\contentsline {subsection}{\numberline {2.8.4}Application Layer and VSOME/IP}{15}{subsection.43}%
+\contentsline {chapter}{\numberline {3}Hardware Components of the TCU}{17}{chapter.44}%
+\contentsline {section}{\numberline {3.1}Raspberry Pi 4B SOC}{17}{section.45}%
+\contentsline {subsection}{\numberline {3.1.1}What is the Raspberry Pi 4B?}{17}{subsection.46}%
+\contentsline {subsection}{\numberline {3.1.2}Raspberry Pi 4B Specifications}{17}{subsection.48}%
+\contentsline {section}{\numberline {3.2}The DSRC Module}{18}{section.49}%
+\contentsline {section}{\numberline {3.3}ESP32/8266 and ESP-NOW Protocol}{20}{section.50}%
+\contentsline {section}{\numberline {3.4}U-Blox M8N GNSS}{23}{section.55}%
+\contentsline {subsection}{\numberline {3.4.1}What is the U-blox M8N GNSS module}{23}{subsection.56}%
+\contentsline {subsection}{\numberline {3.4.2}U-blox M8N Specifications}{23}{subsection.58}%
+\contentsline {chapter}{\numberline {4}Linux OS and Kernel Layer}{26}{chapter.60}%
+\contentsline {section}{\numberline {4.1}Building Custom Image Using Yocto Project}{26}{section.61}%
+\contentsline {subsection}{\numberline {4.1.1}Introduction}{26}{subsection.62}%
+\contentsline {subsection}{\numberline {4.1.2}Why custom OS?}{27}{subsection.63}%
+\contentsline {subsection}{\numberline {4.1.3}Advantages of the Yocto Project}{27}{subsection.64}%
+\contentsline {subsubsection}{Yocto Project vs Buildroot}{28}{subsubsection*.65}%
+\contentsline {section}{\numberline {4.2}Yocto Project Build Process}{29}{section.67}%
+\contentsline {subsection}{\numberline {4.2.1}Setting Up The Yocto Environment}{29}{subsection.68}%
+\contentsline {subsection}{\numberline {4.2.2}Building core Image Minimal}{31}{subsection.69}%
+\contentsline {subsection}{\numberline {4.2.3}Building Custom Layer}{31}{subsection.70}%
+\contentsline {section}{\numberline {4.3}Conclusion}{32}{section.71}%
+\contentsline {chapter}{\numberline {5}Containers run time Environment}{34}{chapter.72}%
+\contentsline {section}{\numberline {5.1}Introduction}{34}{section.73}%
+\contentsline {section}{\numberline {5.2}Containers vs Virtual Machines (VMs)}{34}{section.74}%
+\contentsline {section}{\numberline {5.3}Docker Engine}{36}{section.76}%
+\contentsline {section}{\numberline {5.4}Microservices Architecture}{36}{section.78}%
+\contentsline {subsection}{\numberline {5.4.1}Why Using Microservices Architecture}{37}{subsection.79}%
+\contentsline {subsection}{\numberline {5.4.2}Microservices vs Monolithic Approach}{37}{subsection.80}%
+\contentsline {subsection}{\numberline {5.4.3}Microservices Architecture in SDV}{39}{subsection.82}%
+\contentsline {section}{\numberline {5.5}Docker Compose}{40}{section.84}%
+\contentsline {section}{\numberline {5.6}VSOME/IP}{41}{section.87}%
+\contentsline {subsection}{\numberline {5.6.1}SOME/IP Overview}{41}{subsection.88}%
+\contentsline {subsection}{\numberline {5.6.2}SOME/IP On-wire format}{41}{subsection.89}%
+\contentsline {subsection}{\numberline {5.6.3}SOME/IP Protocol}{43}{subsection.100}%
+\contentsline {subsection}{\numberline {5.6.4}SOME/IP Service Discovery}{43}{subsection.102}%
+\contentsline {subsection}{\numberline {5.6.5}VSOME/IP}{44}{subsection.104}%
+\contentsline {subsubsection}{Adopted implementation}{44}{subsubsection*.105}%
+\contentsline {subsection}{\numberline {5.6.6}Services communication using VSOME/IP}{45}{subsection.107}%
+\contentsline {subsubsection}{VSOME/IP with containerized services}{45}{subsubsection*.108}%
+\contentsline {subsubsection}{Containerizing service with VSOME/IP}{46}{subsubsection*.110}%
+\contentsline {chapter}{\numberline {6}TCU Applications and System Services}{47}{chapter.112}%
+\contentsline {section}{\numberline {6.1}Services Layout}{47}{section.113}%
+\contentsline {section}{\numberline {6.2}Backend Gateway Service}{48}{section.115}%
+\contentsline {subsection}{\numberline {6.2.1}Offered Services}{49}{subsection.118}%
+\contentsline {subsection}{\numberline {6.2.2}Challenge based authentication}{49}{subsection.119}%
+\contentsline {section}{\numberline {6.3}ECUs Gateway Data Fetcher}{52}{section.121}%
+\contentsline {subsection}{\numberline {6.3.1}Introduction}{52}{subsection.122}%
+\contentsline {subsubsection}{Purpose of The Service}{53}{subsubsection*.124}%
+\contentsline {subsection}{\numberline {6.3.2}Types of Messages}{53}{subsection.125}%
+\contentsline {subsection}{\numberline {6.3.3}VSOME/IP Usage}{55}{subsection.131}%
+\contentsline {subsubsection}{RPC}{55}{subsubsection*.132}%
+\contentsline {subsubsection}{Subscribe/Notify}{55}{subsubsection*.133}%
+\contentsline {subsection}{\numberline {6.3.4}Conclusion}{56}{subsection.136}%
+\contentsline {section}{\numberline {6.4}DSRC Encoder/Decoder}{56}{section.137}%
+\contentsline {subsection}{\numberline {6.4.1}Communication and Integration: The Encoder/Decoder's Role}{57}{subsection.139}%
+\contentsline {subsection}{\numberline {6.4.2}Sensor Data Capture and Storage: The Payload Stack}{57}{subsection.140}%
+\contentsline {subsection}{\numberline {6.4.3}Generating Payloads}{58}{subsection.141}%
+\contentsline {subsection}{\numberline {6.4.4}Payload Encryption Compression, and Decryption}{58}{subsection.143}%
+\contentsline {subsubsection}{Introduction}{58}{subsubsection*.144}%
+\contentsline {subsubsection}{Payload Encryption using AES}{58}{subsubsection*.145}%
+\contentsline {subsubsection}{LZW Compression for Payload Size Reduction}{59}{subsubsection*.146}%
+\contentsline {subsubsection}{Payload Encryption and Compression Sequence}{59}{subsubsection*.147}%
+\contentsline {subsubsection}{Payload Decompression and Decryption on Reception}{59}{subsubsection*.148}%
+\contentsline {subsubsection}{Benefits of Payload Encryption and Compression}{59}{subsubsection*.149}%
+\contentsline {subsubsection}{Conclusion}{60}{subsubsection*.150}%
+\contentsline {section}{\numberline {6.5}DSRC Module: Reception and Broadcast}{60}{section.151}%
+\contentsline {chapter}{\numberline {7}TCU Simulation}{63}{chapter.156}%
+\contentsline {section}{\numberline {7.1}Introduction}{63}{section.157}%
+\contentsline {section}{\numberline {7.2}The Purpose of the Simulation}{63}{section.158}%
+\contentsline {section}{\numberline {7.3}Overview of the Encoder/Decoder in the Simulation}{64}{section.160}%
+\contentsline {section}{\numberline {7.4}Communication Architecture in the Simulation}{64}{section.161}%
+\contentsline {section}{\numberline {7.5}Sensor Data Capture and Processing}{64}{section.162}%
+\contentsline {section}{\numberline {7.6}Payload Generation and Broadcasting}{64}{section.163}%
+\contentsline {section}{\numberline {7.7}DSRC Module: Reception and Broadcast}{65}{section.164}%
+\contentsline {section}{\numberline {7.8}Memory Management and Struct Allocation}{65}{section.165}%
+\contentsline {section}{\numberline {7.9}Data Analysis and Visualization}{65}{section.166}%
+\contentsline {section}{\numberline {7.10}Conclusion}{66}{section.168}%
+\contentsline {chapter}{\numberline {8}External ECUs}{67}{chapter.169}%
+\contentsline {section}{\numberline {8.1}Overview of the External ECUs}{67}{section.170}%
+\contentsline {section}{\numberline {8.2}Hardware Components of External ECUs}{68}{section.171}%
+\contentsline {subsection}{\numberline {8.2.1}STM32}{68}{subsection.172}%
+\contentsline {subsubsection}{What is STM32?}{68}{subsubsection*.173}%
+\contentsline {subsubsection}{STM32 Specifications}{68}{subsubsection*.175}%
+\contentsline {subsection}{\numberline {8.2.2}W5500}{69}{subsection.176}%
+\contentsline {subsubsection}{What is W5500}{69}{subsubsection*.177}%
+\contentsline {subsubsection}{W5500 Specifications}{70}{subsubsection*.178}%
+\contentsline {subsection}{\numberline {8.2.3}4G Modem and Router}{71}{subsection.180}%
+\contentsline {subsubsection}{What is 4G Modem and Router?}{71}{subsubsection*.181}%
+\contentsline {subsubsection}{Specifications}{71}{subsubsection*.183}%
+\contentsline {subsection}{\numberline {8.2.4}Ethernet Switch}{73}{subsection.202}%
+\contentsline {subsubsection}{What is an Ethernet Switch?}{73}{subsubsection*.203}%
+\contentsline {subsubsection}{Switch Specifications}{73}{subsubsection*.205}%
+\contentsline {subsection}{\numberline {8.2.5}Hall Effect Sensor}{74}{subsection.206}%
+\contentsline {subsubsection}{What is Hall Effect Sensor?}{74}{subsubsection*.207}%
+\contentsline {subsubsection}{Hall Effect Sensor Specifications}{74}{subsubsection*.209}%
+\contentsline {subsection}{\numberline {8.2.6}MPU6050}{75}{subsection.210}%
+\contentsline {subsubsection}{What is MPU6050?}{75}{subsubsection*.211}%
+\contentsline {subsubsection}{MPU6050 Specifications}{75}{subsubsection*.213}%
+\contentsline {subsection}{\numberline {8.2.7}Vibration and Shock Sensor}{76}{subsection.214}%
+\contentsline {subsubsection}{What is Vibration and Shock Sensor?}{76}{subsubsection*.215}%
+\contentsline {chapter}{\numberline {9}Software Hardware Interfacing and Connection}{78}{chapter.217}%
+\contentsline {section}{\numberline {9.1}W5500 Interfacing with STM32}{78}{section.218}%
+\contentsline {subsection}{\numberline {9.1.1}Introduction}{78}{subsection.219}%
+\contentsline {subsection}{\numberline {9.1.2}Hardware Connection}{79}{subsection.220}%
+\contentsline {subsection}{\numberline {9.1.3}SPI Operational Mode}{80}{subsection.222}%
+\contentsline {subsubsection}{Initialization and Configuration}{82}{subsubsection*.225}%
+\contentsline {section}{\numberline {9.2}Hall Effect Sensor}{84}{section.231}%
+\contentsline {subsection}{\numberline {9.2.1}Introduction}{84}{subsection.233}%
+\contentsline {subsection}{\numberline {9.2.2}Sensors for Speed Measurement}{85}{subsection.234}%
+\contentsline {subsubsection}{Why Hall Effect Sensor?}{85}{subsubsection*.235}%
+\contentsline {subsection}{\numberline {9.2.3}Pin Diagram of Hall Effect Sensor}{85}{subsection.236}%
+\contentsline {subsection}{\numberline {9.2.4}Methodology: Utilizing the Hall Effect Sensor for Speed Calculation}{86}{subsection.237}%
+\contentsline {subsubsection}{Hardware Setup}{86}{subsubsection*.239}%
+\contentsline {subsubsection}{Software Implementation}{86}{subsubsection*.240}%
+\contentsline {subsubsection}{Debouncing}{87}{subsubsection*.241}%
+\contentsline {subsubsection}{Speed Display}{87}{subsubsection*.242}%
+\contentsline {subsection}{\numberline {9.2.5}Conclusion}{87}{subsection.243}%
+\contentsline {section}{\numberline {9.3}Interfacing Compass Sensor}{88}{section.244}%
+\contentsline {subsection}{\numberline {9.3.1}Introduction}{88}{subsection.245}%
+\contentsline {subsection}{\numberline {9.3.2}How It's Done}{88}{subsection.246}%
+\contentsline {subsection}{\numberline {9.3.3}Applications of Compass Sensor}{89}{subsection.247}%
+\contentsline {subsection}{\numberline {9.3.4}Features}{89}{subsection.248}%
+\contentsline {subsection}{\numberline {9.3.5}Advantages of Compass Sensor}{90}{subsection.249}%
+\contentsline {section}{\numberline {9.4}Electrical Diagram}{92}{section.250}%
+\contentsline {subsection}{\numberline {9.4.1}Buck Converter}{93}{subsection.252}%
+\contentsline {subsection}{\numberline {9.4.2}Introduction}{93}{subsection.254}%
+\contentsline {subsection}{\numberline {9.4.3}Features}{94}{subsection.257}%
+\contentsline {subsection}{\numberline {9.4.4}Advantages of Buck Converter}{94}{subsection.258}%
+\contentsline {chapter}{\numberline {10}STM32 MQTT Client}{96}{chapter.259}%
+\contentsline {section}{\numberline {10.1}Introduction}{96}{section.261}%
+\contentsline {subsection}{\numberline {10.1.1}Overview of MQTT in Automotive Communication}{96}{subsection.262}%
+\contentsline {subsection}{\numberline {10.1.2}Advantages of MQTT in Automotive Applications}{96}{subsection.263}%
+\contentsline {subsection}{\numberline {10.1.3}Introducing the STM32 Guard System}{97}{subsection.264}%
+\contentsline {subsection}{\numberline {10.1.4}The Future of MQTT in Smart and Connected Automotive Systems}{97}{subsection.265}%
+\contentsline {section}{\numberline {10.2}What is MQTT and How Does it Work?}{98}{section.266}%
+\contentsline {section}{\numberline {10.3}Why MQTT is used in the automotive industry?}{99}{section.268}%
+\contentsline {subsubsection}{Companies Using MQTT in Connected Car Services}{100}{subsubsection*.269}%
+\contentsline {section}{\numberline {10.4}STM32 Client always Awake for Cloud Communication}{101}{section.270}%
+\contentsline {section}{\numberline {10.5}Raspberry Pi performing actions based on wake-up}{102}{section.271}%
+\contentsline {section}{\numberline {10.6}Step-by-Step Guide waking Up the Raspberry Pi}{103}{section.272}%
+\contentsline {section}{\numberline {10.7}STM32 Guard}{104}{section.273}%
+\contentsline {subsection}{\numberline {10.7.1}Vibration and Shock Sensor Interface}{104}{subsection.274}%
+\contentsline {subsection}{\numberline {10.7.2}STM32 Microcontroller Configuration}{104}{subsection.276}%
+\contentsline {subsection}{\numberline {10.7.3}User Notification and Wake-Up Actions}{105}{subsection.277}%
+\contentsline {subsection}{\numberline {10.7.4}Wake-Up Actions and Raspberry Pi Integration}{106}{subsection.279}%
+\contentsline {subsection}{\numberline {10.7.5}Conclusion}{106}{subsection.280}%
+\contentsline {chapter}{\numberline {11}Conclusion and future work}{107}{chapter.281}%
+\contentsline {section}{\numberline {11.1}Conclusion}{107}{section.282}%
+\contentsline {section}{\numberline {11.2}Future Work}{108}{section.283}%
+\contentsline {subsection}{\numberline {11.2.1}Cloud native Development}{108}{subsection.284}%
+\contentsline {subsection}{\numberline {11.2.2}Cloud Native Trail}{108}{subsection.285}%
+\contentsline {chapter}{References}{109}{section*.286}%
+\contentsline {chapter}{Arabic Abstract}{110}{section*.287}%
